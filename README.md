@@ -2,9 +2,7 @@
 
 Synthetic power-distribution restoration planner: schedule repairs under budget,
 crew-skill and dependency constraints, persist runs to PostgreSQL, and search
-similar past repairs via pgvector. Original work — inspired by the *idea* of
-grid planning tools, not copied from any repository.
-
+similar past repairs via pgvector. 
 ## Stack (lab-compliant)
 - **SQL (mandatory):** PostgreSQL 18 — `database/schema.sql` + `database/migrations/003_auth.sql`
 - **Vector (2nd paradigm):** pgvector 0.8.6 — `database/migrations/002_vectors.sql`, `backend/vectors.py`
@@ -71,4 +69,4 @@ the Next.js app now talks to PostgreSQL through `backend/api.py`.
 - `docs/`: architecture, ERD, methodology, testing, and scope notes.
 
 ## Scope and integrity
-All network, outage, cost, repair-duration, crew, and outcome data are synthetic. GridRestore is an academic demonstration, not an operational control system or validated power-flow model. No IEC/IEEE compliance is claimed. PostgreSQL integration is only verified when tested against a running, configured PostgreSQL server.
+All network, outage, cost, repair-duration, crew, and outcome data are synthetic. GridRestore is an academic demonstration, not an operational control system or validated power-flow model. PostgreSQL integration is only verified when tested against a running, configured PostgreSQL server.

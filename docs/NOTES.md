@@ -1,9 +1,15 @@
 # Project notes
 
-The notebook is the primary executable experiment. It uses synthetic graph data, compares simplified scheduling heuristics, runs Monte Carlo repair-duration trials, demonstrates relational persistence with SQLite, and exports analysis artifacts.
+## Current state (keep this section up to date)
+- **Main application:** Next.js frontend (`frontend/app/`) talking to a FastAPI backend (`backend/api.py`) that reads and writes PostgreSQL.
+- **Database:** PostgreSQL schema in `database/schema.sql`, migrations in `database/migrations/` (vectors, auth, causes).
+- **Notebook:** `notebook/GridRestore_Lab.ipynb` is a standalone SQLite demonstration that runs without a server.
+- **Scheduler:** `backend/scheduler.py` is the only scheduler. It supports prerequisites, crew skills and a budget.
+- **Removed:** the Streamlit UI and an earlier in-memory FastAPI/Next.js prototype. Neither is in the repository.
 
-The separate `backend/scheduler.py` module implements a greedy scheduler with task prerequisites and crew-skill constraints. It is covered by unit tests but is not yet connected to the Streamlit UI. The Streamlit/PostgreSQL prototype currently supports database health checks, scenario creation, and saved-run listing.
+## Test status
+- `python -m pytest -q` runs without a database. Tests marked `db` are skipped unless `DATABASE_URL` is set.
+- Database tests were written against a local PostgreSQL 18 server. They have not been re-run in this change set.
 
-The repository also contains a separate FastAPI/Next.js scaffold under `backend/app/` and `frontend/app/`. Its scheduler is a simpler baseline; do not assume it has the same constraints as `backend/scheduler.py`.
-
-All data and outcomes are synthetic. The project does not claim standards compliance or real-world grid-restoration validity. If external papers, datasets, standards, or code are added, record the specific source and how it was used; otherwise no external source attribution is implied.
+## Limitations
+All data and outcomes are synthetic. The project does not claim standards compliance or real-world restoration validity. External sources must be recorded where they are used.

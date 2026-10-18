@@ -14,7 +14,9 @@ from .db import connect
 SESSION_TTL_SECONDS = 12 * 3600
 
 def _secret() -> str:
-    secret = os.getenv("SESSION_SECRET", "dev-only-secret-change-me")
+    secret = os.getenv("SESSION_SECRET")
+    if not secret:
+        raise RuntimeError("SESSION_SECRET is not set. Add a long random value to your .env file.")
     return secret
 
 def verify_password(plain: str, hashed: str) -> bool:

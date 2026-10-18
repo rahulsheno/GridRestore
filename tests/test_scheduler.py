@@ -60,6 +60,7 @@ def test_embedding_is_deterministic_and_normalized():
     assert len(first) == 32
     assert abs(sum(v * v for v in first) - 1.0) < 1e-6
 
+@pytest.mark.db
 def test_vector_search_returns_ranked_results():
     from backend.vectors import embed_text
     import math
@@ -78,11 +79,13 @@ def test_vector_search_returns_ranked_results():
     distances = [float(r["distance"]) for r in rows]
     assert distances == sorted(distances)
 
+@pytest.mark.db
 def test_full_text_search_finds_hospital():
     from backend.vectors import full_text_search_repairs
     rows = full_text_search_repairs("hospital", limit=5)
     assert {r["task_id"] for r in rows} >= {"T02", "T07"}
 
+@pytest.mark.db
 def test_auth_rejects_wrong_password():
     from backend.auth import authenticate, parse_token
     assert authenticate("admin", "wrong-password") is None
@@ -98,6 +101,7 @@ def test_operator_cannot_use_admin_role():
         require_role(token, "admin")
     assert require_role(token, "admin", "operator")["role"] == "operator"
 
+@pytest.mark.db
 def test_api_login_and_guard():
     from fastapi.testclient import TestClient
     from backend.api import app
@@ -110,6 +114,7 @@ def test_api_login_and_guard():
     bad = client.post("/api/login", json={"username": "admin", "password": "nope"})
     assert bad.status_code == 401
 
+@pytest.mark.db
 def test_critical_repairs_ranking():
     from backend.criticality import critical_repairs
     rows = critical_repairs(1)
@@ -119,6 +124,7 @@ def test_critical_repairs_ranking():
     assert all(rows[i]["unblocks_count"] >= rows[i + 1]["unblocks_count"]
                for i in range(len(rows) - 1))
 
+@pytest.mark.db
 def test_critical_path_chain_and_floor():
     from backend.criticality import critical_path
     result = critical_path(1)
@@ -128,6 +134,7 @@ def test_critical_path_chain_and_floor():
     assert by_id["T03"]["slack"] == 0 and by_id["T05"]["slack"] == 0
     assert by_id["T02"]["slack"] > 0
 
+@pytest.mark.db
 def test_api_critical_endpoints():
     from fastapi.testclient import TestClient
     from backend.api import app
@@ -139,6 +146,7 @@ def test_api_critical_endpoints():
     path = client.get("/api/scenarios/1/critical-path", headers=headers)
     assert path.status_code == 200 and path.json()["critical_chain"] == ["T03", "T05"]
 
+@pytest.mark.db
 def test_skill_gaps_covered_and_gap_case():
     from backend.criticality import skill_gaps
     ok_result = skill_gaps(1)
@@ -146,6 +154,7 @@ def test_skill_gaps_covered_and_gap_case():
     gap_result = skill_gaps(1, crews=[{"crew_id": "C9", "skill": "general"}])
     assert gap_result["gaps"] == ["electrical"] and "GAP" in gap_result["verdict"]
 
+@pytest.mark.db
 def test_cause_breakdown_endpoint():
     from fastapi.testclient import TestClient
     from backend.api import app
