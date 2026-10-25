@@ -1,0 +1,5 @@
+# Optional: real embedding model for the vector layer (item 2).
+# Install with:  pip install -r requirements-ml.txt
+# The backend falls back to the deterministic hash embedder when absent.
+sentence-transformers>=3.0
+torch>=2.2

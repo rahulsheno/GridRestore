@@ -1,0 +1,13 @@
+__pycache__/
+.pytest_cache/
+.venv/
+.env
+*.pyc
+gridrestore_outputs/
+*.sqlite
+
+node_modules/
+.next/
+
+.coverage
+htmlcov/
