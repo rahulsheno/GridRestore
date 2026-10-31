@@ -1,0 +1,4 @@
+case,buses,measurements,states,compromised_rtus,rtus,threshold,trials,clean_false_alarm_rate,stealthy_feasible_rate,stealthy_bypass_rate,median_J_change_over_threshold,median_state_shift_rad_or_pu,median_flow_shift_pu,random_attack_detection_rate
+case14,14,82,27,"['RTU-01', 'RTU-02']",4,82.29211682919967,200,0.01,1.0,0.99,1.7951878121898415e-07,6.329139369387615e-05,0.0026143877620393163,1.0
+case30,30,172,59,"['RTU-01', 'RTU-02']",4,150.8821552183826,200,0.01,1.0,0.99,5.066545567219826e-09,1.929302354569673e-05,0.000658812487143912,1.0
+case118,118,726,235,"['RTU-01', 'RTU-02']",4,566.8275784415893,50,0.0,1.0,1.0,4.175599825550561e-10,4.431700911855518e-06,0.0009233665555806736,1.0

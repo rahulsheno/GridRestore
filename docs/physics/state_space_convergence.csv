@@ -1,0 +1,3001 @@
+case,stress_vector,method,step,max_abs_change
+case14,base,infinite_horizon_VI,1,7.0125
+case14,base,infinite_horizon_VI,2,6.661875000000001
+case14,base,infinite_horizon_VI,3,6.328781249999999
+case14,base,infinite_horizon_VI,4,6.0123421875
+case14,base,infinite_horizon_VI,5,5.711725078124999
+case14,base,infinite_horizon_VI,6,5.4261388242187465
+case14,base,infinite_horizon_VI,7,5.154831883007816
+case14,base,infinite_horizon_VI,8,4.89709028885742
+case14,base,infinite_horizon_VI,9,4.6522357744145495
+case14,base,infinite_horizon_VI,10,4.419623985693825
+case14,base,infinite_horizon_VI,11,4.198642786409131
+case14,base,infinite_horizon_VI,12,3.9887106470886664
+case14,base,infinite_horizon_VI,13,3.789275114734238
+case14,base,infinite_horizon_VI,14,3.5998113589975276
+case14,base,infinite_horizon_VI,15,3.4198207910476555
+case14,base,infinite_horizon_VI,16,3.248829751495265
+case14,base,infinite_horizon_VI,17,3.0863882639205116
+case14,base,infinite_horizon_VI,18,2.9320688507244768
+case14,base,infinite_horizon_VI,19,2.7854654081882586
+case14,base,infinite_horizon_VI,20,2.64619213777884
+case14,base,infinite_horizon_VI,21,2.5138825308899015
+case14,base,infinite_horizon_VI,22,2.3881884043454136
+case14,base,infinite_horizon_VI,23,2.268778984128133
+case14,base,infinite_horizon_VI,24,2.1553400349217355
+case14,base,infinite_horizon_VI,25,2.047573033175638
+case14,base,infinite_horizon_VI,26,1.9451943815168562
+case14,base,infinite_horizon_VI,27,1.8479346624410198
+case14,base,infinite_horizon_VI,28,1.7555379293189617
+case14,base,infinite_horizon_VI,29,1.6677610328530221
+case14,base,infinite_horizon_VI,30,1.5843729812103646
+case14,base,infinite_horizon_VI,31,1.5051543321498428
+case14,base,infinite_horizon_VI,32,1.4298966155423614
+case14,base,infinite_horizon_VI,33,1.3584017847652348
+case14,base,infinite_horizon_VI,34,1.290481695526978
+case14,base,infinite_horizon_VI,35,1.2259576107506263
+case14,base,infinite_horizon_VI,36,1.1646597302131028
+case14,base,infinite_horizon_VI,37,1.1064267437024426
+case14,base,infinite_horizon_VI,38,1.0511054065173226
+case14,base,infinite_horizon_VI,39,0.9985501361914544
+case14,base,infinite_horizon_VI,40,0.9486226293818874
+case14,base,infinite_horizon_VI,41,0.9011914979127909
+case14,base,infinite_horizon_VI,42,0.8561319230171449
+case14,base,infinite_horizon_VI,43,0.8133253268662912
+case14,base,infinite_horizon_VI,44,0.7726590605229688
+case14,base,infinite_horizon_VI,45,0.7340261074968311
+case14,base,infinite_horizon_VI,46,0.6973248021219831
+case14,base,infinite_horizon_VI,47,0.6624585620158854
+case14,base,infinite_horizon_VI,48,0.6293356339150904
+case14,base,infinite_horizon_VI,49,0.5978688522193352
+case14,base,infinite_horizon_VI,50,0.5679754096083514
+case14,base,infinite_horizon_VI,51,0.5395766391279437
+case14,base,infinite_horizon_VI,52,0.5125978071715451
+case14,base,infinite_horizon_VI,53,0.48696791681297213
+case14,base,infinite_horizon_VI,54,0.46261952097231074
+case14,base,infinite_horizon_VI,55,0.43948854492370515
+case14,base,infinite_horizon_VI,56,0.4175141176775128
+case14,base,infinite_horizon_VI,57,0.3966384117936457
+case14,base,infinite_horizon_VI,58,0.3768064912039506
+case14,base,infinite_horizon_VI,59,0.357966166643763
+case14,base,infinite_horizon_VI,60,0.3400678583115848
+case14,base,infinite_horizon_VI,61,0.3230644653959871
+case14,base,infinite_horizon_VI,62,0.3069112421262048
+case14,base,infinite_horizon_VI,63,0.29156568001988603
+case14,base,infinite_horizon_VI,64,0.2769873960188818
+case14,base,infinite_horizon_VI,65,0.2631380262179448
+case14,base,infinite_horizon_VI,66,0.2499811249070376
+case14,base,infinite_horizon_VI,67,0.23748206866170563
+case14,base,infinite_horizon_VI,68,0.22560796522861892
+case14,base,infinite_horizon_VI,69,0.21432756696717092
+case14,base,infinite_horizon_VI,70,0.20361118861882233
+case14,base,infinite_horizon_VI,71,0.19343062918787268
+case14,base,infinite_horizon_VI,72,0.1837590977284833
+case14,base,infinite_horizon_VI,73,0.1745711428420691
+case14,base,infinite_horizon_VI,74,0.16584258569994859
+case14,base,infinite_horizon_VI,75,0.15755045641495258
+case14,base,infinite_horizon_VI,76,0.14967293359421774
+case14,base,infinite_horizon_VI,77,0.14218928691448696
+case14,base,infinite_horizon_VI,78,0.13507982256876971
+case14,base,infinite_horizon_VI,79,0.1283258314403497
+case14,base,infinite_horizon_VI,80,0.12190953986831232
+case14,base,infinite_horizon_VI,81,0.11581406287490381
+case14,base,infinite_horizon_VI,82,0.11002335973117283
+case14,base,infinite_horizon_VI,83,0.10452219174459287
+case14,base,infinite_horizon_VI,84,0.09929608215736607
+case14,base,infinite_horizon_VI,85,0.09433127804950914
+case14,base,infinite_horizon_VI,86,0.08961471414701805
+case14,base,infinite_horizon_VI,87,0.08513397843967141
+case14,base,infinite_horizon_VI,88,0.08087727951769352
+case14,base,infinite_horizon_VI,89,0.07683341554181311
+case14,base,infinite_horizon_VI,90,0.07299174476472103
+case14,base,infinite_horizon_VI,91,0.06934215752647788
+case14,base,infinite_horizon_VI,92,0.06587504965014546
+case14,base,infinite_horizon_VI,93,0.0625812971676396
+case14,base,infinite_horizon_VI,94,0.05945223230926899
+case14,base,infinite_horizon_VI,95,0.056479620693806964
+case14,base,infinite_horizon_VI,96,0.053655639659126564
+case14,base,infinite_horizon_VI,97,0.050972857676157446
+case14,base,infinite_horizon_VI,98,0.04842421479236236
+case14,base,infinite_horizon_VI,99,0.04600300405272151
+case14,base,infinite_horizon_VI,100,0.04370285385010675
+case14,base,infinite_horizon_VI,101,0.041517711157581516
+case14,base,infinite_horizon_VI,102,0.039441825599709546
+case14,base,infinite_horizon_VI,103,0.03746973431972833
+case14,base,infinite_horizon_VI,104,0.03559624760373481
+case14,base,infinite_horizon_VI,105,0.033816435223542385
+case14,base,infinite_horizon_VI,106,0.03212561346236953
+case14,base,infinite_horizon_VI,107,0.030519332789253895
+case14,base,infinite_horizon_VI,108,0.0289933661497912
+case14,base,infinite_horizon_VI,109,0.027543697842304482
+case14,base,infinite_horizon_VI,110,0.026166512950197784
+case14,base,infinite_horizon_VI,111,0.02485818730266942
+case14,base,infinite_horizon_VI,112,0.023615277937551582
+case14,base,infinite_horizon_VI,113,0.02243451404066832
+case14,base,infinite_horizon_VI,114,0.02131278833863348
+case14,base,infinite_horizon_VI,115,0.020247148921697544
+case14,base,infinite_horizon_VI,116,0.019234791475611246
+case14,base,infinite_horizon_VI,117,0.018273051901843473
+case14,base,infinite_horizon_VI,118,0.017359399306741352
+case14,base,infinite_horizon_VI,119,0.016491429341414232
+case14,base,infinite_horizon_VI,120,0.015666857874350626
+case14,base,infinite_horizon_VI,121,0.014883514980624568
+case14,base,infinite_horizon_VI,122,0.014139339231576287
+case14,base,infinite_horizon_VI,123,0.013432372270017368
+case14,base,infinite_horizon_VI,124,0.012760753656522184
+case14,base,infinite_horizon_VI,125,0.012122715973674758
+case14,base,infinite_horizon_VI,126,0.011516580174998126
+case14,base,infinite_horizon_VI,127,0.010940751166259588
+case14,base,infinite_horizon_VI,128,0.010393713607925292
+case14,base,infinite_horizon_VI,129,0.009874027927537554
+case14,base,infinite_horizon_VI,130,0.009380326531157834
+case14,base,infinite_horizon_VI,131,0.00891131020460989
+case14,base,infinite_horizon_VI,132,0.008465744694376554
+case14,base,infinite_horizon_VI,133,0.008042457459652042
+case14,base,infinite_horizon_VI,134,0.007640334586682229
+case14,base,infinite_horizon_VI,135,0.007258317857349539
+case14,base,infinite_horizon_VI,136,0.006895401964470693
+case14,base,infinite_horizon_VI,137,0.0065506318662471585
+case14,base,infinite_horizon_VI,138,0.0062231002729333795
+case14,base,infinite_horizon_VI,139,0.0059119452592995
+case14,base,infinite_horizon_VI,140,0.005616347996323157
+case14,base,infinite_horizon_VI,141,0.005335530596511262
+case14,base,infinite_horizon_VI,142,0.005068754066684278
+case14,base,infinite_horizon_VI,143,0.004815316363362854
+case14,base,infinite_horizon_VI,144,0.0045745505451861845
+case14,base,infinite_horizon_VI,145,0.004345823017928296
+case14,base,infinite_horizon_VI,146,0.004128531867024776
+case14,base,infinite_horizon_VI,147,0.003922105273687748
+case14,base,infinite_horizon_VI,148,0.00372600000997636
+case14,base,infinite_horizon_VI,149,0.0035397000094974373
+case14,base,infinite_horizon_VI,150,0.0033627150090183022
+case14,base,infinite_horizon_VI,151,0.0031945792585759136
+case14,base,infinite_horizon_VI,152,0.003034850295648539
+case14,base,infinite_horizon_VI,153,0.0028831077808604277
+case14,base,infinite_horizon_VI,154,0.00273895239180888
+case14,base,infinite_horizon_VI,155,0.0026020047722283834
+case14,base,infinite_horizon_VI,156,0.0024719045336212275
+case14,base,infinite_horizon_VI,157,0.002348309306938745
+case14,base,infinite_horizon_VI,158,0.0022308938415847024
+case14,base,infinite_horizon_VI,159,0.0021193491494955197
+case14,base,infinite_horizon_VI,160,0.002013381692023586
+case14,base,infinite_horizon_VI,161,0.0019127126074351963
+case14,base,infinite_horizon_VI,162,0.0018170769770620154
+case14,base,infinite_horizon_VI,163,0.0017262231282018092
+case14,base,infinite_horizon_VI,164,0.001639911971778929
+case14,base,infinite_horizon_VI,165,0.0015579163732013512
+case14,base,infinite_horizon_VI,166,0.0014800205545384415
+case14,base,infinite_horizon_VI,167,0.0014060195268257303
+case14,base,infinite_horizon_VI,168,0.0013357185504787594
+case14,base,infinite_horizon_VI,169,0.001268932622963348
+case14,base,infinite_horizon_VI,170,0.001205485991789601
+case14,base,infinite_horizon_VI,171,0.0011452116922043842
+case14,base,infinite_horizon_VI,172,0.001087951107592744
+case14,base,infinite_horizon_VI,173,0.001033553552218791
+case14,base,infinite_horizon_VI,174,0.000981875874600746
+case14,base,infinite_horizon_VI,175,0.0009327820808948672
+case14,base,infinite_horizon_VI,176,0.0008861429768387552
+case14,base,infinite_horizon_VI,177,0.0008418358279982385
+case14,base,infinite_horizon_VI,178,0.0007997440365841157
+case14,base,infinite_horizon_VI,179,0.0007597568347534889
+case14,base,infinite_horizon_VI,180,0.0007217689930314464
+case14,base,infinite_horizon_VI,181,0.0006856805433699265
+case14,base,infinite_horizon_VI,182,0.0006513965162184832
+case14,base,infinite_horizon_VI,183,0.0006188266903848216
+case14,base,infinite_horizon_VI,184,0.0005878853558840547
+case14,base,infinite_horizon_VI,185,0.0005584910880713778
+case14,base,infinite_horizon_VI,186,0.0005305665336834409
+case14,base,infinite_horizon_VI,187,0.0005040382069978477
+case14,base,infinite_horizon_VI,188,0.0004788362966507975
+case14,base,infinite_horizon_VI,189,0.0004548944818054679
+case14,base,infinite_horizon_VI,190,0.00043214975772798425
+case14,base,infinite_horizon_VI,191,0.0004105422698330585
+case14,base,infinite_horizon_VI,192,0.0003900151563414056
+case14,base,infinite_horizon_VI,193,0.0003705143985257564
+case14,base,infinite_horizon_VI,194,0.00035198867860231076
+case14,base,infinite_horizon_VI,195,0.00033438924467077413
+case14,base,infinite_horizon_VI,196,0.000317669782447183
+case14,base,infinite_horizon_VI,197,0.00030178629330634976
+case14,base,infinite_horizon_VI,198,0.00028669697866234856
+case14,base,infinite_horizon_VI,199,0.0002723621297207046
+case14,base,infinite_horizon_VI,200,0.00025874402322756396
+case14,base,infinite_horizon_VI,201,0.00024580682207897553
+case14,base,infinite_horizon_VI,202,0.0002335164809608159
+case14,base,infinite_horizon_VI,203,0.00022184065690566968
+case14,base,infinite_horizon_VI,204,0.00021074862408454464
+case14,base,infinite_horizon_VI,205,0.0002002111928618433
+case14,base,infinite_horizon_VI,206,0.00019020063322727765
+case14,base,infinite_horizon_VI,207,0.000180690601553124
+case14,base,infinite_horizon_VI,208,0.00017165607147262563
+case14,base,infinite_horizon_VI,209,0.0001630732679132052
+case14,base,infinite_horizon_VI,210,0.0001549196045118606
+case14,base,infinite_horizon_VI,211,0.00014717362429905734
+case14,base,infinite_horizon_VI,212,0.00013981494308268339
+case14,base,infinite_horizon_VI,213,0.0001328241959299703
+case14,base,infinite_horizon_VI,214,0.0001261829861221031
+case14,base,infinite_horizon_VI,215,0.00011987383680889252
+case14,base,infinite_horizon_VI,216,0.00011388014496560572
+case14,base,infinite_horizon_VI,217,0.00010818613773722063
+case14,base,infinite_horizon_VI,218,0.00010277683085746503
+case14,base,infinite_horizon_VI,219,9.763798931317069e-05
+case14,base,infinite_horizon_VI,220,9.275608982761696e-05
+case14,base,infinite_horizon_VI,221,8.811828533339394e-05
+case14,base,infinite_horizon_VI,222,8.371237106530316e-05
+case14,base,infinite_horizon_VI,223,7.952675252909103e-05
+case14,base,infinite_horizon_VI,224,7.555041489126779e-05
+case14,base,infinite_horizon_VI,225,7.177289415949417e-05
+case14,base,infinite_horizon_VI,226,6.818424944299295e-05
+case14,base,infinite_horizon_VI,227,6.477503697510656e-05
+case14,base,infinite_horizon_VI,228,6.153628513061449e-05
+case14,base,infinite_horizon_VI,229,5.8459470864136165e-05
+case14,base,infinite_horizon_VI,230,5.553649731382393e-05
+case14,base,infinite_horizon_VI,231,5.2759672456659246e-05
+case14,base,infinite_horizon_VI,232,5.012168884377388e-05
+case14,base,infinite_horizon_VI,233,4.761560438737433e-05
+case14,base,infinite_horizon_VI,234,4.523482417084779e-05
+case14,base,infinite_horizon_VI,235,4.2973082969410825e-05
+case14,base,infinite_horizon_VI,236,4.082442882236137e-05
+case14,base,infinite_horizon_VI,237,3.878320737271679e-05
+case14,base,infinite_horizon_VI,238,3.684404700265986e-05
+case14,base,infinite_horizon_VI,239,3.5001844651105785e-05
+case14,base,infinite_horizon_VI,240,3.325175242707701e-05
+case14,base,infinite_horizon_VI,241,3.15891647915123e-05
+case14,base,infinite_horizon_VI,242,3.000970656330537e-05
+case14,base,infinite_horizon_VI,243,2.8509221237982274e-05
+case14,base,infinite_horizon_VI,244,2.7083760187451844e-05
+case14,base,infinite_horizon_VI,245,2.572957217239491e-05
+case14,base,infinite_horizon_VI,246,2.444309356519625e-05
+case14,base,infinite_horizon_VI,247,2.3220938885515352e-05
+case14,base,infinite_horizon_VI,248,2.205989193271307e-05
+case14,base,infinite_horizon_VI,249,2.095689734460393e-05
+case14,base,infinite_horizon_VI,250,1.990905246884722e-05
+case14,base,infinite_horizon_VI,251,1.8913599859615715e-05
+case14,base,infinite_horizon_VI,252,1.7967919859529502e-05
+case14,base,infinite_horizon_VI,253,1.7069523863710856e-05
+case14,base,infinite_horizon_VI,254,1.6216047669104228e-05
+case14,base,infinite_horizon_VI,255,1.540524527854359e-05
+case14,base,infinite_horizon_VI,256,1.463498301745858e-05
+case14,base,infinite_horizon_VI,257,1.3903233877954335e-05
+case14,base,infinite_horizon_VI,258,1.3208072175530106e-05
+case14,base,infinite_horizon_VI,259,1.2547668575280113e-05
+case14,base,infinite_horizon_VI,260,1.1920285146516107e-05
+case14,base,infinite_horizon_VI,261,1.1324270872137276e-05
+case14,base,infinite_horizon_VI,262,1.0758057328530413e-05
+case14,base,infinite_horizon_VI,263,1.0220154479156918e-05
+case14,base,infinite_horizon_VI,264,9.7091467523569e-06
+case14,base,infinite_horizon_VI,265,9.223689403370372e-06
+case14,base,infinite_horizon_VI,266,8.762504933201853e-06
+case14,base,infinite_horizon_VI,267,8.324379678015248e-06
+case14,base,infinite_horizon_VI,268,7.908160711167511e-06
+case14,base,infinite_horizon_VI,269,7.5127526599771954e-06
+case14,base,infinite_horizon_VI,270,7.137115034083763e-06
+case14,base,infinite_horizon_VI,271,6.780259298011515e-06
+case14,base,infinite_horizon_VI,272,6.441246313215743e-06
+case14,base,infinite_horizon_VI,273,6.119184007502554e-06
+case14,base,infinite_horizon_VI,274,5.8132248170750245e-06
+case14,base,infinite_horizon_VI,275,5.522563554904991e-06
+case14,base,infinite_horizon_VI,276,5.246435392791682e-06
+case14,base,infinite_horizon_VI,277,4.98411361604667e-06
+case14,base,infinite_horizon_VI,278,4.734907946613021e-06
+case14,base,infinite_horizon_VI,279,4.498162553545626e-06
+case14,base,infinite_horizon_VI,280,4.273254404552063e-06
+case14,base,infinite_horizon_VI,281,4.059591702798571e-06
+case14,base,infinite_horizon_VI,282,3.85661209634236e-06
+case14,base,infinite_horizon_VI,283,3.663781512841524e-06
+case14,base,infinite_horizon_VI,284,3.480592425830764e-06
+case14,base,infinite_horizon_VI,285,3.3065628031181404e-06
+case14,base,infinite_horizon_VI,286,3.1412346572778915e-06
+case14,base,infinite_horizon_VI,287,2.984172937203766e-06
+case14,base,infinite_horizon_VI,288,2.8349642775538086e-06
+case14,base,infinite_horizon_VI,289,2.6932160608339473e-06
+case14,base,infinite_horizon_VI,290,2.5585552805296174e-06
+case14,base,infinite_horizon_VI,291,2.430627517924222e-06
+case14,base,infinite_horizon_VI,292,2.309096117869558e-06
+case14,base,infinite_horizon_VI,293,2.193641336134533e-06
+case14,base,infinite_horizon_VI,294,2.083959259380208e-06
+case14,base,infinite_horizon_VI,295,1.9797612935690267e-06
+case14,base,infinite_horizon_VI,296,1.8807732260484045e-06
+case14,base,infinite_horizon_VI,297,1.7867345718514116e-06
+case14,base,infinite_horizon_VI,298,1.6973978347323282e-06
+case14,base,infinite_horizon_VI,299,1.6125279387324554e-06
+case14,base,infinite_horizon_VI,300,1.531901546059089e-06
+case14,base,infinite_horizon_VI,301,1.4553064602296217e-06
+case14,base,infinite_horizon_VI,302,1.3825411429024825e-06
+case14,base,infinite_horizon_VI,303,1.3134140885995294e-06
+case14,base,infinite_horizon_VI,304,1.2477433983804076e-06
+case14,base,infinite_horizon_VI,305,1.1853562114083616e-06
+case14,base,infinite_horizon_VI,306,1.12608842073314e-06
+case14,base,infinite_horizon_VI,307,1.0697839911699702e-06
+case14,base,infinite_horizon_VI,308,1.0162947887693008e-06
+case14,base,infinite_horizon_VI,309,9.65480040804323e-07
+case14,base,infinite_horizon_VI,310,9.17206051553876e-07
+case14,base,infinite_horizon_VI,311,8.713457475550968e-07
+case14,base,infinite_horizon_VI,312,8.277784502297436e-07
+case14,base,infinite_horizon_VI,313,7.863895348236838e-07
+case14,base,infinite_horizon_VI,314,7.470700609246705e-07
+case14,base,infinite_horizon_VI,315,7.097165450886678e-07
+case14,base,infinite_horizon_VI,316,6.742307334661746e-07
+case14,base,infinite_horizon_VI,317,6.405191754765838e-07
+case14,base,infinite_horizon_VI,318,6.084932238081819e-07
+case14,base,infinite_horizon_VI,319,5.780685796707985e-07
+case14,base,infinite_horizon_VI,320,5.491651506872586e-07
+case14,base,infinite_horizon_VI,321,5.217068803631264e-07
+case14,base,infinite_horizon_VI,322,4.956215491347393e-07
+case14,base,infinite_horizon_VI,323,4.7084046173040406e-07
+case14,base,infinite_horizon_VI,324,4.472984471703967e-07
+case14,base,infinite_horizon_VI,325,4.249335177064495e-07
+case14,base,infinite_horizon_VI,326,4.0368684040004155e-07
+case14,base,infinite_horizon_VI,327,3.8350250974872324e-07
+case14,base,infinite_horizon_VI,328,3.643273771558597e-07
+case14,base,infinite_horizon_VI,329,3.46110994087212e-07
+case14,base,infinite_horizon_VI,330,3.288054415406805e-07
+case14,base,infinite_horizon_VI,331,3.123651879377576e-07
+case14,base,infinite_horizon_VI,332,2.967469185932714e-07
+case14,base,infinite_horizon_VI,333,2.81909564137095e-07
+case14,base,infinite_horizon_VI,334,2.6781410156218044e-07
+case14,base,infinite_horizon_VI,335,2.544233836943022e-07
+case14,base,infinite_horizon_VI,336,2.4170222445718537e-07
+case14,base,infinite_horizon_VI,337,2.2961711465541157e-07
+case14,base,infinite_horizon_VI,338,2.1813625039612816e-07
+case14,base,infinite_horizon_VI,339,2.0722944782392005e-07
+case14,base,infinite_horizon_VI,340,1.968679725905531e-07
+case14,base,infinite_horizon_VI,341,1.8702456827668357e-07
+case14,base,infinite_horizon_VI,342,1.7767334270502033e-07
+case14,base,infinite_horizon_VI,343,1.6878968267519667e-07
+case14,base,infinite_horizon_VI,344,1.6035019712035137e-07
+case14,base,infinite_horizon_VI,345,1.5233268868541927e-07
+case14,base,infinite_horizon_VI,346,1.447160400402936e-07
+case14,base,infinite_horizon_VI,347,1.3748024230153533e-07
+case14,base,infinite_horizon_VI,348,1.3060622450211667e-07
+case14,base,infinite_horizon_VI,349,1.240759104348399e-07
+case14,base,infinite_horizon_VI,350,1.1787213338720903e-07
+case14,base,infinite_horizon_VI,351,1.1197852245459217e-07
+case14,base,infinite_horizon_VI,352,1.0637958780534973e-07
+case14,base,infinite_horizon_VI,353,1.0106060699399677e-07
+case14,base,infinite_horizon_VI,354,9.600759653949353e-08
+case14,base,infinite_horizon_VI,355,9.120719823840773e-08
+case14,base,infinite_horizon_VI,356,8.664684969517111e-08
+case14,base,infinite_horizon_VI,357,8.23145001049852e-08
+case14,base,infinite_horizon_VI,358,7.819878078407783e-08
+case14,base,infinite_horizon_VI,359,7.428883463944658e-08
+case14,base,infinite_horizon_VI,360,7.057440143398708e-08
+case14,base,infinite_horizon_VI,361,6.704567567794584e-08
+case14,base,infinite_horizon_VI,362,6.369339189404855e-08
+case14,base,infinite_horizon_VI,363,6.050871093066235e-08
+case14,base,infinite_horizon_VI,364,5.74832768052147e-08
+case14,base,infinite_horizon_VI,365,5.4609131439065095e-08
+case14,base,infinite_horizon_VI,366,5.187865781408618e-08
+case14,base,infinite_horizon_VI,367,4.928472208121093e-08
+case14,base,infinite_horizon_VI,368,4.682050303017604e-08
+case14,base,infinite_horizon_VI,369,4.4479463667812524e-08
+case14,base,infinite_horizon_VI,370,4.225549332659284e-08
+case14,base,infinite_horizon_VI,371,4.014273713437433e-08
+case14,base,infinite_horizon_VI,372,3.81355960143992e-08
+case14,base,infinite_horizon_VI,373,3.6228811950422823e-08
+case14,base,infinite_horizon_VI,374,3.4417382721585454e-08
+case14,base,infinite_horizon_VI,375,3.269650505899335e-08
+case14,base,infinite_horizon_VI,376,3.1061688332556514e-08
+case14,base,infinite_horizon_VI,377,2.9508584020732087e-08
+case14,base,infinite_horizon_VI,378,2.8033156240780954e-08
+case14,base,infinite_horizon_VI,379,2.663151121851115e-08
+case14,base,infinite_horizon_VI,380,2.5299925709987292e-08
+case14,base,infinite_horizon_VI,381,2.403493226665887e-08
+case14,base,infinite_horizon_VI,382,2.2833177126813098e-08
+case14,base,infinite_horizon_VI,383,2.169153390241263e-08
+case14,base,infinite_horizon_VI,384,2.0606961470548413e-08
+case14,base,infinite_horizon_VI,385,1.9576589238567976e-08
+case14,base,infinite_horizon_VI,386,1.8597773987494293e-08
+case14,base,infinite_horizon_VI,387,1.7667872498350334e-08
+case14,base,infinite_horizon_VI,388,1.6784497347543947e-08
+case14,base,infinite_horizon_VI,389,1.5945261111482978e-08
+case14,base,infinite_horizon_VI,390,1.5148003740250715e-08
+case14,base,infinite_horizon_VI,391,1.4390593605639879e-08
+case14,base,infinite_horizon_VI,392,1.367106960969977e-08
+case14,base,infinite_horizon_VI,393,1.2987527497898554e-08
+case14,base,infinite_horizon_VI,394,1.2338148280832684e-08
+case14,base,infinite_horizon_VI,395,1.1721226655936334e-08
+case14,base,infinite_horizon_VI,396,1.1135171007481404e-08
+case14,base,infinite_horizon_VI,397,1.057841814144922e-08
+case14,base,infinite_horizon_VI,398,1.0049490128949401e-08
+case14,base,infinite_horizon_VI,399,9.547022727929289e-09
+case14,base,infinite_horizon_VI,400,9.069680118045653e-09
+case14,base,infinite_horizon_VI,401,8.616183322374127e-09
+case14,base,infinite_horizon_VI,402,8.185367050828063e-09
+case14,base,infinite_horizon_VI,403,7.776094435030245e-09
+case14,base,infinite_horizon_VI,404,7.387313871731749e-09
+case14,base,infinite_horizon_VI,405,7.017945335974218e-09
+case14,base,infinite_horizon_VI,406,6.6670509113464504e-09
+case14,base,infinite_horizon_VI,407,6.333692681437242e-09
+case14,base,infinite_horizon_VI,408,6.01698957325425e-09
+case14,base,infinite_horizon_VI,409,5.7161457789334236e-09
+case14,base,infinite_horizon_VI,410,5.430337068901281e-09
+case14,base,infinite_horizon_VI,411,5.158824478712631e-09
+case14,base,infinite_horizon_VI,412,4.900897465631715e-09
+case14,base,infinite_horizon_VI,413,4.655845486922772e-09
+case14,base,infinite_horizon_VI,414,4.4230432649783324e-09
+case14,base,infinite_horizon_VI,415,4.201893943900359e-09
+case14,base,infinite_horizon_VI,416,3.9918006677908124e-09
+case14,base,infinite_horizon_VI,417,3.7922234241705155e-09
+case14,base,infinite_horizon_VI,418,3.60259377885086e-09
+case14,base,infinite_horizon_VI,419,3.4224854061903898e-09
+case14,base,infinite_horizon_VI,420,3.2513582937099272e-09
+case14,base,infinite_horizon_VI,421,3.0887861157680163e-09
+case14,base,infinite_horizon_VI,422,2.934342546723201e-09
+case14,base,infinite_horizon_VI,423,2.7876296826434555e-09
+case14,base,infinite_horizon_VI,424,2.648249619596754e-09
+case14,base,infinite_horizon_VI,425,2.515832875360502e-09
+case14,base,infinite_horizon_VI,426,2.390038389421534e-09
+case14,base,infinite_horizon_VI,427,2.270525101266685e-09
+case14,base,infinite_horizon_VI,428,2.1570087938016513e-09
+case14,base,infinite_horizon_VI,429,2.049148406513268e-09
+case14,base,infinite_horizon_VI,430,1.9466881440166617e-09
+case14,base,infinite_horizon_VI,431,1.8493722109269584e-09
+case14,base,infinite_horizon_VI,432,1.7568879684404237e-09
+case14,base,infinite_horizon_VI,433,1.6690648863004753e-09
+case14,base,infinite_horizon_VI,434,1.5855903257033788e-09
+case14,base,infinite_horizon_VI,435,1.506322178101982e-09
+case14,base,infinite_horizon_VI,436,1.4310046481114114e-09
+case14,base,infinite_horizon_VI,437,1.3594672054750845e-09
+case14,base,infinite_horizon_VI,438,1.291482476517558e-09
+case14,base,infinite_horizon_VI,439,1.2269083526916802e-09
+case14,base,infinite_horizon_VI,440,1.1655743037408683e-09
+case14,base,infinite_horizon_VI,441,1.1072813776991097e-09
+case14,base,infinite_horizon_VI,442,1.0519158877286827e-09
+case14,base,infinite_horizon_VI,443,9.993357252824353e-10
+case14,base,infinite_horizon_VI,444,9.49370360103785e-10
+case14,base,infinite_horizon_VI,445,9.0187768364558e-10
+case14,base,infinite_horizon_VI,446,8.568008524889592e-10
+case14,base,infinite_horizon_VI,447,8.1394091466791e-10
+case14,base,infinite_horizon_VI,448,7.732694484730018e-10
+case14,base,infinite_horizon_VI,449,7.34587501938222e-10
+case14,base,infinite_horizon_VI,450,6.9786665335414e-10
+case14,base,infinite_horizon_VI,451,6.629647941736039e-10
+case14,base,infinite_horizon_VI,452,6.298250809777528e-10
+case14,base,infinite_horizon_VI,453,5.983338269288652e-10
+case14,base,infinite_horizon_VI,454,5.684057668986497e-10
+case14,base,infinite_horizon_VI,455,5.399840574682457e-10
+case14,base,infinite_horizon_VI,456,5.129834335093619e-10
+case14,base,infinite_horizon_VI,457,4.873470516031375e-10
+case14,base,infinite_horizon_VI,458,4.629896466212813e-10
+case14,base,infinite_horizon_VI,459,4.39825953435502e-10
+case14,base,infinite_horizon_VI,460,4.178275503363693e-10
+case14,base,infinite_horizon_VI,461,3.9693759390502237e-10
+case14,base,infinite_horizon_VI,462,3.7709924072260037e-10
+case14,base,infinite_horizon_VI,463,3.582556473702425e-10
+case14,base,infinite_horizon_VI,464,3.403215487196576e-10
+case14,base,infinite_horizon_VI,465,3.23325366480276e-10
+case14,base,infinite_horizon_VI,466,3.071534138143761e-10
+case14,base,infinite_horizon_VI,467,2.9180569072195794e-10
+case14,base,infinite_horizon_VI,468,2.771969320747303e-10
+case14,base,infinite_horizon_VI,469,2.6335555958212353e-10
+case14,base,infinite_horizon_VI,470,2.5016788640641607e-10
+case14,base,infinite_horizon_VI,471,2.376623342570383e-10
+case14,base,infinite_horizon_VI,472,2.2578205971512944e-10
+case14,base,infinite_horizon_VI,473,2.1449864107125904e-10
+case14,base,infinite_horizon_VI,474,2.0375523490656633e-10
+case14,base,infinite_horizon_VI,475,1.935802629304817e-10
+case14,base,infinite_horizon_VI,476,1.8388846001471393e-10
+case14,base,infinite_horizon_VI,477,1.7470824786869343e-10
+case14,base,infinite_horizon_VI,478,1.659827830735594e-10
+case14,base,infinite_horizon_VI,479,1.5768364391988143e-10
+case14,base,infinite_horizon_VI,480,1.4978240869822912e-10
+case14,base,infinite_horizon_VI,481,1.4230749911803287e-10
+case14,base,infinite_horizon_VI,482,1.3517365005100146e-10
+case14,base,infinite_horizon_VI,483,1.284377049159957e-10
+case14,base,infinite_horizon_VI,484,1.220143985847244e-10
+case14,base,infinite_horizon_VI,485,1.1590373105718754e-10
+case14,base,infinite_horizon_VI,486,1.1010570233338512e-10
+case14,base,infinite_horizon_VI,487,1.0459189070388675e-10
+case14,base,infinite_horizon_VI,488,9.936229616869241e-11
+case14,base,finite_horizon_error_S0_S2,5,0.039542206560909614
+case14,base,finite_horizon_error_S3,5,108.52277648248655
+case14,base,finite_horizon_error_S0_S2,10,0.02886665246441375
+case14,base,finite_horizon_error_S3,10,83.9728557262942
+case14,base,finite_horizon_error_S0_S2,20,0.01700038012044848
+case14,base,finite_horizon_error_S3,20,50.27765061590962
+case14,base,finite_horizon_error_S0_S2,40,0.006092978327030291
+case14,base,finite_horizon_error_S3,40,18.023829956367322
+case14,base,finite_horizon_error_S0_S2,80,0.0007840887358989967
+case14,base,finite_horizon_error_S3,80,2.3162812556099937
+case14,base,finite_horizon_error_S0_S2,160,1.2984822844563926e-05
+case14,base,finite_horizon_error_S3,160,0.038254250260422396
+case14,N-1 line 0,infinite_horizon_VI,1,7.0125
+case14,N-1 line 0,infinite_horizon_VI,2,6.661875000000001
+case14,N-1 line 0,infinite_horizon_VI,3,6.328781249999999
+case14,N-1 line 0,infinite_horizon_VI,4,6.0123421875
+case14,N-1 line 0,infinite_horizon_VI,5,5.711725078124999
+case14,N-1 line 0,infinite_horizon_VI,6,5.4261388242187465
+case14,N-1 line 0,infinite_horizon_VI,7,5.154831883007816
+case14,N-1 line 0,infinite_horizon_VI,8,4.89709028885742
+case14,N-1 line 0,infinite_horizon_VI,9,4.6522357744145495
+case14,N-1 line 0,infinite_horizon_VI,10,4.419623985693825
+case14,N-1 line 0,infinite_horizon_VI,11,4.198642786409131
+case14,N-1 line 0,infinite_horizon_VI,12,3.9887106470886664
+case14,N-1 line 0,infinite_horizon_VI,13,3.789275114734238
+case14,N-1 line 0,infinite_horizon_VI,14,3.5998113589975276
+case14,N-1 line 0,infinite_horizon_VI,15,3.4198207910476555
+case14,N-1 line 0,infinite_horizon_VI,16,3.248829751495265
+case14,N-1 line 0,infinite_horizon_VI,17,3.0863882639205116
+case14,N-1 line 0,infinite_horizon_VI,18,2.9320688507244768
+case14,N-1 line 0,infinite_horizon_VI,19,2.7854654081882586
+case14,N-1 line 0,infinite_horizon_VI,20,2.64619213777884
+case14,N-1 line 0,infinite_horizon_VI,21,2.5138825308899015
+case14,N-1 line 0,infinite_horizon_VI,22,2.3881884043454136
+case14,N-1 line 0,infinite_horizon_VI,23,2.268778984128133
+case14,N-1 line 0,infinite_horizon_VI,24,2.1553400349217355
+case14,N-1 line 0,infinite_horizon_VI,25,2.047573033175638
+case14,N-1 line 0,infinite_horizon_VI,26,1.9451943815168562
+case14,N-1 line 0,infinite_horizon_VI,27,1.8479346624410198
+case14,N-1 line 0,infinite_horizon_VI,28,1.7555379293189617
+case14,N-1 line 0,infinite_horizon_VI,29,1.6677610328530221
+case14,N-1 line 0,infinite_horizon_VI,30,1.5843729812103646
+case14,N-1 line 0,infinite_horizon_VI,31,1.5051543321498428
+case14,N-1 line 0,infinite_horizon_VI,32,1.4298966155423614
+case14,N-1 line 0,infinite_horizon_VI,33,1.3584017847652348
+case14,N-1 line 0,infinite_horizon_VI,34,1.290481695526978
+case14,N-1 line 0,infinite_horizon_VI,35,1.2259576107506263
+case14,N-1 line 0,infinite_horizon_VI,36,1.1646597302131028
+case14,N-1 line 0,infinite_horizon_VI,37,1.1064267437024426
+case14,N-1 line 0,infinite_horizon_VI,38,1.0511054065173226
+case14,N-1 line 0,infinite_horizon_VI,39,0.9985501361914544
+case14,N-1 line 0,infinite_horizon_VI,40,0.9486226293818874
+case14,N-1 line 0,infinite_horizon_VI,41,0.9011914979127909
+case14,N-1 line 0,infinite_horizon_VI,42,0.8561319230171449
+case14,N-1 line 0,infinite_horizon_VI,43,0.8133253268662912
+case14,N-1 line 0,infinite_horizon_VI,44,0.7726590605229688
+case14,N-1 line 0,infinite_horizon_VI,45,0.7340261074968311
+case14,N-1 line 0,infinite_horizon_VI,46,0.6973248021219831
+case14,N-1 line 0,infinite_horizon_VI,47,0.6624585620158854
+case14,N-1 line 0,infinite_horizon_VI,48,0.6293356339150904
+case14,N-1 line 0,infinite_horizon_VI,49,0.5978688522193352
+case14,N-1 line 0,infinite_horizon_VI,50,0.5679754096083514
+case14,N-1 line 0,infinite_horizon_VI,51,0.5395766391279437
+case14,N-1 line 0,infinite_horizon_VI,52,0.5125978071715451
+case14,N-1 line 0,infinite_horizon_VI,53,0.48696791681297213
+case14,N-1 line 0,infinite_horizon_VI,54,0.46261952097231074
+case14,N-1 line 0,infinite_horizon_VI,55,0.43948854492370515
+case14,N-1 line 0,infinite_horizon_VI,56,0.4175141176775128
+case14,N-1 line 0,infinite_horizon_VI,57,0.3966384117936457
+case14,N-1 line 0,infinite_horizon_VI,58,0.3768064912039506
+case14,N-1 line 0,infinite_horizon_VI,59,0.357966166643763
+case14,N-1 line 0,infinite_horizon_VI,60,0.3400678583115848
+case14,N-1 line 0,infinite_horizon_VI,61,0.3230644653959871
+case14,N-1 line 0,infinite_horizon_VI,62,0.3069112421262048
+case14,N-1 line 0,infinite_horizon_VI,63,0.29156568001988603
+case14,N-1 line 0,infinite_horizon_VI,64,0.2769873960188818
+case14,N-1 line 0,infinite_horizon_VI,65,0.2631380262179448
+case14,N-1 line 0,infinite_horizon_VI,66,0.2499811249070376
+case14,N-1 line 0,infinite_horizon_VI,67,0.23748206866170563
+case14,N-1 line 0,infinite_horizon_VI,68,0.22560796522861892
+case14,N-1 line 0,infinite_horizon_VI,69,0.21432756696717092
+case14,N-1 line 0,infinite_horizon_VI,70,0.20361118861882233
+case14,N-1 line 0,infinite_horizon_VI,71,0.19343062918787268
+case14,N-1 line 0,infinite_horizon_VI,72,0.1837590977284833
+case14,N-1 line 0,infinite_horizon_VI,73,0.1745711428420691
+case14,N-1 line 0,infinite_horizon_VI,74,0.16584258569994859
+case14,N-1 line 0,infinite_horizon_VI,75,0.15755045641495258
+case14,N-1 line 0,infinite_horizon_VI,76,0.14967293359421774
+case14,N-1 line 0,infinite_horizon_VI,77,0.14218928691448696
+case14,N-1 line 0,infinite_horizon_VI,78,0.13507982256876971
+case14,N-1 line 0,infinite_horizon_VI,79,0.1283258314403497
+case14,N-1 line 0,infinite_horizon_VI,80,0.12190953986831232
+case14,N-1 line 0,infinite_horizon_VI,81,0.11581406287490381
+case14,N-1 line 0,infinite_horizon_VI,82,0.11002335973117283
+case14,N-1 line 0,infinite_horizon_VI,83,0.10452219174459287
+case14,N-1 line 0,infinite_horizon_VI,84,0.09929608215736607
+case14,N-1 line 0,infinite_horizon_VI,85,0.09433127804950914
+case14,N-1 line 0,infinite_horizon_VI,86,0.08961471414701805
+case14,N-1 line 0,infinite_horizon_VI,87,0.08513397843967141
+case14,N-1 line 0,infinite_horizon_VI,88,0.08087727951769352
+case14,N-1 line 0,infinite_horizon_VI,89,0.07683341554181311
+case14,N-1 line 0,infinite_horizon_VI,90,0.07299174476472103
+case14,N-1 line 0,infinite_horizon_VI,91,0.06934215752647788
+case14,N-1 line 0,infinite_horizon_VI,92,0.06587504965014546
+case14,N-1 line 0,infinite_horizon_VI,93,0.0625812971676396
+case14,N-1 line 0,infinite_horizon_VI,94,0.05945223230926899
+case14,N-1 line 0,infinite_horizon_VI,95,0.056479620693806964
+case14,N-1 line 0,infinite_horizon_VI,96,0.053655639659126564
+case14,N-1 line 0,infinite_horizon_VI,97,0.050972857676157446
+case14,N-1 line 0,infinite_horizon_VI,98,0.04842421479236236
+case14,N-1 line 0,infinite_horizon_VI,99,0.04600300405272151
+case14,N-1 line 0,infinite_horizon_VI,100,0.04370285385010675
+case14,N-1 line 0,infinite_horizon_VI,101,0.041517711157581516
+case14,N-1 line 0,infinite_horizon_VI,102,0.039441825599709546
+case14,N-1 line 0,infinite_horizon_VI,103,0.03746973431972833
+case14,N-1 line 0,infinite_horizon_VI,104,0.03559624760373481
+case14,N-1 line 0,infinite_horizon_VI,105,0.033816435223542385
+case14,N-1 line 0,infinite_horizon_VI,106,0.03212561346236953
+case14,N-1 line 0,infinite_horizon_VI,107,0.030519332789253895
+case14,N-1 line 0,infinite_horizon_VI,108,0.0289933661497912
+case14,N-1 line 0,infinite_horizon_VI,109,0.027543697842304482
+case14,N-1 line 0,infinite_horizon_VI,110,0.026166512950197784
+case14,N-1 line 0,infinite_horizon_VI,111,0.02485818730266942
+case14,N-1 line 0,infinite_horizon_VI,112,0.023615277937551582
+case14,N-1 line 0,infinite_horizon_VI,113,0.02243451404066832
+case14,N-1 line 0,infinite_horizon_VI,114,0.02131278833863348
+case14,N-1 line 0,infinite_horizon_VI,115,0.020247148921697544
+case14,N-1 line 0,infinite_horizon_VI,116,0.019234791475611246
+case14,N-1 line 0,infinite_horizon_VI,117,0.018273051901843473
+case14,N-1 line 0,infinite_horizon_VI,118,0.017359399306741352
+case14,N-1 line 0,infinite_horizon_VI,119,0.016491429341414232
+case14,N-1 line 0,infinite_horizon_VI,120,0.015666857874350626
+case14,N-1 line 0,infinite_horizon_VI,121,0.014883514980624568
+case14,N-1 line 0,infinite_horizon_VI,122,0.014139339231576287
+case14,N-1 line 0,infinite_horizon_VI,123,0.013432372270017368
+case14,N-1 line 0,infinite_horizon_VI,124,0.012760753656522184
+case14,N-1 line 0,infinite_horizon_VI,125,0.012122715973674758
+case14,N-1 line 0,infinite_horizon_VI,126,0.011516580174998126
+case14,N-1 line 0,infinite_horizon_VI,127,0.010940751166259588
+case14,N-1 line 0,infinite_horizon_VI,128,0.010393713607925292
+case14,N-1 line 0,infinite_horizon_VI,129,0.009874027927537554
+case14,N-1 line 0,infinite_horizon_VI,130,0.009380326531157834
+case14,N-1 line 0,infinite_horizon_VI,131,0.00891131020460989
+case14,N-1 line 0,infinite_horizon_VI,132,0.008465744694376554
+case14,N-1 line 0,infinite_horizon_VI,133,0.008042457459652042
+case14,N-1 line 0,infinite_horizon_VI,134,0.007640334586682229
+case14,N-1 line 0,infinite_horizon_VI,135,0.007258317857349539
+case14,N-1 line 0,infinite_horizon_VI,136,0.006895401964470693
+case14,N-1 line 0,infinite_horizon_VI,137,0.0065506318662471585
+case14,N-1 line 0,infinite_horizon_VI,138,0.0062231002729333795
+case14,N-1 line 0,infinite_horizon_VI,139,0.0059119452592995
+case14,N-1 line 0,infinite_horizon_VI,140,0.005616347996323157
+case14,N-1 line 0,infinite_horizon_VI,141,0.005335530596511262
+case14,N-1 line 0,infinite_horizon_VI,142,0.005068754066684278
+case14,N-1 line 0,infinite_horizon_VI,143,0.004815316363362854
+case14,N-1 line 0,infinite_horizon_VI,144,0.0045745505451861845
+case14,N-1 line 0,infinite_horizon_VI,145,0.004345823017928296
+case14,N-1 line 0,infinite_horizon_VI,146,0.004128531867024776
+case14,N-1 line 0,infinite_horizon_VI,147,0.003922105273687748
+case14,N-1 line 0,infinite_horizon_VI,148,0.00372600000997636
+case14,N-1 line 0,infinite_horizon_VI,149,0.0035397000094974373
+case14,N-1 line 0,infinite_horizon_VI,150,0.0033627150090183022
+case14,N-1 line 0,infinite_horizon_VI,151,0.0031945792585759136
+case14,N-1 line 0,infinite_horizon_VI,152,0.003034850295648539
+case14,N-1 line 0,infinite_horizon_VI,153,0.0028831077808604277
+case14,N-1 line 0,infinite_horizon_VI,154,0.00273895239180888
+case14,N-1 line 0,infinite_horizon_VI,155,0.0026020047722283834
+case14,N-1 line 0,infinite_horizon_VI,156,0.0024719045336212275
+case14,N-1 line 0,infinite_horizon_VI,157,0.002348309306938745
+case14,N-1 line 0,infinite_horizon_VI,158,0.0022308938415847024
+case14,N-1 line 0,infinite_horizon_VI,159,0.0021193491494955197
+case14,N-1 line 0,infinite_horizon_VI,160,0.002013381692023586
+case14,N-1 line 0,infinite_horizon_VI,161,0.0019127126074351963
+case14,N-1 line 0,infinite_horizon_VI,162,0.0018170769770620154
+case14,N-1 line 0,infinite_horizon_VI,163,0.0017262231282018092
+case14,N-1 line 0,infinite_horizon_VI,164,0.001639911971778929
+case14,N-1 line 0,infinite_horizon_VI,165,0.0015579163732013512
+case14,N-1 line 0,infinite_horizon_VI,166,0.0014800205545384415
+case14,N-1 line 0,infinite_horizon_VI,167,0.0014060195268257303
+case14,N-1 line 0,infinite_horizon_VI,168,0.0013357185504787594
+case14,N-1 line 0,infinite_horizon_VI,169,0.001268932622963348
+case14,N-1 line 0,infinite_horizon_VI,170,0.001205485991789601
+case14,N-1 line 0,infinite_horizon_VI,171,0.0011452116922043842
+case14,N-1 line 0,infinite_horizon_VI,172,0.001087951107592744
+case14,N-1 line 0,infinite_horizon_VI,173,0.001033553552218791
+case14,N-1 line 0,infinite_horizon_VI,174,0.000981875874600746
+case14,N-1 line 0,infinite_horizon_VI,175,0.0009327820808948672
+case14,N-1 line 0,infinite_horizon_VI,176,0.0008861429768387552
+case14,N-1 line 0,infinite_horizon_VI,177,0.0008418358279982385
+case14,N-1 line 0,infinite_horizon_VI,178,0.0007997440365841157
+case14,N-1 line 0,infinite_horizon_VI,179,0.0007597568347534889
+case14,N-1 line 0,infinite_horizon_VI,180,0.0007217689930314464
+case14,N-1 line 0,infinite_horizon_VI,181,0.0006856805433699265
+case14,N-1 line 0,infinite_horizon_VI,182,0.0006513965162184832
+case14,N-1 line 0,infinite_horizon_VI,183,0.0006188266903848216
+case14,N-1 line 0,infinite_horizon_VI,184,0.0005878853558840547
+case14,N-1 line 0,infinite_horizon_VI,185,0.0005584910880713778
+case14,N-1 line 0,infinite_horizon_VI,186,0.0005305665336834409
+case14,N-1 line 0,infinite_horizon_VI,187,0.0005040382069978477
+case14,N-1 line 0,infinite_horizon_VI,188,0.0004788362966507975
+case14,N-1 line 0,infinite_horizon_VI,189,0.0004548944818054679
+case14,N-1 line 0,infinite_horizon_VI,190,0.00043214975772798425
+case14,N-1 line 0,infinite_horizon_VI,191,0.0004105422698330585
+case14,N-1 line 0,infinite_horizon_VI,192,0.0003900151563414056
+case14,N-1 line 0,infinite_horizon_VI,193,0.0003705143985257564
+case14,N-1 line 0,infinite_horizon_VI,194,0.00035198867860231076
+case14,N-1 line 0,infinite_horizon_VI,195,0.00033438924467077413
+case14,N-1 line 0,infinite_horizon_VI,196,0.000317669782447183
+case14,N-1 line 0,infinite_horizon_VI,197,0.00030178629330634976
+case14,N-1 line 0,infinite_horizon_VI,198,0.00028669697866234856
+case14,N-1 line 0,infinite_horizon_VI,199,0.0002723621297207046
+case14,N-1 line 0,infinite_horizon_VI,200,0.00025874402322756396
+case14,N-1 line 0,infinite_horizon_VI,201,0.00024580682207897553
+case14,N-1 line 0,infinite_horizon_VI,202,0.0002335164809608159
+case14,N-1 line 0,infinite_horizon_VI,203,0.00022184065690566968
+case14,N-1 line 0,infinite_horizon_VI,204,0.00021074862408454464
+case14,N-1 line 0,infinite_horizon_VI,205,0.0002002111928618433
+case14,N-1 line 0,infinite_horizon_VI,206,0.00019020063322727765
+case14,N-1 line 0,infinite_horizon_VI,207,0.000180690601553124
+case14,N-1 line 0,infinite_horizon_VI,208,0.00017165607147262563
+case14,N-1 line 0,infinite_horizon_VI,209,0.0001630732679132052
+case14,N-1 line 0,infinite_horizon_VI,210,0.0001549196045118606
+case14,N-1 line 0,infinite_horizon_VI,211,0.00014717362429905734
+case14,N-1 line 0,infinite_horizon_VI,212,0.00013981494308268339
+case14,N-1 line 0,infinite_horizon_VI,213,0.0001328241959299703
+case14,N-1 line 0,infinite_horizon_VI,214,0.0001261829861221031
+case14,N-1 line 0,infinite_horizon_VI,215,0.00011987383680889252
+case14,N-1 line 0,infinite_horizon_VI,216,0.00011388014496560572
+case14,N-1 line 0,infinite_horizon_VI,217,0.00010818613773722063
+case14,N-1 line 0,infinite_horizon_VI,218,0.00010277683085746503
+case14,N-1 line 0,infinite_horizon_VI,219,9.763798931317069e-05
+case14,N-1 line 0,infinite_horizon_VI,220,9.275608982761696e-05
+case14,N-1 line 0,infinite_horizon_VI,221,8.811828533339394e-05
+case14,N-1 line 0,infinite_horizon_VI,222,8.371237106530316e-05
+case14,N-1 line 0,infinite_horizon_VI,223,7.952675252909103e-05
+case14,N-1 line 0,infinite_horizon_VI,224,7.555041489126779e-05
+case14,N-1 line 0,infinite_horizon_VI,225,7.177289415949417e-05
+case14,N-1 line 0,infinite_horizon_VI,226,6.818424944299295e-05
+case14,N-1 line 0,infinite_horizon_VI,227,6.477503697510656e-05
+case14,N-1 line 0,infinite_horizon_VI,228,6.153628513061449e-05
+case14,N-1 line 0,infinite_horizon_VI,229,5.8459470864136165e-05
+case14,N-1 line 0,infinite_horizon_VI,230,5.553649731382393e-05
+case14,N-1 line 0,infinite_horizon_VI,231,5.2759672456659246e-05
+case14,N-1 line 0,infinite_horizon_VI,232,5.012168884377388e-05
+case14,N-1 line 0,infinite_horizon_VI,233,4.761560438737433e-05
+case14,N-1 line 0,infinite_horizon_VI,234,4.523482417084779e-05
+case14,N-1 line 0,infinite_horizon_VI,235,4.2973082969410825e-05
+case14,N-1 line 0,infinite_horizon_VI,236,4.082442882236137e-05
+case14,N-1 line 0,infinite_horizon_VI,237,3.878320737271679e-05
+case14,N-1 line 0,infinite_horizon_VI,238,3.684404700265986e-05
+case14,N-1 line 0,infinite_horizon_VI,239,3.5001844651105785e-05
+case14,N-1 line 0,infinite_horizon_VI,240,3.325175242707701e-05
+case14,N-1 line 0,infinite_horizon_VI,241,3.15891647915123e-05
+case14,N-1 line 0,infinite_horizon_VI,242,3.000970656330537e-05
+case14,N-1 line 0,infinite_horizon_VI,243,2.8509221237982274e-05
+case14,N-1 line 0,infinite_horizon_VI,244,2.7083760187451844e-05
+case14,N-1 line 0,infinite_horizon_VI,245,2.572957217239491e-05
+case14,N-1 line 0,infinite_horizon_VI,246,2.444309356519625e-05
+case14,N-1 line 0,infinite_horizon_VI,247,2.3220938885515352e-05
+case14,N-1 line 0,infinite_horizon_VI,248,2.205989193271307e-05
+case14,N-1 line 0,infinite_horizon_VI,249,2.095689734460393e-05
+case14,N-1 line 0,infinite_horizon_VI,250,1.990905246884722e-05
+case14,N-1 line 0,infinite_horizon_VI,251,1.8913599859615715e-05
+case14,N-1 line 0,infinite_horizon_VI,252,1.7967919859529502e-05
+case14,N-1 line 0,infinite_horizon_VI,253,1.7069523863710856e-05
+case14,N-1 line 0,infinite_horizon_VI,254,1.6216047669104228e-05
+case14,N-1 line 0,infinite_horizon_VI,255,1.540524527854359e-05
+case14,N-1 line 0,infinite_horizon_VI,256,1.463498301745858e-05
+case14,N-1 line 0,infinite_horizon_VI,257,1.3903233877954335e-05
+case14,N-1 line 0,infinite_horizon_VI,258,1.3208072175530106e-05
+case14,N-1 line 0,infinite_horizon_VI,259,1.2547668575280113e-05
+case14,N-1 line 0,infinite_horizon_VI,260,1.1920285146516107e-05
+case14,N-1 line 0,infinite_horizon_VI,261,1.1324270872137276e-05
+case14,N-1 line 0,infinite_horizon_VI,262,1.0758057328530413e-05
+case14,N-1 line 0,infinite_horizon_VI,263,1.0220154479156918e-05
+case14,N-1 line 0,infinite_horizon_VI,264,9.7091467523569e-06
+case14,N-1 line 0,infinite_horizon_VI,265,9.223689403370372e-06
+case14,N-1 line 0,infinite_horizon_VI,266,8.762504933201853e-06
+case14,N-1 line 0,infinite_horizon_VI,267,8.324379678015248e-06
+case14,N-1 line 0,infinite_horizon_VI,268,7.908160711167511e-06
+case14,N-1 line 0,infinite_horizon_VI,269,7.5127526599771954e-06
+case14,N-1 line 0,infinite_horizon_VI,270,7.137115034083763e-06
+case14,N-1 line 0,infinite_horizon_VI,271,6.780259298011515e-06
+case14,N-1 line 0,infinite_horizon_VI,272,6.441246313215743e-06
+case14,N-1 line 0,infinite_horizon_VI,273,6.119184007502554e-06
+case14,N-1 line 0,infinite_horizon_VI,274,5.8132248170750245e-06
+case14,N-1 line 0,infinite_horizon_VI,275,5.522563554904991e-06
+case14,N-1 line 0,infinite_horizon_VI,276,5.246435392791682e-06
+case14,N-1 line 0,infinite_horizon_VI,277,4.98411361604667e-06
+case14,N-1 line 0,infinite_horizon_VI,278,4.734907946613021e-06
+case14,N-1 line 0,infinite_horizon_VI,279,4.498162553545626e-06
+case14,N-1 line 0,infinite_horizon_VI,280,4.273254404552063e-06
+case14,N-1 line 0,infinite_horizon_VI,281,4.059591702798571e-06
+case14,N-1 line 0,infinite_horizon_VI,282,3.85661209634236e-06
+case14,N-1 line 0,infinite_horizon_VI,283,3.663781512841524e-06
+case14,N-1 line 0,infinite_horizon_VI,284,3.480592425830764e-06
+case14,N-1 line 0,infinite_horizon_VI,285,3.3065628031181404e-06
+case14,N-1 line 0,infinite_horizon_VI,286,3.1412346572778915e-06
+case14,N-1 line 0,infinite_horizon_VI,287,2.984172937203766e-06
+case14,N-1 line 0,infinite_horizon_VI,288,2.8349642775538086e-06
+case14,N-1 line 0,infinite_horizon_VI,289,2.6932160608339473e-06
+case14,N-1 line 0,infinite_horizon_VI,290,2.5585552805296174e-06
+case14,N-1 line 0,infinite_horizon_VI,291,2.430627517924222e-06
+case14,N-1 line 0,infinite_horizon_VI,292,2.309096117869558e-06
+case14,N-1 line 0,infinite_horizon_VI,293,2.193641336134533e-06
+case14,N-1 line 0,infinite_horizon_VI,294,2.083959259380208e-06
+case14,N-1 line 0,infinite_horizon_VI,295,1.9797612935690267e-06
+case14,N-1 line 0,infinite_horizon_VI,296,1.8807732260484045e-06
+case14,N-1 line 0,infinite_horizon_VI,297,1.7867345718514116e-06
+case14,N-1 line 0,infinite_horizon_VI,298,1.6973978347323282e-06
+case14,N-1 line 0,infinite_horizon_VI,299,1.6125279387324554e-06
+case14,N-1 line 0,infinite_horizon_VI,300,1.531901546059089e-06
+case14,N-1 line 0,infinite_horizon_VI,301,1.4553064602296217e-06
+case14,N-1 line 0,infinite_horizon_VI,302,1.3825411429024825e-06
+case14,N-1 line 0,infinite_horizon_VI,303,1.3134140885995294e-06
+case14,N-1 line 0,infinite_horizon_VI,304,1.2477433983804076e-06
+case14,N-1 line 0,infinite_horizon_VI,305,1.1853562114083616e-06
+case14,N-1 line 0,infinite_horizon_VI,306,1.12608842073314e-06
+case14,N-1 line 0,infinite_horizon_VI,307,1.0697839911699702e-06
+case14,N-1 line 0,infinite_horizon_VI,308,1.0162947887693008e-06
+case14,N-1 line 0,infinite_horizon_VI,309,9.65480040804323e-07
+case14,N-1 line 0,infinite_horizon_VI,310,9.17206051553876e-07
+case14,N-1 line 0,infinite_horizon_VI,311,8.713457475550968e-07
+case14,N-1 line 0,infinite_horizon_VI,312,8.277784502297436e-07
+case14,N-1 line 0,infinite_horizon_VI,313,7.863895348236838e-07
+case14,N-1 line 0,infinite_horizon_VI,314,7.470700609246705e-07
+case14,N-1 line 0,infinite_horizon_VI,315,7.097165450886678e-07
+case14,N-1 line 0,infinite_horizon_VI,316,6.742307334661746e-07
+case14,N-1 line 0,infinite_horizon_VI,317,6.405191754765838e-07
+case14,N-1 line 0,infinite_horizon_VI,318,6.084932238081819e-07
+case14,N-1 line 0,infinite_horizon_VI,319,5.780685796707985e-07
+case14,N-1 line 0,infinite_horizon_VI,320,5.491651506872586e-07
+case14,N-1 line 0,infinite_horizon_VI,321,5.217068803631264e-07
+case14,N-1 line 0,infinite_horizon_VI,322,4.956215491347393e-07
+case14,N-1 line 0,infinite_horizon_VI,323,4.7084046173040406e-07
+case14,N-1 line 0,infinite_horizon_VI,324,4.472984471703967e-07
+case14,N-1 line 0,infinite_horizon_VI,325,4.249335177064495e-07
+case14,N-1 line 0,infinite_horizon_VI,326,4.0368684040004155e-07
+case14,N-1 line 0,infinite_horizon_VI,327,3.8350250974872324e-07
+case14,N-1 line 0,infinite_horizon_VI,328,3.643273771558597e-07
+case14,N-1 line 0,infinite_horizon_VI,329,3.46110994087212e-07
+case14,N-1 line 0,infinite_horizon_VI,330,3.288054415406805e-07
+case14,N-1 line 0,infinite_horizon_VI,331,3.123651879377576e-07
+case14,N-1 line 0,infinite_horizon_VI,332,2.967469185932714e-07
+case14,N-1 line 0,infinite_horizon_VI,333,2.81909564137095e-07
+case14,N-1 line 0,infinite_horizon_VI,334,2.6781410156218044e-07
+case14,N-1 line 0,infinite_horizon_VI,335,2.544233836943022e-07
+case14,N-1 line 0,infinite_horizon_VI,336,2.4170222445718537e-07
+case14,N-1 line 0,infinite_horizon_VI,337,2.2961711465541157e-07
+case14,N-1 line 0,infinite_horizon_VI,338,2.1813625039612816e-07
+case14,N-1 line 0,infinite_horizon_VI,339,2.0722944782392005e-07
+case14,N-1 line 0,infinite_horizon_VI,340,1.968679725905531e-07
+case14,N-1 line 0,infinite_horizon_VI,341,1.8702456827668357e-07
+case14,N-1 line 0,infinite_horizon_VI,342,1.7767334270502033e-07
+case14,N-1 line 0,infinite_horizon_VI,343,1.6878968267519667e-07
+case14,N-1 line 0,infinite_horizon_VI,344,1.6035019712035137e-07
+case14,N-1 line 0,infinite_horizon_VI,345,1.5233268868541927e-07
+case14,N-1 line 0,infinite_horizon_VI,346,1.447160400402936e-07
+case14,N-1 line 0,infinite_horizon_VI,347,1.3748024230153533e-07
+case14,N-1 line 0,infinite_horizon_VI,348,1.3060622450211667e-07
+case14,N-1 line 0,infinite_horizon_VI,349,1.240759104348399e-07
+case14,N-1 line 0,infinite_horizon_VI,350,1.1787213338720903e-07
+case14,N-1 line 0,infinite_horizon_VI,351,1.1197852245459217e-07
+case14,N-1 line 0,infinite_horizon_VI,352,1.0637958780534973e-07
+case14,N-1 line 0,infinite_horizon_VI,353,1.0106060699399677e-07
+case14,N-1 line 0,infinite_horizon_VI,354,9.600759653949353e-08
+case14,N-1 line 0,infinite_horizon_VI,355,9.120719823840773e-08
+case14,N-1 line 0,infinite_horizon_VI,356,8.664684969517111e-08
+case14,N-1 line 0,infinite_horizon_VI,357,8.23145001049852e-08
+case14,N-1 line 0,infinite_horizon_VI,358,7.819878078407783e-08
+case14,N-1 line 0,infinite_horizon_VI,359,7.428883463944658e-08
+case14,N-1 line 0,infinite_horizon_VI,360,7.057440143398708e-08
+case14,N-1 line 0,infinite_horizon_VI,361,6.704567567794584e-08
+case14,N-1 line 0,infinite_horizon_VI,362,6.369339189404855e-08
+case14,N-1 line 0,infinite_horizon_VI,363,6.050871093066235e-08
+case14,N-1 line 0,infinite_horizon_VI,364,5.74832768052147e-08
+case14,N-1 line 0,infinite_horizon_VI,365,5.4609131439065095e-08
+case14,N-1 line 0,infinite_horizon_VI,366,5.187865781408618e-08
+case14,N-1 line 0,infinite_horizon_VI,367,4.928472208121093e-08
+case14,N-1 line 0,infinite_horizon_VI,368,4.682050303017604e-08
+case14,N-1 line 0,infinite_horizon_VI,369,4.4479463667812524e-08
+case14,N-1 line 0,infinite_horizon_VI,370,4.225549332659284e-08
+case14,N-1 line 0,infinite_horizon_VI,371,4.014273713437433e-08
+case14,N-1 line 0,infinite_horizon_VI,372,3.81355960143992e-08
+case14,N-1 line 0,infinite_horizon_VI,373,3.6228811950422823e-08
+case14,N-1 line 0,infinite_horizon_VI,374,3.4417382721585454e-08
+case14,N-1 line 0,infinite_horizon_VI,375,3.269650505899335e-08
+case14,N-1 line 0,infinite_horizon_VI,376,3.1061688332556514e-08
+case14,N-1 line 0,infinite_horizon_VI,377,2.9508584020732087e-08
+case14,N-1 line 0,infinite_horizon_VI,378,2.8033156240780954e-08
+case14,N-1 line 0,infinite_horizon_VI,379,2.663151121851115e-08
+case14,N-1 line 0,infinite_horizon_VI,380,2.5299925709987292e-08
+case14,N-1 line 0,infinite_horizon_VI,381,2.403493226665887e-08
+case14,N-1 line 0,infinite_horizon_VI,382,2.2833177126813098e-08
+case14,N-1 line 0,infinite_horizon_VI,383,2.169153390241263e-08
+case14,N-1 line 0,infinite_horizon_VI,384,2.0606961470548413e-08
+case14,N-1 line 0,infinite_horizon_VI,385,1.9576589238567976e-08
+case14,N-1 line 0,infinite_horizon_VI,386,1.8597773987494293e-08
+case14,N-1 line 0,infinite_horizon_VI,387,1.7667872498350334e-08
+case14,N-1 line 0,infinite_horizon_VI,388,1.6784497347543947e-08
+case14,N-1 line 0,infinite_horizon_VI,389,1.5945261111482978e-08
+case14,N-1 line 0,infinite_horizon_VI,390,1.5148003740250715e-08
+case14,N-1 line 0,infinite_horizon_VI,391,1.4390593605639879e-08
+case14,N-1 line 0,infinite_horizon_VI,392,1.367106960969977e-08
+case14,N-1 line 0,infinite_horizon_VI,393,1.2987527497898554e-08
+case14,N-1 line 0,infinite_horizon_VI,394,1.2338148280832684e-08
+case14,N-1 line 0,infinite_horizon_VI,395,1.1721226655936334e-08
+case14,N-1 line 0,infinite_horizon_VI,396,1.1135171007481404e-08
+case14,N-1 line 0,infinite_horizon_VI,397,1.057841814144922e-08
+case14,N-1 line 0,infinite_horizon_VI,398,1.0049490128949401e-08
+case14,N-1 line 0,infinite_horizon_VI,399,9.547022727929289e-09
+case14,N-1 line 0,infinite_horizon_VI,400,9.069680118045653e-09
+case14,N-1 line 0,infinite_horizon_VI,401,8.616183322374127e-09
+case14,N-1 line 0,infinite_horizon_VI,402,8.185367050828063e-09
+case14,N-1 line 0,infinite_horizon_VI,403,7.776094435030245e-09
+case14,N-1 line 0,infinite_horizon_VI,404,7.387313871731749e-09
+case14,N-1 line 0,infinite_horizon_VI,405,7.017945335974218e-09
+case14,N-1 line 0,infinite_horizon_VI,406,6.6670509113464504e-09
+case14,N-1 line 0,infinite_horizon_VI,407,6.333692681437242e-09
+case14,N-1 line 0,infinite_horizon_VI,408,6.01698957325425e-09
+case14,N-1 line 0,infinite_horizon_VI,409,5.7161457789334236e-09
+case14,N-1 line 0,infinite_horizon_VI,410,5.430337068901281e-09
+case14,N-1 line 0,infinite_horizon_VI,411,5.158824478712631e-09
+case14,N-1 line 0,infinite_horizon_VI,412,4.900897465631715e-09
+case14,N-1 line 0,infinite_horizon_VI,413,4.655845486922772e-09
+case14,N-1 line 0,infinite_horizon_VI,414,4.4230432649783324e-09
+case14,N-1 line 0,infinite_horizon_VI,415,4.201893943900359e-09
+case14,N-1 line 0,infinite_horizon_VI,416,3.9918006677908124e-09
+case14,N-1 line 0,infinite_horizon_VI,417,3.7922234241705155e-09
+case14,N-1 line 0,infinite_horizon_VI,418,3.60259377885086e-09
+case14,N-1 line 0,infinite_horizon_VI,419,3.4224854061903898e-09
+case14,N-1 line 0,infinite_horizon_VI,420,3.2513582937099272e-09
+case14,N-1 line 0,infinite_horizon_VI,421,3.0887861157680163e-09
+case14,N-1 line 0,infinite_horizon_VI,422,2.934342546723201e-09
+case14,N-1 line 0,infinite_horizon_VI,423,2.7876296826434555e-09
+case14,N-1 line 0,infinite_horizon_VI,424,2.648249619596754e-09
+case14,N-1 line 0,infinite_horizon_VI,425,2.515832875360502e-09
+case14,N-1 line 0,infinite_horizon_VI,426,2.390038389421534e-09
+case14,N-1 line 0,infinite_horizon_VI,427,2.270525101266685e-09
+case14,N-1 line 0,infinite_horizon_VI,428,2.1570087938016513e-09
+case14,N-1 line 0,infinite_horizon_VI,429,2.049148406513268e-09
+case14,N-1 line 0,infinite_horizon_VI,430,1.9466881440166617e-09
+case14,N-1 line 0,infinite_horizon_VI,431,1.8493722109269584e-09
+case14,N-1 line 0,infinite_horizon_VI,432,1.7568879684404237e-09
+case14,N-1 line 0,infinite_horizon_VI,433,1.6690648863004753e-09
+case14,N-1 line 0,infinite_horizon_VI,434,1.5855903257033788e-09
+case14,N-1 line 0,infinite_horizon_VI,435,1.506322178101982e-09
+case14,N-1 line 0,infinite_horizon_VI,436,1.4310046481114114e-09
+case14,N-1 line 0,infinite_horizon_VI,437,1.3594672054750845e-09
+case14,N-1 line 0,infinite_horizon_VI,438,1.291482476517558e-09
+case14,N-1 line 0,infinite_horizon_VI,439,1.2269083526916802e-09
+case14,N-1 line 0,infinite_horizon_VI,440,1.1655743037408683e-09
+case14,N-1 line 0,infinite_horizon_VI,441,1.1072813776991097e-09
+case14,N-1 line 0,infinite_horizon_VI,442,1.0519158877286827e-09
+case14,N-1 line 0,infinite_horizon_VI,443,9.993357252824353e-10
+case14,N-1 line 0,infinite_horizon_VI,444,9.49370360103785e-10
+case14,N-1 line 0,infinite_horizon_VI,445,9.0187768364558e-10
+case14,N-1 line 0,infinite_horizon_VI,446,8.568008524889592e-10
+case14,N-1 line 0,infinite_horizon_VI,447,8.1394091466791e-10
+case14,N-1 line 0,infinite_horizon_VI,448,7.732694484730018e-10
+case14,N-1 line 0,infinite_horizon_VI,449,7.34587501938222e-10
+case14,N-1 line 0,infinite_horizon_VI,450,6.9786665335414e-10
+case14,N-1 line 0,infinite_horizon_VI,451,6.629647941736039e-10
+case14,N-1 line 0,infinite_horizon_VI,452,6.298250809777528e-10
+case14,N-1 line 0,infinite_horizon_VI,453,5.983338269288652e-10
+case14,N-1 line 0,infinite_horizon_VI,454,5.684057668986497e-10
+case14,N-1 line 0,infinite_horizon_VI,455,5.399840574682457e-10
+case14,N-1 line 0,infinite_horizon_VI,456,5.129834335093619e-10
+case14,N-1 line 0,infinite_horizon_VI,457,4.873470516031375e-10
+case14,N-1 line 0,infinite_horizon_VI,458,4.629896466212813e-10
+case14,N-1 line 0,infinite_horizon_VI,459,4.39825953435502e-10
+case14,N-1 line 0,infinite_horizon_VI,460,4.178275503363693e-10
+case14,N-1 line 0,infinite_horizon_VI,461,3.9693759390502237e-10
+case14,N-1 line 0,infinite_horizon_VI,462,3.7709924072260037e-10
+case14,N-1 line 0,infinite_horizon_VI,463,3.582556473702425e-10
+case14,N-1 line 0,infinite_horizon_VI,464,3.403215487196576e-10
+case14,N-1 line 0,infinite_horizon_VI,465,3.23325366480276e-10
+case14,N-1 line 0,infinite_horizon_VI,466,3.071534138143761e-10
+case14,N-1 line 0,infinite_horizon_VI,467,2.9180569072195794e-10
+case14,N-1 line 0,infinite_horizon_VI,468,2.771969320747303e-10
+case14,N-1 line 0,infinite_horizon_VI,469,2.6335555958212353e-10
+case14,N-1 line 0,infinite_horizon_VI,470,2.5016788640641607e-10
+case14,N-1 line 0,infinite_horizon_VI,471,2.376623342570383e-10
+case14,N-1 line 0,infinite_horizon_VI,472,2.2578205971512944e-10
+case14,N-1 line 0,infinite_horizon_VI,473,2.1449864107125904e-10
+case14,N-1 line 0,infinite_horizon_VI,474,2.0375523490656633e-10
+case14,N-1 line 0,infinite_horizon_VI,475,1.935802629304817e-10
+case14,N-1 line 0,infinite_horizon_VI,476,1.8388846001471393e-10
+case14,N-1 line 0,infinite_horizon_VI,477,1.7470824786869343e-10
+case14,N-1 line 0,infinite_horizon_VI,478,1.659827830735594e-10
+case14,N-1 line 0,infinite_horizon_VI,479,1.5768364391988143e-10
+case14,N-1 line 0,infinite_horizon_VI,480,1.4978240869822912e-10
+case14,N-1 line 0,infinite_horizon_VI,481,1.4230749911803287e-10
+case14,N-1 line 0,infinite_horizon_VI,482,1.3517365005100146e-10
+case14,N-1 line 0,infinite_horizon_VI,483,1.284377049159957e-10
+case14,N-1 line 0,infinite_horizon_VI,484,1.220143985847244e-10
+case14,N-1 line 0,infinite_horizon_VI,485,1.1590373105718754e-10
+case14,N-1 line 0,infinite_horizon_VI,486,1.1010570233338512e-10
+case14,N-1 line 0,infinite_horizon_VI,487,1.0459189070388675e-10
+case14,N-1 line 0,infinite_horizon_VI,488,9.936229616869241e-11
+case14,N-1 line 0,finite_horizon_error_S0_S2,5,0.0236752360135812
+case14,N-1 line 0,finite_horizon_error_S3,5,108.52277648248655
+case14,N-1 line 0,finite_horizon_error_S0_S2,10,0.017183379985658977
+case14,N-1 line 0,finite_horizon_error_S3,10,83.9728557262942
+case14,N-1 line 0,finite_horizon_error_S0_S2,20,0.010084408041695886
+case14,N-1 line 0,finite_horizon_error_S3,20,50.27765061590962
+case14,N-1 line 0,finite_horizon_error_S0_S2,40,0.003613669885782607
+case14,N-1 line 0,finite_horizon_error_S3,40,18.023829956367322
+case14,N-1 line 0,finite_horizon_error_S0_S2,80,0.00046525244364704205
+case14,N-1 line 0,finite_horizon_error_S3,80,2.3162812556099937
+case14,N-1 line 0,finite_horizon_error_S0_S2,160,7.712031580585366e-06
+case14,N-1 line 0,finite_horizon_error_S3,160,0.038254250260422396
+case14,N-1 line 1,infinite_horizon_VI,1,7.0125
+case14,N-1 line 1,infinite_horizon_VI,2,6.661875000000001
+case14,N-1 line 1,infinite_horizon_VI,3,6.328781249999999
+case14,N-1 line 1,infinite_horizon_VI,4,6.0123421875
+case14,N-1 line 1,infinite_horizon_VI,5,5.711725078124999
+case14,N-1 line 1,infinite_horizon_VI,6,5.4261388242187465
+case14,N-1 line 1,infinite_horizon_VI,7,5.154831883007816
+case14,N-1 line 1,infinite_horizon_VI,8,4.89709028885742
+case14,N-1 line 1,infinite_horizon_VI,9,4.6522357744145495
+case14,N-1 line 1,infinite_horizon_VI,10,4.419623985693825
+case14,N-1 line 1,infinite_horizon_VI,11,4.198642786409131
+case14,N-1 line 1,infinite_horizon_VI,12,3.9887106470886664
+case14,N-1 line 1,infinite_horizon_VI,13,3.789275114734238
+case14,N-1 line 1,infinite_horizon_VI,14,3.5998113589975276
+case14,N-1 line 1,infinite_horizon_VI,15,3.4198207910476555
+case14,N-1 line 1,infinite_horizon_VI,16,3.248829751495265
+case14,N-1 line 1,infinite_horizon_VI,17,3.0863882639205116
+case14,N-1 line 1,infinite_horizon_VI,18,2.9320688507244768
+case14,N-1 line 1,infinite_horizon_VI,19,2.7854654081882586
+case14,N-1 line 1,infinite_horizon_VI,20,2.64619213777884
+case14,N-1 line 1,infinite_horizon_VI,21,2.5138825308899015
+case14,N-1 line 1,infinite_horizon_VI,22,2.3881884043454136
+case14,N-1 line 1,infinite_horizon_VI,23,2.268778984128133
+case14,N-1 line 1,infinite_horizon_VI,24,2.1553400349217355
+case14,N-1 line 1,infinite_horizon_VI,25,2.047573033175638
+case14,N-1 line 1,infinite_horizon_VI,26,1.9451943815168562
+case14,N-1 line 1,infinite_horizon_VI,27,1.8479346624410198
+case14,N-1 line 1,infinite_horizon_VI,28,1.7555379293189617
+case14,N-1 line 1,infinite_horizon_VI,29,1.6677610328530221
+case14,N-1 line 1,infinite_horizon_VI,30,1.5843729812103646
+case14,N-1 line 1,infinite_horizon_VI,31,1.5051543321498428
+case14,N-1 line 1,infinite_horizon_VI,32,1.4298966155423614
+case14,N-1 line 1,infinite_horizon_VI,33,1.3584017847652348
+case14,N-1 line 1,infinite_horizon_VI,34,1.290481695526978
+case14,N-1 line 1,infinite_horizon_VI,35,1.2259576107506263
+case14,N-1 line 1,infinite_horizon_VI,36,1.1646597302131028
+case14,N-1 line 1,infinite_horizon_VI,37,1.1064267437024426
+case14,N-1 line 1,infinite_horizon_VI,38,1.0511054065173226
+case14,N-1 line 1,infinite_horizon_VI,39,0.9985501361914544
+case14,N-1 line 1,infinite_horizon_VI,40,0.9486226293818874
+case14,N-1 line 1,infinite_horizon_VI,41,0.9011914979127909
+case14,N-1 line 1,infinite_horizon_VI,42,0.8561319230171449
+case14,N-1 line 1,infinite_horizon_VI,43,0.8133253268662912
+case14,N-1 line 1,infinite_horizon_VI,44,0.7726590605229688
+case14,N-1 line 1,infinite_horizon_VI,45,0.7340261074968311
+case14,N-1 line 1,infinite_horizon_VI,46,0.6973248021219831
+case14,N-1 line 1,infinite_horizon_VI,47,0.6624585620158854
+case14,N-1 line 1,infinite_horizon_VI,48,0.6293356339150904
+case14,N-1 line 1,infinite_horizon_VI,49,0.5978688522193352
+case14,N-1 line 1,infinite_horizon_VI,50,0.5679754096083514
+case14,N-1 line 1,infinite_horizon_VI,51,0.5395766391279437
+case14,N-1 line 1,infinite_horizon_VI,52,0.5125978071715451
+case14,N-1 line 1,infinite_horizon_VI,53,0.48696791681297213
+case14,N-1 line 1,infinite_horizon_VI,54,0.46261952097231074
+case14,N-1 line 1,infinite_horizon_VI,55,0.43948854492370515
+case14,N-1 line 1,infinite_horizon_VI,56,0.4175141176775128
+case14,N-1 line 1,infinite_horizon_VI,57,0.3966384117936457
+case14,N-1 line 1,infinite_horizon_VI,58,0.3768064912039506
+case14,N-1 line 1,infinite_horizon_VI,59,0.357966166643763
+case14,N-1 line 1,infinite_horizon_VI,60,0.3400678583115848
+case14,N-1 line 1,infinite_horizon_VI,61,0.3230644653959871
+case14,N-1 line 1,infinite_horizon_VI,62,0.3069112421262048
+case14,N-1 line 1,infinite_horizon_VI,63,0.29156568001988603
+case14,N-1 line 1,infinite_horizon_VI,64,0.2769873960188818
+case14,N-1 line 1,infinite_horizon_VI,65,0.2631380262179448
+case14,N-1 line 1,infinite_horizon_VI,66,0.2499811249070376
+case14,N-1 line 1,infinite_horizon_VI,67,0.23748206866170563
+case14,N-1 line 1,infinite_horizon_VI,68,0.22560796522861892
+case14,N-1 line 1,infinite_horizon_VI,69,0.21432756696717092
+case14,N-1 line 1,infinite_horizon_VI,70,0.20361118861882233
+case14,N-1 line 1,infinite_horizon_VI,71,0.19343062918787268
+case14,N-1 line 1,infinite_horizon_VI,72,0.1837590977284833
+case14,N-1 line 1,infinite_horizon_VI,73,0.1745711428420691
+case14,N-1 line 1,infinite_horizon_VI,74,0.16584258569994859
+case14,N-1 line 1,infinite_horizon_VI,75,0.15755045641495258
+case14,N-1 line 1,infinite_horizon_VI,76,0.14967293359421774
+case14,N-1 line 1,infinite_horizon_VI,77,0.14218928691448696
+case14,N-1 line 1,infinite_horizon_VI,78,0.13507982256876971
+case14,N-1 line 1,infinite_horizon_VI,79,0.1283258314403497
+case14,N-1 line 1,infinite_horizon_VI,80,0.12190953986831232
+case14,N-1 line 1,infinite_horizon_VI,81,0.11581406287490381
+case14,N-1 line 1,infinite_horizon_VI,82,0.11002335973117283
+case14,N-1 line 1,infinite_horizon_VI,83,0.10452219174459287
+case14,N-1 line 1,infinite_horizon_VI,84,0.09929608215736607
+case14,N-1 line 1,infinite_horizon_VI,85,0.09433127804950914
+case14,N-1 line 1,infinite_horizon_VI,86,0.08961471414701805
+case14,N-1 line 1,infinite_horizon_VI,87,0.08513397843967141
+case14,N-1 line 1,infinite_horizon_VI,88,0.08087727951769352
+case14,N-1 line 1,infinite_horizon_VI,89,0.07683341554181311
+case14,N-1 line 1,infinite_horizon_VI,90,0.07299174476472103
+case14,N-1 line 1,infinite_horizon_VI,91,0.06934215752647788
+case14,N-1 line 1,infinite_horizon_VI,92,0.06587504965014546
+case14,N-1 line 1,infinite_horizon_VI,93,0.0625812971676396
+case14,N-1 line 1,infinite_horizon_VI,94,0.05945223230926899
+case14,N-1 line 1,infinite_horizon_VI,95,0.056479620693806964
+case14,N-1 line 1,infinite_horizon_VI,96,0.053655639659126564
+case14,N-1 line 1,infinite_horizon_VI,97,0.050972857676157446
+case14,N-1 line 1,infinite_horizon_VI,98,0.04842421479236236
+case14,N-1 line 1,infinite_horizon_VI,99,0.04600300405272151
+case14,N-1 line 1,infinite_horizon_VI,100,0.04370285385010675
+case14,N-1 line 1,infinite_horizon_VI,101,0.041517711157581516
+case14,N-1 line 1,infinite_horizon_VI,102,0.039441825599709546
+case14,N-1 line 1,infinite_horizon_VI,103,0.03746973431972833
+case14,N-1 line 1,infinite_horizon_VI,104,0.03559624760373481
+case14,N-1 line 1,infinite_horizon_VI,105,0.033816435223542385
+case14,N-1 line 1,infinite_horizon_VI,106,0.03212561346236953
+case14,N-1 line 1,infinite_horizon_VI,107,0.030519332789253895
+case14,N-1 line 1,infinite_horizon_VI,108,0.0289933661497912
+case14,N-1 line 1,infinite_horizon_VI,109,0.027543697842304482
+case14,N-1 line 1,infinite_horizon_VI,110,0.026166512950197784
+case14,N-1 line 1,infinite_horizon_VI,111,0.02485818730266942
+case14,N-1 line 1,infinite_horizon_VI,112,0.023615277937551582
+case14,N-1 line 1,infinite_horizon_VI,113,0.02243451404066832
+case14,N-1 line 1,infinite_horizon_VI,114,0.02131278833863348
+case14,N-1 line 1,infinite_horizon_VI,115,0.020247148921697544
+case14,N-1 line 1,infinite_horizon_VI,116,0.019234791475611246
+case14,N-1 line 1,infinite_horizon_VI,117,0.018273051901843473
+case14,N-1 line 1,infinite_horizon_VI,118,0.017359399306741352
+case14,N-1 line 1,infinite_horizon_VI,119,0.016491429341414232
+case14,N-1 line 1,infinite_horizon_VI,120,0.015666857874350626
+case14,N-1 line 1,infinite_horizon_VI,121,0.014883514980624568
+case14,N-1 line 1,infinite_horizon_VI,122,0.014139339231576287
+case14,N-1 line 1,infinite_horizon_VI,123,0.013432372270017368
+case14,N-1 line 1,infinite_horizon_VI,124,0.012760753656522184
+case14,N-1 line 1,infinite_horizon_VI,125,0.012122715973674758
+case14,N-1 line 1,infinite_horizon_VI,126,0.011516580174998126
+case14,N-1 line 1,infinite_horizon_VI,127,0.010940751166259588
+case14,N-1 line 1,infinite_horizon_VI,128,0.010393713607925292
+case14,N-1 line 1,infinite_horizon_VI,129,0.009874027927537554
+case14,N-1 line 1,infinite_horizon_VI,130,0.009380326531157834
+case14,N-1 line 1,infinite_horizon_VI,131,0.00891131020460989
+case14,N-1 line 1,infinite_horizon_VI,132,0.008465744694376554
+case14,N-1 line 1,infinite_horizon_VI,133,0.008042457459652042
+case14,N-1 line 1,infinite_horizon_VI,134,0.007640334586682229
+case14,N-1 line 1,infinite_horizon_VI,135,0.007258317857349539
+case14,N-1 line 1,infinite_horizon_VI,136,0.006895401964470693
+case14,N-1 line 1,infinite_horizon_VI,137,0.0065506318662471585
+case14,N-1 line 1,infinite_horizon_VI,138,0.0062231002729333795
+case14,N-1 line 1,infinite_horizon_VI,139,0.0059119452592995
+case14,N-1 line 1,infinite_horizon_VI,140,0.005616347996323157
+case14,N-1 line 1,infinite_horizon_VI,141,0.005335530596511262
+case14,N-1 line 1,infinite_horizon_VI,142,0.005068754066684278
+case14,N-1 line 1,infinite_horizon_VI,143,0.004815316363362854
+case14,N-1 line 1,infinite_horizon_VI,144,0.0045745505451861845
+case14,N-1 line 1,infinite_horizon_VI,145,0.004345823017928296
+case14,N-1 line 1,infinite_horizon_VI,146,0.004128531867024776
+case14,N-1 line 1,infinite_horizon_VI,147,0.003922105273687748
+case14,N-1 line 1,infinite_horizon_VI,148,0.00372600000997636
+case14,N-1 line 1,infinite_horizon_VI,149,0.0035397000094974373
+case14,N-1 line 1,infinite_horizon_VI,150,0.0033627150090183022
+case14,N-1 line 1,infinite_horizon_VI,151,0.0031945792585759136
+case14,N-1 line 1,infinite_horizon_VI,152,0.003034850295648539
+case14,N-1 line 1,infinite_horizon_VI,153,0.0028831077808604277
+case14,N-1 line 1,infinite_horizon_VI,154,0.00273895239180888
+case14,N-1 line 1,infinite_horizon_VI,155,0.0026020047722283834
+case14,N-1 line 1,infinite_horizon_VI,156,0.0024719045336212275
+case14,N-1 line 1,infinite_horizon_VI,157,0.002348309306938745
+case14,N-1 line 1,infinite_horizon_VI,158,0.0022308938415847024
+case14,N-1 line 1,infinite_horizon_VI,159,0.0021193491494955197
+case14,N-1 line 1,infinite_horizon_VI,160,0.002013381692023586
+case14,N-1 line 1,infinite_horizon_VI,161,0.0019127126074351963
+case14,N-1 line 1,infinite_horizon_VI,162,0.0018170769770620154
+case14,N-1 line 1,infinite_horizon_VI,163,0.0017262231282018092
+case14,N-1 line 1,infinite_horizon_VI,164,0.001639911971778929
+case14,N-1 line 1,infinite_horizon_VI,165,0.0015579163732013512
+case14,N-1 line 1,infinite_horizon_VI,166,0.0014800205545384415
+case14,N-1 line 1,infinite_horizon_VI,167,0.0014060195268257303
+case14,N-1 line 1,infinite_horizon_VI,168,0.0013357185504787594
+case14,N-1 line 1,infinite_horizon_VI,169,0.001268932622963348
+case14,N-1 line 1,infinite_horizon_VI,170,0.001205485991789601
+case14,N-1 line 1,infinite_horizon_VI,171,0.0011452116922043842
+case14,N-1 line 1,infinite_horizon_VI,172,0.001087951107592744
+case14,N-1 line 1,infinite_horizon_VI,173,0.001033553552218791
+case14,N-1 line 1,infinite_horizon_VI,174,0.000981875874600746
+case14,N-1 line 1,infinite_horizon_VI,175,0.0009327820808948672
+case14,N-1 line 1,infinite_horizon_VI,176,0.0008861429768387552
+case14,N-1 line 1,infinite_horizon_VI,177,0.0008418358279982385
+case14,N-1 line 1,infinite_horizon_VI,178,0.0007997440365841157
+case14,N-1 line 1,infinite_horizon_VI,179,0.0007597568347534889
+case14,N-1 line 1,infinite_horizon_VI,180,0.0007217689930314464
+case14,N-1 line 1,infinite_horizon_VI,181,0.0006856805433699265
+case14,N-1 line 1,infinite_horizon_VI,182,0.0006513965162184832
+case14,N-1 line 1,infinite_horizon_VI,183,0.0006188266903848216
+case14,N-1 line 1,infinite_horizon_VI,184,0.0005878853558840547
+case14,N-1 line 1,infinite_horizon_VI,185,0.0005584910880713778
+case14,N-1 line 1,infinite_horizon_VI,186,0.0005305665336834409
+case14,N-1 line 1,infinite_horizon_VI,187,0.0005040382069978477
+case14,N-1 line 1,infinite_horizon_VI,188,0.0004788362966507975
+case14,N-1 line 1,infinite_horizon_VI,189,0.0004548944818054679
+case14,N-1 line 1,infinite_horizon_VI,190,0.00043214975772798425
+case14,N-1 line 1,infinite_horizon_VI,191,0.0004105422698330585
+case14,N-1 line 1,infinite_horizon_VI,192,0.0003900151563414056
+case14,N-1 line 1,infinite_horizon_VI,193,0.0003705143985257564
+case14,N-1 line 1,infinite_horizon_VI,194,0.00035198867860231076
+case14,N-1 line 1,infinite_horizon_VI,195,0.00033438924467077413
+case14,N-1 line 1,infinite_horizon_VI,196,0.000317669782447183
+case14,N-1 line 1,infinite_horizon_VI,197,0.00030178629330634976
+case14,N-1 line 1,infinite_horizon_VI,198,0.00028669697866234856
+case14,N-1 line 1,infinite_horizon_VI,199,0.0002723621297207046
+case14,N-1 line 1,infinite_horizon_VI,200,0.00025874402322756396
+case14,N-1 line 1,infinite_horizon_VI,201,0.00024580682207897553
+case14,N-1 line 1,infinite_horizon_VI,202,0.0002335164809608159
+case14,N-1 line 1,infinite_horizon_VI,203,0.00022184065690566968
+case14,N-1 line 1,infinite_horizon_VI,204,0.00021074862408454464
+case14,N-1 line 1,infinite_horizon_VI,205,0.0002002111928618433
+case14,N-1 line 1,infinite_horizon_VI,206,0.00019020063322727765
+case14,N-1 line 1,infinite_horizon_VI,207,0.000180690601553124
+case14,N-1 line 1,infinite_horizon_VI,208,0.00017165607147262563
+case14,N-1 line 1,infinite_horizon_VI,209,0.0001630732679132052
+case14,N-1 line 1,infinite_horizon_VI,210,0.0001549196045118606
+case14,N-1 line 1,infinite_horizon_VI,211,0.00014717362429905734
+case14,N-1 line 1,infinite_horizon_VI,212,0.00013981494308268339
+case14,N-1 line 1,infinite_horizon_VI,213,0.0001328241959299703
+case14,N-1 line 1,infinite_horizon_VI,214,0.0001261829861221031
+case14,N-1 line 1,infinite_horizon_VI,215,0.00011987383680889252
+case14,N-1 line 1,infinite_horizon_VI,216,0.00011388014496560572
+case14,N-1 line 1,infinite_horizon_VI,217,0.00010818613773722063
+case14,N-1 line 1,infinite_horizon_VI,218,0.00010277683085746503
+case14,N-1 line 1,infinite_horizon_VI,219,9.763798931317069e-05
+case14,N-1 line 1,infinite_horizon_VI,220,9.275608982761696e-05
+case14,N-1 line 1,infinite_horizon_VI,221,8.811828533339394e-05
+case14,N-1 line 1,infinite_horizon_VI,222,8.371237106530316e-05
+case14,N-1 line 1,infinite_horizon_VI,223,7.952675252909103e-05
+case14,N-1 line 1,infinite_horizon_VI,224,7.555041489126779e-05
+case14,N-1 line 1,infinite_horizon_VI,225,7.177289415949417e-05
+case14,N-1 line 1,infinite_horizon_VI,226,6.818424944299295e-05
+case14,N-1 line 1,infinite_horizon_VI,227,6.477503697510656e-05
+case14,N-1 line 1,infinite_horizon_VI,228,6.153628513061449e-05
+case14,N-1 line 1,infinite_horizon_VI,229,5.8459470864136165e-05
+case14,N-1 line 1,infinite_horizon_VI,230,5.553649731382393e-05
+case14,N-1 line 1,infinite_horizon_VI,231,5.2759672456659246e-05
+case14,N-1 line 1,infinite_horizon_VI,232,5.012168884377388e-05
+case14,N-1 line 1,infinite_horizon_VI,233,4.761560438737433e-05
+case14,N-1 line 1,infinite_horizon_VI,234,4.523482417084779e-05
+case14,N-1 line 1,infinite_horizon_VI,235,4.2973082969410825e-05
+case14,N-1 line 1,infinite_horizon_VI,236,4.082442882236137e-05
+case14,N-1 line 1,infinite_horizon_VI,237,3.878320737271679e-05
+case14,N-1 line 1,infinite_horizon_VI,238,3.684404700265986e-05
+case14,N-1 line 1,infinite_horizon_VI,239,3.5001844651105785e-05
+case14,N-1 line 1,infinite_horizon_VI,240,3.325175242707701e-05
+case14,N-1 line 1,infinite_horizon_VI,241,3.15891647915123e-05
+case14,N-1 line 1,infinite_horizon_VI,242,3.000970656330537e-05
+case14,N-1 line 1,infinite_horizon_VI,243,2.8509221237982274e-05
+case14,N-1 line 1,infinite_horizon_VI,244,2.7083760187451844e-05
+case14,N-1 line 1,infinite_horizon_VI,245,2.572957217239491e-05
+case14,N-1 line 1,infinite_horizon_VI,246,2.444309356519625e-05
+case14,N-1 line 1,infinite_horizon_VI,247,2.3220938885515352e-05
+case14,N-1 line 1,infinite_horizon_VI,248,2.205989193271307e-05
+case14,N-1 line 1,infinite_horizon_VI,249,2.095689734460393e-05
+case14,N-1 line 1,infinite_horizon_VI,250,1.990905246884722e-05
+case14,N-1 line 1,infinite_horizon_VI,251,1.8913599859615715e-05
+case14,N-1 line 1,infinite_horizon_VI,252,1.7967919859529502e-05
+case14,N-1 line 1,infinite_horizon_VI,253,1.7069523863710856e-05
+case14,N-1 line 1,infinite_horizon_VI,254,1.6216047669104228e-05
+case14,N-1 line 1,infinite_horizon_VI,255,1.540524527854359e-05
+case14,N-1 line 1,infinite_horizon_VI,256,1.463498301745858e-05
+case14,N-1 line 1,infinite_horizon_VI,257,1.3903233877954335e-05
+case14,N-1 line 1,infinite_horizon_VI,258,1.3208072175530106e-05
+case14,N-1 line 1,infinite_horizon_VI,259,1.2547668575280113e-05
+case14,N-1 line 1,infinite_horizon_VI,260,1.1920285146516107e-05
+case14,N-1 line 1,infinite_horizon_VI,261,1.1324270872137276e-05
+case14,N-1 line 1,infinite_horizon_VI,262,1.0758057328530413e-05
+case14,N-1 line 1,infinite_horizon_VI,263,1.0220154479156918e-05
+case14,N-1 line 1,infinite_horizon_VI,264,9.7091467523569e-06
+case14,N-1 line 1,infinite_horizon_VI,265,9.223689403370372e-06
+case14,N-1 line 1,infinite_horizon_VI,266,8.762504933201853e-06
+case14,N-1 line 1,infinite_horizon_VI,267,8.324379678015248e-06
+case14,N-1 line 1,infinite_horizon_VI,268,7.908160711167511e-06
+case14,N-1 line 1,infinite_horizon_VI,269,7.5127526599771954e-06
+case14,N-1 line 1,infinite_horizon_VI,270,7.137115034083763e-06
+case14,N-1 line 1,infinite_horizon_VI,271,6.780259298011515e-06
+case14,N-1 line 1,infinite_horizon_VI,272,6.441246313215743e-06
+case14,N-1 line 1,infinite_horizon_VI,273,6.119184007502554e-06
+case14,N-1 line 1,infinite_horizon_VI,274,5.8132248170750245e-06
+case14,N-1 line 1,infinite_horizon_VI,275,5.522563554904991e-06
+case14,N-1 line 1,infinite_horizon_VI,276,5.246435392791682e-06
+case14,N-1 line 1,infinite_horizon_VI,277,4.98411361604667e-06
+case14,N-1 line 1,infinite_horizon_VI,278,4.734907946613021e-06
+case14,N-1 line 1,infinite_horizon_VI,279,4.498162553545626e-06
+case14,N-1 line 1,infinite_horizon_VI,280,4.273254404552063e-06
+case14,N-1 line 1,infinite_horizon_VI,281,4.059591702798571e-06
+case14,N-1 line 1,infinite_horizon_VI,282,3.85661209634236e-06
+case14,N-1 line 1,infinite_horizon_VI,283,3.663781512841524e-06
+case14,N-1 line 1,infinite_horizon_VI,284,3.480592425830764e-06
+case14,N-1 line 1,infinite_horizon_VI,285,3.3065628031181404e-06
+case14,N-1 line 1,infinite_horizon_VI,286,3.1412346572778915e-06
+case14,N-1 line 1,infinite_horizon_VI,287,2.984172937203766e-06
+case14,N-1 line 1,infinite_horizon_VI,288,2.8349642775538086e-06
+case14,N-1 line 1,infinite_horizon_VI,289,2.6932160608339473e-06
+case14,N-1 line 1,infinite_horizon_VI,290,2.5585552805296174e-06
+case14,N-1 line 1,infinite_horizon_VI,291,2.430627517924222e-06
+case14,N-1 line 1,infinite_horizon_VI,292,2.309096117869558e-06
+case14,N-1 line 1,infinite_horizon_VI,293,2.193641336134533e-06
+case14,N-1 line 1,infinite_horizon_VI,294,2.083959259380208e-06
+case14,N-1 line 1,infinite_horizon_VI,295,1.9797612935690267e-06
+case14,N-1 line 1,infinite_horizon_VI,296,1.8807732260484045e-06
+case14,N-1 line 1,infinite_horizon_VI,297,1.7867345718514116e-06
+case14,N-1 line 1,infinite_horizon_VI,298,1.6973978347323282e-06
+case14,N-1 line 1,infinite_horizon_VI,299,1.6125279387324554e-06
+case14,N-1 line 1,infinite_horizon_VI,300,1.531901546059089e-06
+case14,N-1 line 1,infinite_horizon_VI,301,1.4553064602296217e-06
+case14,N-1 line 1,infinite_horizon_VI,302,1.3825411429024825e-06
+case14,N-1 line 1,infinite_horizon_VI,303,1.3134140885995294e-06
+case14,N-1 line 1,infinite_horizon_VI,304,1.2477433983804076e-06
+case14,N-1 line 1,infinite_horizon_VI,305,1.1853562114083616e-06
+case14,N-1 line 1,infinite_horizon_VI,306,1.12608842073314e-06
+case14,N-1 line 1,infinite_horizon_VI,307,1.0697839911699702e-06
+case14,N-1 line 1,infinite_horizon_VI,308,1.0162947887693008e-06
+case14,N-1 line 1,infinite_horizon_VI,309,9.65480040804323e-07
+case14,N-1 line 1,infinite_horizon_VI,310,9.17206051553876e-07
+case14,N-1 line 1,infinite_horizon_VI,311,8.713457475550968e-07
+case14,N-1 line 1,infinite_horizon_VI,312,8.277784502297436e-07
+case14,N-1 line 1,infinite_horizon_VI,313,7.863895348236838e-07
+case14,N-1 line 1,infinite_horizon_VI,314,7.470700609246705e-07
+case14,N-1 line 1,infinite_horizon_VI,315,7.097165450886678e-07
+case14,N-1 line 1,infinite_horizon_VI,316,6.742307334661746e-07
+case14,N-1 line 1,infinite_horizon_VI,317,6.405191754765838e-07
+case14,N-1 line 1,infinite_horizon_VI,318,6.084932238081819e-07
+case14,N-1 line 1,infinite_horizon_VI,319,5.780685796707985e-07
+case14,N-1 line 1,infinite_horizon_VI,320,5.491651506872586e-07
+case14,N-1 line 1,infinite_horizon_VI,321,5.217068803631264e-07
+case14,N-1 line 1,infinite_horizon_VI,322,4.956215491347393e-07
+case14,N-1 line 1,infinite_horizon_VI,323,4.7084046173040406e-07
+case14,N-1 line 1,infinite_horizon_VI,324,4.472984471703967e-07
+case14,N-1 line 1,infinite_horizon_VI,325,4.249335177064495e-07
+case14,N-1 line 1,infinite_horizon_VI,326,4.0368684040004155e-07
+case14,N-1 line 1,infinite_horizon_VI,327,3.8350250974872324e-07
+case14,N-1 line 1,infinite_horizon_VI,328,3.643273771558597e-07
+case14,N-1 line 1,infinite_horizon_VI,329,3.46110994087212e-07
+case14,N-1 line 1,infinite_horizon_VI,330,3.288054415406805e-07
+case14,N-1 line 1,infinite_horizon_VI,331,3.123651879377576e-07
+case14,N-1 line 1,infinite_horizon_VI,332,2.967469185932714e-07
+case14,N-1 line 1,infinite_horizon_VI,333,2.81909564137095e-07
+case14,N-1 line 1,infinite_horizon_VI,334,2.6781410156218044e-07
+case14,N-1 line 1,infinite_horizon_VI,335,2.544233836943022e-07
+case14,N-1 line 1,infinite_horizon_VI,336,2.4170222445718537e-07
+case14,N-1 line 1,infinite_horizon_VI,337,2.2961711465541157e-07
+case14,N-1 line 1,infinite_horizon_VI,338,2.1813625039612816e-07
+case14,N-1 line 1,infinite_horizon_VI,339,2.0722944782392005e-07
+case14,N-1 line 1,infinite_horizon_VI,340,1.968679725905531e-07
+case14,N-1 line 1,infinite_horizon_VI,341,1.8702456827668357e-07
+case14,N-1 line 1,infinite_horizon_VI,342,1.7767334270502033e-07
+case14,N-1 line 1,infinite_horizon_VI,343,1.6878968267519667e-07
+case14,N-1 line 1,infinite_horizon_VI,344,1.6035019712035137e-07
+case14,N-1 line 1,infinite_horizon_VI,345,1.5233268868541927e-07
+case14,N-1 line 1,infinite_horizon_VI,346,1.447160400402936e-07
+case14,N-1 line 1,infinite_horizon_VI,347,1.3748024230153533e-07
+case14,N-1 line 1,infinite_horizon_VI,348,1.3060622450211667e-07
+case14,N-1 line 1,infinite_horizon_VI,349,1.240759104348399e-07
+case14,N-1 line 1,infinite_horizon_VI,350,1.1787213338720903e-07
+case14,N-1 line 1,infinite_horizon_VI,351,1.1197852245459217e-07
+case14,N-1 line 1,infinite_horizon_VI,352,1.0637958780534973e-07
+case14,N-1 line 1,infinite_horizon_VI,353,1.0106060699399677e-07
+case14,N-1 line 1,infinite_horizon_VI,354,9.600759653949353e-08
+case14,N-1 line 1,infinite_horizon_VI,355,9.120719823840773e-08
+case14,N-1 line 1,infinite_horizon_VI,356,8.664684969517111e-08
+case14,N-1 line 1,infinite_horizon_VI,357,8.23145001049852e-08
+case14,N-1 line 1,infinite_horizon_VI,358,7.819878078407783e-08
+case14,N-1 line 1,infinite_horizon_VI,359,7.428883463944658e-08
+case14,N-1 line 1,infinite_horizon_VI,360,7.057440143398708e-08
+case14,N-1 line 1,infinite_horizon_VI,361,6.704567567794584e-08
+case14,N-1 line 1,infinite_horizon_VI,362,6.369339189404855e-08
+case14,N-1 line 1,infinite_horizon_VI,363,6.050871093066235e-08
+case14,N-1 line 1,infinite_horizon_VI,364,5.74832768052147e-08
+case14,N-1 line 1,infinite_horizon_VI,365,5.4609131439065095e-08
+case14,N-1 line 1,infinite_horizon_VI,366,5.187865781408618e-08
+case14,N-1 line 1,infinite_horizon_VI,367,4.928472208121093e-08
+case14,N-1 line 1,infinite_horizon_VI,368,4.682050303017604e-08
+case14,N-1 line 1,infinite_horizon_VI,369,4.4479463667812524e-08
+case14,N-1 line 1,infinite_horizon_VI,370,4.225549332659284e-08
+case14,N-1 line 1,infinite_horizon_VI,371,4.014273713437433e-08
+case14,N-1 line 1,infinite_horizon_VI,372,3.81355960143992e-08
+case14,N-1 line 1,infinite_horizon_VI,373,3.6228811950422823e-08
+case14,N-1 line 1,infinite_horizon_VI,374,3.4417382721585454e-08
+case14,N-1 line 1,infinite_horizon_VI,375,3.269650505899335e-08
+case14,N-1 line 1,infinite_horizon_VI,376,3.1061688332556514e-08
+case14,N-1 line 1,infinite_horizon_VI,377,2.9508584020732087e-08
+case14,N-1 line 1,infinite_horizon_VI,378,2.8033156240780954e-08
+case14,N-1 line 1,infinite_horizon_VI,379,2.663151121851115e-08
+case14,N-1 line 1,infinite_horizon_VI,380,2.5299925709987292e-08
+case14,N-1 line 1,infinite_horizon_VI,381,2.403493226665887e-08
+case14,N-1 line 1,infinite_horizon_VI,382,2.2833177126813098e-08
+case14,N-1 line 1,infinite_horizon_VI,383,2.169153390241263e-08
+case14,N-1 line 1,infinite_horizon_VI,384,2.0606961470548413e-08
+case14,N-1 line 1,infinite_horizon_VI,385,1.9576589238567976e-08
+case14,N-1 line 1,infinite_horizon_VI,386,1.8597773987494293e-08
+case14,N-1 line 1,infinite_horizon_VI,387,1.7667872498350334e-08
+case14,N-1 line 1,infinite_horizon_VI,388,1.6784497347543947e-08
+case14,N-1 line 1,infinite_horizon_VI,389,1.5945261111482978e-08
+case14,N-1 line 1,infinite_horizon_VI,390,1.5148003740250715e-08
+case14,N-1 line 1,infinite_horizon_VI,391,1.4390593605639879e-08
+case14,N-1 line 1,infinite_horizon_VI,392,1.367106960969977e-08
+case14,N-1 line 1,infinite_horizon_VI,393,1.2987527497898554e-08
+case14,N-1 line 1,infinite_horizon_VI,394,1.2338148280832684e-08
+case14,N-1 line 1,infinite_horizon_VI,395,1.1721226655936334e-08
+case14,N-1 line 1,infinite_horizon_VI,396,1.1135171007481404e-08
+case14,N-1 line 1,infinite_horizon_VI,397,1.057841814144922e-08
+case14,N-1 line 1,infinite_horizon_VI,398,1.0049490128949401e-08
+case14,N-1 line 1,infinite_horizon_VI,399,9.547022727929289e-09
+case14,N-1 line 1,infinite_horizon_VI,400,9.069680118045653e-09
+case14,N-1 line 1,infinite_horizon_VI,401,8.616183322374127e-09
+case14,N-1 line 1,infinite_horizon_VI,402,8.185367050828063e-09
+case14,N-1 line 1,infinite_horizon_VI,403,7.776094435030245e-09
+case14,N-1 line 1,infinite_horizon_VI,404,7.387313871731749e-09
+case14,N-1 line 1,infinite_horizon_VI,405,7.017945335974218e-09
+case14,N-1 line 1,infinite_horizon_VI,406,6.6670509113464504e-09
+case14,N-1 line 1,infinite_horizon_VI,407,6.333692681437242e-09
+case14,N-1 line 1,infinite_horizon_VI,408,6.01698957325425e-09
+case14,N-1 line 1,infinite_horizon_VI,409,5.7161457789334236e-09
+case14,N-1 line 1,infinite_horizon_VI,410,5.430337068901281e-09
+case14,N-1 line 1,infinite_horizon_VI,411,5.158824478712631e-09
+case14,N-1 line 1,infinite_horizon_VI,412,4.900897465631715e-09
+case14,N-1 line 1,infinite_horizon_VI,413,4.655845486922772e-09
+case14,N-1 line 1,infinite_horizon_VI,414,4.4230432649783324e-09
+case14,N-1 line 1,infinite_horizon_VI,415,4.201893943900359e-09
+case14,N-1 line 1,infinite_horizon_VI,416,3.9918006677908124e-09
+case14,N-1 line 1,infinite_horizon_VI,417,3.7922234241705155e-09
+case14,N-1 line 1,infinite_horizon_VI,418,3.60259377885086e-09
+case14,N-1 line 1,infinite_horizon_VI,419,3.4224854061903898e-09
+case14,N-1 line 1,infinite_horizon_VI,420,3.2513582937099272e-09
+case14,N-1 line 1,infinite_horizon_VI,421,3.0887861157680163e-09
+case14,N-1 line 1,infinite_horizon_VI,422,2.934342546723201e-09
+case14,N-1 line 1,infinite_horizon_VI,423,2.7876296826434555e-09
+case14,N-1 line 1,infinite_horizon_VI,424,2.648249619596754e-09
+case14,N-1 line 1,infinite_horizon_VI,425,2.515832875360502e-09
+case14,N-1 line 1,infinite_horizon_VI,426,2.390038389421534e-09
+case14,N-1 line 1,infinite_horizon_VI,427,2.270525101266685e-09
+case14,N-1 line 1,infinite_horizon_VI,428,2.1570087938016513e-09
+case14,N-1 line 1,infinite_horizon_VI,429,2.049148406513268e-09
+case14,N-1 line 1,infinite_horizon_VI,430,1.9466881440166617e-09
+case14,N-1 line 1,infinite_horizon_VI,431,1.8493722109269584e-09
+case14,N-1 line 1,infinite_horizon_VI,432,1.7568879684404237e-09
+case14,N-1 line 1,infinite_horizon_VI,433,1.6690648863004753e-09
+case14,N-1 line 1,infinite_horizon_VI,434,1.5855903257033788e-09
+case14,N-1 line 1,infinite_horizon_VI,435,1.506322178101982e-09
+case14,N-1 line 1,infinite_horizon_VI,436,1.4310046481114114e-09
+case14,N-1 line 1,infinite_horizon_VI,437,1.3594672054750845e-09
+case14,N-1 line 1,infinite_horizon_VI,438,1.291482476517558e-09
+case14,N-1 line 1,infinite_horizon_VI,439,1.2269083526916802e-09
+case14,N-1 line 1,infinite_horizon_VI,440,1.1655743037408683e-09
+case14,N-1 line 1,infinite_horizon_VI,441,1.1072813776991097e-09
+case14,N-1 line 1,infinite_horizon_VI,442,1.0519158877286827e-09
+case14,N-1 line 1,infinite_horizon_VI,443,9.993357252824353e-10
+case14,N-1 line 1,infinite_horizon_VI,444,9.49370360103785e-10
+case14,N-1 line 1,infinite_horizon_VI,445,9.0187768364558e-10
+case14,N-1 line 1,infinite_horizon_VI,446,8.568008524889592e-10
+case14,N-1 line 1,infinite_horizon_VI,447,8.1394091466791e-10
+case14,N-1 line 1,infinite_horizon_VI,448,7.732694484730018e-10
+case14,N-1 line 1,infinite_horizon_VI,449,7.34587501938222e-10
+case14,N-1 line 1,infinite_horizon_VI,450,6.9786665335414e-10
+case14,N-1 line 1,infinite_horizon_VI,451,6.629647941736039e-10
+case14,N-1 line 1,infinite_horizon_VI,452,6.298250809777528e-10
+case14,N-1 line 1,infinite_horizon_VI,453,5.983338269288652e-10
+case14,N-1 line 1,infinite_horizon_VI,454,5.684057668986497e-10
+case14,N-1 line 1,infinite_horizon_VI,455,5.399840574682457e-10
+case14,N-1 line 1,infinite_horizon_VI,456,5.129834335093619e-10
+case14,N-1 line 1,infinite_horizon_VI,457,4.873470516031375e-10
+case14,N-1 line 1,infinite_horizon_VI,458,4.629896466212813e-10
+case14,N-1 line 1,infinite_horizon_VI,459,4.39825953435502e-10
+case14,N-1 line 1,infinite_horizon_VI,460,4.178275503363693e-10
+case14,N-1 line 1,infinite_horizon_VI,461,3.9693759390502237e-10
+case14,N-1 line 1,infinite_horizon_VI,462,3.7709924072260037e-10
+case14,N-1 line 1,infinite_horizon_VI,463,3.582556473702425e-10
+case14,N-1 line 1,infinite_horizon_VI,464,3.403215487196576e-10
+case14,N-1 line 1,infinite_horizon_VI,465,3.23325366480276e-10
+case14,N-1 line 1,infinite_horizon_VI,466,3.071534138143761e-10
+case14,N-1 line 1,infinite_horizon_VI,467,2.9180569072195794e-10
+case14,N-1 line 1,infinite_horizon_VI,468,2.771969320747303e-10
+case14,N-1 line 1,infinite_horizon_VI,469,2.6335555958212353e-10
+case14,N-1 line 1,infinite_horizon_VI,470,2.5016788640641607e-10
+case14,N-1 line 1,infinite_horizon_VI,471,2.376623342570383e-10
+case14,N-1 line 1,infinite_horizon_VI,472,2.2578205971512944e-10
+case14,N-1 line 1,infinite_horizon_VI,473,2.1449864107125904e-10
+case14,N-1 line 1,infinite_horizon_VI,474,2.0375523490656633e-10
+case14,N-1 line 1,infinite_horizon_VI,475,1.935802629304817e-10
+case14,N-1 line 1,infinite_horizon_VI,476,1.8388846001471393e-10
+case14,N-1 line 1,infinite_horizon_VI,477,1.7470824786869343e-10
+case14,N-1 line 1,infinite_horizon_VI,478,1.659827830735594e-10
+case14,N-1 line 1,infinite_horizon_VI,479,1.5768364391988143e-10
+case14,N-1 line 1,infinite_horizon_VI,480,1.4978240869822912e-10
+case14,N-1 line 1,infinite_horizon_VI,481,1.4230749911803287e-10
+case14,N-1 line 1,infinite_horizon_VI,482,1.3517365005100146e-10
+case14,N-1 line 1,infinite_horizon_VI,483,1.284377049159957e-10
+case14,N-1 line 1,infinite_horizon_VI,484,1.220143985847244e-10
+case14,N-1 line 1,infinite_horizon_VI,485,1.1590373105718754e-10
+case14,N-1 line 1,infinite_horizon_VI,486,1.1010570233338512e-10
+case14,N-1 line 1,infinite_horizon_VI,487,1.0459189070388675e-10
+case14,N-1 line 1,infinite_horizon_VI,488,9.936229616869241e-11
+case14,N-1 line 1,finite_horizon_error_S0_S2,5,0.041391346754663536
+case14,N-1 line 1,finite_horizon_error_S3,5,108.52277648248655
+case14,N-1 line 1,finite_horizon_error_S0_S2,10,0.030174374874191792
+case14,N-1 line 1,finite_horizon_error_S3,10,83.9728557262942
+case14,N-1 line 1,finite_horizon_error_S0_S2,20,0.017756826619068397
+case14,N-1 line 1,finite_horizon_error_S3,20,50.27765061590962
+case14,N-1 line 1,finite_horizon_error_S0_S2,40,0.006363585794257873
+case14,N-1 line 1,finite_horizon_error_S3,40,18.023829956367322
+case14,N-1 line 1,finite_horizon_error_S0_S2,80,0.0008189121256482468
+case14,N-1 line 1,finite_horizon_error_S3,80,2.3162812556099937
+case14,N-1 line 1,finite_horizon_error_S0_S2,160,1.3561511629053835e-05
+case14,N-1 line 1,finite_horizon_error_S3,160,0.038254250260422396
+case30,base,infinite_horizon_VI,1,7.0125
+case30,base,infinite_horizon_VI,2,6.661875000000001
+case30,base,infinite_horizon_VI,3,6.328781249999999
+case30,base,infinite_horizon_VI,4,6.0123421875
+case30,base,infinite_horizon_VI,5,5.711725078124999
+case30,base,infinite_horizon_VI,6,5.4261388242187465
+case30,base,infinite_horizon_VI,7,5.154831883007816
+case30,base,infinite_horizon_VI,8,4.89709028885742
+case30,base,infinite_horizon_VI,9,4.6522357744145495
+case30,base,infinite_horizon_VI,10,4.419623985693825
+case30,base,infinite_horizon_VI,11,4.198642786409131
+case30,base,infinite_horizon_VI,12,3.9887106470886664
+case30,base,infinite_horizon_VI,13,3.789275114734238
+case30,base,infinite_horizon_VI,14,3.5998113589975276
+case30,base,infinite_horizon_VI,15,3.4198207910476555
+case30,base,infinite_horizon_VI,16,3.248829751495265
+case30,base,infinite_horizon_VI,17,3.0863882639205116
+case30,base,infinite_horizon_VI,18,2.9320688507244768
+case30,base,infinite_horizon_VI,19,2.7854654081882586
+case30,base,infinite_horizon_VI,20,2.64619213777884
+case30,base,infinite_horizon_VI,21,2.5138825308899015
+case30,base,infinite_horizon_VI,22,2.3881884043454136
+case30,base,infinite_horizon_VI,23,2.268778984128133
+case30,base,infinite_horizon_VI,24,2.1553400349217355
+case30,base,infinite_horizon_VI,25,2.047573033175638
+case30,base,infinite_horizon_VI,26,1.9451943815168562
+case30,base,infinite_horizon_VI,27,1.8479346624410198
+case30,base,infinite_horizon_VI,28,1.7555379293189617
+case30,base,infinite_horizon_VI,29,1.6677610328530221
+case30,base,infinite_horizon_VI,30,1.5843729812103646
+case30,base,infinite_horizon_VI,31,1.5051543321498428
+case30,base,infinite_horizon_VI,32,1.4298966155423614
+case30,base,infinite_horizon_VI,33,1.3584017847652348
+case30,base,infinite_horizon_VI,34,1.290481695526978
+case30,base,infinite_horizon_VI,35,1.2259576107506263
+case30,base,infinite_horizon_VI,36,1.1646597302131028
+case30,base,infinite_horizon_VI,37,1.1064267437024426
+case30,base,infinite_horizon_VI,38,1.0511054065173226
+case30,base,infinite_horizon_VI,39,0.9985501361914544
+case30,base,infinite_horizon_VI,40,0.9486226293818874
+case30,base,infinite_horizon_VI,41,0.9011914979127909
+case30,base,infinite_horizon_VI,42,0.8561319230171449
+case30,base,infinite_horizon_VI,43,0.8133253268662912
+case30,base,infinite_horizon_VI,44,0.7726590605229688
+case30,base,infinite_horizon_VI,45,0.7340261074968311
+case30,base,infinite_horizon_VI,46,0.6973248021219831
+case30,base,infinite_horizon_VI,47,0.6624585620158854
+case30,base,infinite_horizon_VI,48,0.6293356339150904
+case30,base,infinite_horizon_VI,49,0.5978688522193352
+case30,base,infinite_horizon_VI,50,0.5679754096083514
+case30,base,infinite_horizon_VI,51,0.5395766391279437
+case30,base,infinite_horizon_VI,52,0.5125978071715451
+case30,base,infinite_horizon_VI,53,0.48696791681297213
+case30,base,infinite_horizon_VI,54,0.46261952097231074
+case30,base,infinite_horizon_VI,55,0.43948854492370515
+case30,base,infinite_horizon_VI,56,0.4175141176775128
+case30,base,infinite_horizon_VI,57,0.3966384117936457
+case30,base,infinite_horizon_VI,58,0.3768064912039506
+case30,base,infinite_horizon_VI,59,0.357966166643763
+case30,base,infinite_horizon_VI,60,0.3400678583115848
+case30,base,infinite_horizon_VI,61,0.3230644653959871
+case30,base,infinite_horizon_VI,62,0.3069112421262048
+case30,base,infinite_horizon_VI,63,0.29156568001988603
+case30,base,infinite_horizon_VI,64,0.2769873960188818
+case30,base,infinite_horizon_VI,65,0.2631380262179448
+case30,base,infinite_horizon_VI,66,0.2499811249070376
+case30,base,infinite_horizon_VI,67,0.23748206866170563
+case30,base,infinite_horizon_VI,68,0.22560796522861892
+case30,base,infinite_horizon_VI,69,0.21432756696717092
+case30,base,infinite_horizon_VI,70,0.20361118861882233
+case30,base,infinite_horizon_VI,71,0.19343062918787268
+case30,base,infinite_horizon_VI,72,0.1837590977284833
+case30,base,infinite_horizon_VI,73,0.1745711428420691
+case30,base,infinite_horizon_VI,74,0.16584258569994859
+case30,base,infinite_horizon_VI,75,0.15755045641495258
+case30,base,infinite_horizon_VI,76,0.14967293359421774
+case30,base,infinite_horizon_VI,77,0.14218928691448696
+case30,base,infinite_horizon_VI,78,0.13507982256876971
+case30,base,infinite_horizon_VI,79,0.1283258314403497
+case30,base,infinite_horizon_VI,80,0.12190953986831232
+case30,base,infinite_horizon_VI,81,0.11581406287490381
+case30,base,infinite_horizon_VI,82,0.11002335973117283
+case30,base,infinite_horizon_VI,83,0.10452219174459287
+case30,base,infinite_horizon_VI,84,0.09929608215736607
+case30,base,infinite_horizon_VI,85,0.09433127804950914
+case30,base,infinite_horizon_VI,86,0.08961471414701805
+case30,base,infinite_horizon_VI,87,0.08513397843967141
+case30,base,infinite_horizon_VI,88,0.08087727951769352
+case30,base,infinite_horizon_VI,89,0.07683341554181311
+case30,base,infinite_horizon_VI,90,0.07299174476472103
+case30,base,infinite_horizon_VI,91,0.06934215752647788
+case30,base,infinite_horizon_VI,92,0.06587504965014546
+case30,base,infinite_horizon_VI,93,0.0625812971676396
+case30,base,infinite_horizon_VI,94,0.05945223230926899
+case30,base,infinite_horizon_VI,95,0.056479620693806964
+case30,base,infinite_horizon_VI,96,0.053655639659126564
+case30,base,infinite_horizon_VI,97,0.050972857676157446
+case30,base,infinite_horizon_VI,98,0.04842421479236236
+case30,base,infinite_horizon_VI,99,0.04600300405272151
+case30,base,infinite_horizon_VI,100,0.04370285385010675
+case30,base,infinite_horizon_VI,101,0.041517711157581516
+case30,base,infinite_horizon_VI,102,0.039441825599709546
+case30,base,infinite_horizon_VI,103,0.03746973431972833
+case30,base,infinite_horizon_VI,104,0.03559624760373481
+case30,base,infinite_horizon_VI,105,0.033816435223542385
+case30,base,infinite_horizon_VI,106,0.03212561346236953
+case30,base,infinite_horizon_VI,107,0.030519332789253895
+case30,base,infinite_horizon_VI,108,0.0289933661497912
+case30,base,infinite_horizon_VI,109,0.027543697842304482
+case30,base,infinite_horizon_VI,110,0.026166512950197784
+case30,base,infinite_horizon_VI,111,0.02485818730266942
+case30,base,infinite_horizon_VI,112,0.023615277937551582
+case30,base,infinite_horizon_VI,113,0.02243451404066832
+case30,base,infinite_horizon_VI,114,0.02131278833863348
+case30,base,infinite_horizon_VI,115,0.020247148921697544
+case30,base,infinite_horizon_VI,116,0.019234791475611246
+case30,base,infinite_horizon_VI,117,0.018273051901843473
+case30,base,infinite_horizon_VI,118,0.017359399306741352
+case30,base,infinite_horizon_VI,119,0.016491429341414232
+case30,base,infinite_horizon_VI,120,0.015666857874350626
+case30,base,infinite_horizon_VI,121,0.014883514980624568
+case30,base,infinite_horizon_VI,122,0.014139339231576287
+case30,base,infinite_horizon_VI,123,0.013432372270017368
+case30,base,infinite_horizon_VI,124,0.012760753656522184
+case30,base,infinite_horizon_VI,125,0.012122715973674758
+case30,base,infinite_horizon_VI,126,0.011516580174998126
+case30,base,infinite_horizon_VI,127,0.010940751166259588
+case30,base,infinite_horizon_VI,128,0.010393713607925292
+case30,base,infinite_horizon_VI,129,0.009874027927537554
+case30,base,infinite_horizon_VI,130,0.009380326531157834
+case30,base,infinite_horizon_VI,131,0.00891131020460989
+case30,base,infinite_horizon_VI,132,0.008465744694376554
+case30,base,infinite_horizon_VI,133,0.008042457459652042
+case30,base,infinite_horizon_VI,134,0.007640334586682229
+case30,base,infinite_horizon_VI,135,0.007258317857349539
+case30,base,infinite_horizon_VI,136,0.006895401964470693
+case30,base,infinite_horizon_VI,137,0.0065506318662471585
+case30,base,infinite_horizon_VI,138,0.0062231002729333795
+case30,base,infinite_horizon_VI,139,0.0059119452592995
+case30,base,infinite_horizon_VI,140,0.005616347996323157
+case30,base,infinite_horizon_VI,141,0.005335530596511262
+case30,base,infinite_horizon_VI,142,0.005068754066684278
+case30,base,infinite_horizon_VI,143,0.004815316363362854
+case30,base,infinite_horizon_VI,144,0.0045745505451861845
+case30,base,infinite_horizon_VI,145,0.004345823017928296
+case30,base,infinite_horizon_VI,146,0.004128531867024776
+case30,base,infinite_horizon_VI,147,0.003922105273687748
+case30,base,infinite_horizon_VI,148,0.00372600000997636
+case30,base,infinite_horizon_VI,149,0.0035397000094974373
+case30,base,infinite_horizon_VI,150,0.0033627150090183022
+case30,base,infinite_horizon_VI,151,0.0031945792585759136
+case30,base,infinite_horizon_VI,152,0.003034850295648539
+case30,base,infinite_horizon_VI,153,0.0028831077808604277
+case30,base,infinite_horizon_VI,154,0.00273895239180888
+case30,base,infinite_horizon_VI,155,0.0026020047722283834
+case30,base,infinite_horizon_VI,156,0.0024719045336212275
+case30,base,infinite_horizon_VI,157,0.002348309306938745
+case30,base,infinite_horizon_VI,158,0.0022308938415847024
+case30,base,infinite_horizon_VI,159,0.0021193491494955197
+case30,base,infinite_horizon_VI,160,0.002013381692023586
+case30,base,infinite_horizon_VI,161,0.0019127126074351963
+case30,base,infinite_horizon_VI,162,0.0018170769770620154
+case30,base,infinite_horizon_VI,163,0.0017262231282018092
+case30,base,infinite_horizon_VI,164,0.001639911971778929
+case30,base,infinite_horizon_VI,165,0.0015579163732013512
+case30,base,infinite_horizon_VI,166,0.0014800205545384415
+case30,base,infinite_horizon_VI,167,0.0014060195268257303
+case30,base,infinite_horizon_VI,168,0.0013357185504787594
+case30,base,infinite_horizon_VI,169,0.001268932622963348
+case30,base,infinite_horizon_VI,170,0.001205485991789601
+case30,base,infinite_horizon_VI,171,0.0011452116922043842
+case30,base,infinite_horizon_VI,172,0.001087951107592744
+case30,base,infinite_horizon_VI,173,0.001033553552218791
+case30,base,infinite_horizon_VI,174,0.000981875874600746
+case30,base,infinite_horizon_VI,175,0.0009327820808948672
+case30,base,infinite_horizon_VI,176,0.0008861429768387552
+case30,base,infinite_horizon_VI,177,0.0008418358279982385
+case30,base,infinite_horizon_VI,178,0.0007997440365841157
+case30,base,infinite_horizon_VI,179,0.0007597568347534889
+case30,base,infinite_horizon_VI,180,0.0007217689930314464
+case30,base,infinite_horizon_VI,181,0.0006856805433699265
+case30,base,infinite_horizon_VI,182,0.0006513965162184832
+case30,base,infinite_horizon_VI,183,0.0006188266903848216
+case30,base,infinite_horizon_VI,184,0.0005878853558840547
+case30,base,infinite_horizon_VI,185,0.0005584910880713778
+case30,base,infinite_horizon_VI,186,0.0005305665336834409
+case30,base,infinite_horizon_VI,187,0.0005040382069978477
+case30,base,infinite_horizon_VI,188,0.0004788362966507975
+case30,base,infinite_horizon_VI,189,0.0004548944818054679
+case30,base,infinite_horizon_VI,190,0.00043214975772798425
+case30,base,infinite_horizon_VI,191,0.0004105422698330585
+case30,base,infinite_horizon_VI,192,0.0003900151563414056
+case30,base,infinite_horizon_VI,193,0.0003705143985257564
+case30,base,infinite_horizon_VI,194,0.00035198867860231076
+case30,base,infinite_horizon_VI,195,0.00033438924467077413
+case30,base,infinite_horizon_VI,196,0.000317669782447183
+case30,base,infinite_horizon_VI,197,0.00030178629330634976
+case30,base,infinite_horizon_VI,198,0.00028669697866234856
+case30,base,infinite_horizon_VI,199,0.0002723621297207046
+case30,base,infinite_horizon_VI,200,0.00025874402322756396
+case30,base,infinite_horizon_VI,201,0.00024580682207897553
+case30,base,infinite_horizon_VI,202,0.0002335164809608159
+case30,base,infinite_horizon_VI,203,0.00022184065690566968
+case30,base,infinite_horizon_VI,204,0.00021074862408454464
+case30,base,infinite_horizon_VI,205,0.0002002111928618433
+case30,base,infinite_horizon_VI,206,0.00019020063322727765
+case30,base,infinite_horizon_VI,207,0.000180690601553124
+case30,base,infinite_horizon_VI,208,0.00017165607147262563
+case30,base,infinite_horizon_VI,209,0.0001630732679132052
+case30,base,infinite_horizon_VI,210,0.0001549196045118606
+case30,base,infinite_horizon_VI,211,0.00014717362429905734
+case30,base,infinite_horizon_VI,212,0.00013981494308268339
+case30,base,infinite_horizon_VI,213,0.0001328241959299703
+case30,base,infinite_horizon_VI,214,0.0001261829861221031
+case30,base,infinite_horizon_VI,215,0.00011987383680889252
+case30,base,infinite_horizon_VI,216,0.00011388014496560572
+case30,base,infinite_horizon_VI,217,0.00010818613773722063
+case30,base,infinite_horizon_VI,218,0.00010277683085746503
+case30,base,infinite_horizon_VI,219,9.763798931317069e-05
+case30,base,infinite_horizon_VI,220,9.275608982761696e-05
+case30,base,infinite_horizon_VI,221,8.811828533339394e-05
+case30,base,infinite_horizon_VI,222,8.371237106530316e-05
+case30,base,infinite_horizon_VI,223,7.952675252909103e-05
+case30,base,infinite_horizon_VI,224,7.555041489126779e-05
+case30,base,infinite_horizon_VI,225,7.177289415949417e-05
+case30,base,infinite_horizon_VI,226,6.818424944299295e-05
+case30,base,infinite_horizon_VI,227,6.477503697510656e-05
+case30,base,infinite_horizon_VI,228,6.153628513061449e-05
+case30,base,infinite_horizon_VI,229,5.8459470864136165e-05
+case30,base,infinite_horizon_VI,230,5.553649731382393e-05
+case30,base,infinite_horizon_VI,231,5.2759672456659246e-05
+case30,base,infinite_horizon_VI,232,5.012168884377388e-05
+case30,base,infinite_horizon_VI,233,4.761560438737433e-05
+case30,base,infinite_horizon_VI,234,4.523482417084779e-05
+case30,base,infinite_horizon_VI,235,4.2973082969410825e-05
+case30,base,infinite_horizon_VI,236,4.082442882236137e-05
+case30,base,infinite_horizon_VI,237,3.878320737271679e-05
+case30,base,infinite_horizon_VI,238,3.684404700265986e-05
+case30,base,infinite_horizon_VI,239,3.5001844651105785e-05
+case30,base,infinite_horizon_VI,240,3.325175242707701e-05
+case30,base,infinite_horizon_VI,241,3.15891647915123e-05
+case30,base,infinite_horizon_VI,242,3.000970656330537e-05
+case30,base,infinite_horizon_VI,243,2.8509221237982274e-05
+case30,base,infinite_horizon_VI,244,2.7083760187451844e-05
+case30,base,infinite_horizon_VI,245,2.572957217239491e-05
+case30,base,infinite_horizon_VI,246,2.444309356519625e-05
+case30,base,infinite_horizon_VI,247,2.3220938885515352e-05
+case30,base,infinite_horizon_VI,248,2.205989193271307e-05
+case30,base,infinite_horizon_VI,249,2.095689734460393e-05
+case30,base,infinite_horizon_VI,250,1.990905246884722e-05
+case30,base,infinite_horizon_VI,251,1.8913599859615715e-05
+case30,base,infinite_horizon_VI,252,1.7967919859529502e-05
+case30,base,infinite_horizon_VI,253,1.7069523863710856e-05
+case30,base,infinite_horizon_VI,254,1.6216047669104228e-05
+case30,base,infinite_horizon_VI,255,1.540524527854359e-05
+case30,base,infinite_horizon_VI,256,1.463498301745858e-05
+case30,base,infinite_horizon_VI,257,1.3903233877954335e-05
+case30,base,infinite_horizon_VI,258,1.3208072175530106e-05
+case30,base,infinite_horizon_VI,259,1.2547668575280113e-05
+case30,base,infinite_horizon_VI,260,1.1920285146516107e-05
+case30,base,infinite_horizon_VI,261,1.1324270872137276e-05
+case30,base,infinite_horizon_VI,262,1.0758057328530413e-05
+case30,base,infinite_horizon_VI,263,1.0220154479156918e-05
+case30,base,infinite_horizon_VI,264,9.7091467523569e-06
+case30,base,infinite_horizon_VI,265,9.223689403370372e-06
+case30,base,infinite_horizon_VI,266,8.762504933201853e-06
+case30,base,infinite_horizon_VI,267,8.324379678015248e-06
+case30,base,infinite_horizon_VI,268,7.908160711167511e-06
+case30,base,infinite_horizon_VI,269,7.5127526599771954e-06
+case30,base,infinite_horizon_VI,270,7.137115034083763e-06
+case30,base,infinite_horizon_VI,271,6.780259298011515e-06
+case30,base,infinite_horizon_VI,272,6.441246313215743e-06
+case30,base,infinite_horizon_VI,273,6.119184007502554e-06
+case30,base,infinite_horizon_VI,274,5.8132248170750245e-06
+case30,base,infinite_horizon_VI,275,5.522563554904991e-06
+case30,base,infinite_horizon_VI,276,5.246435392791682e-06
+case30,base,infinite_horizon_VI,277,4.98411361604667e-06
+case30,base,infinite_horizon_VI,278,4.734907946613021e-06
+case30,base,infinite_horizon_VI,279,4.498162553545626e-06
+case30,base,infinite_horizon_VI,280,4.273254404552063e-06
+case30,base,infinite_horizon_VI,281,4.059591702798571e-06
+case30,base,infinite_horizon_VI,282,3.85661209634236e-06
+case30,base,infinite_horizon_VI,283,3.663781512841524e-06
+case30,base,infinite_horizon_VI,284,3.480592425830764e-06
+case30,base,infinite_horizon_VI,285,3.3065628031181404e-06
+case30,base,infinite_horizon_VI,286,3.1412346572778915e-06
+case30,base,infinite_horizon_VI,287,2.984172937203766e-06
+case30,base,infinite_horizon_VI,288,2.8349642775538086e-06
+case30,base,infinite_horizon_VI,289,2.6932160608339473e-06
+case30,base,infinite_horizon_VI,290,2.5585552805296174e-06
+case30,base,infinite_horizon_VI,291,2.430627517924222e-06
+case30,base,infinite_horizon_VI,292,2.309096117869558e-06
+case30,base,infinite_horizon_VI,293,2.193641336134533e-06
+case30,base,infinite_horizon_VI,294,2.083959259380208e-06
+case30,base,infinite_horizon_VI,295,1.9797612935690267e-06
+case30,base,infinite_horizon_VI,296,1.8807732260484045e-06
+case30,base,infinite_horizon_VI,297,1.7867345718514116e-06
+case30,base,infinite_horizon_VI,298,1.6973978347323282e-06
+case30,base,infinite_horizon_VI,299,1.6125279387324554e-06
+case30,base,infinite_horizon_VI,300,1.531901546059089e-06
+case30,base,infinite_horizon_VI,301,1.4553064602296217e-06
+case30,base,infinite_horizon_VI,302,1.3825411429024825e-06
+case30,base,infinite_horizon_VI,303,1.3134140885995294e-06
+case30,base,infinite_horizon_VI,304,1.2477433983804076e-06
+case30,base,infinite_horizon_VI,305,1.1853562114083616e-06
+case30,base,infinite_horizon_VI,306,1.12608842073314e-06
+case30,base,infinite_horizon_VI,307,1.0697839911699702e-06
+case30,base,infinite_horizon_VI,308,1.0162947887693008e-06
+case30,base,infinite_horizon_VI,309,9.65480040804323e-07
+case30,base,infinite_horizon_VI,310,9.17206051553876e-07
+case30,base,infinite_horizon_VI,311,8.713457475550968e-07
+case30,base,infinite_horizon_VI,312,8.277784502297436e-07
+case30,base,infinite_horizon_VI,313,7.863895348236838e-07
+case30,base,infinite_horizon_VI,314,7.470700609246705e-07
+case30,base,infinite_horizon_VI,315,7.097165450886678e-07
+case30,base,infinite_horizon_VI,316,6.742307334661746e-07
+case30,base,infinite_horizon_VI,317,6.405191754765838e-07
+case30,base,infinite_horizon_VI,318,6.084932238081819e-07
+case30,base,infinite_horizon_VI,319,5.780685796707985e-07
+case30,base,infinite_horizon_VI,320,5.491651506872586e-07
+case30,base,infinite_horizon_VI,321,5.217068803631264e-07
+case30,base,infinite_horizon_VI,322,4.956215491347393e-07
+case30,base,infinite_horizon_VI,323,4.7084046173040406e-07
+case30,base,infinite_horizon_VI,324,4.472984471703967e-07
+case30,base,infinite_horizon_VI,325,4.249335177064495e-07
+case30,base,infinite_horizon_VI,326,4.0368684040004155e-07
+case30,base,infinite_horizon_VI,327,3.8350250974872324e-07
+case30,base,infinite_horizon_VI,328,3.643273771558597e-07
+case30,base,infinite_horizon_VI,329,3.46110994087212e-07
+case30,base,infinite_horizon_VI,330,3.288054415406805e-07
+case30,base,infinite_horizon_VI,331,3.123651879377576e-07
+case30,base,infinite_horizon_VI,332,2.967469185932714e-07
+case30,base,infinite_horizon_VI,333,2.81909564137095e-07
+case30,base,infinite_horizon_VI,334,2.6781410156218044e-07
+case30,base,infinite_horizon_VI,335,2.544233836943022e-07
+case30,base,infinite_horizon_VI,336,2.4170222445718537e-07
+case30,base,infinite_horizon_VI,337,2.2961711465541157e-07
+case30,base,infinite_horizon_VI,338,2.1813625039612816e-07
+case30,base,infinite_horizon_VI,339,2.0722944782392005e-07
+case30,base,infinite_horizon_VI,340,1.968679725905531e-07
+case30,base,infinite_horizon_VI,341,1.8702456827668357e-07
+case30,base,infinite_horizon_VI,342,1.7767334270502033e-07
+case30,base,infinite_horizon_VI,343,1.6878968267519667e-07
+case30,base,infinite_horizon_VI,344,1.6035019712035137e-07
+case30,base,infinite_horizon_VI,345,1.5233268868541927e-07
+case30,base,infinite_horizon_VI,346,1.447160400402936e-07
+case30,base,infinite_horizon_VI,347,1.3748024230153533e-07
+case30,base,infinite_horizon_VI,348,1.3060622450211667e-07
+case30,base,infinite_horizon_VI,349,1.240759104348399e-07
+case30,base,infinite_horizon_VI,350,1.1787213338720903e-07
+case30,base,infinite_horizon_VI,351,1.1197852245459217e-07
+case30,base,infinite_horizon_VI,352,1.0637958780534973e-07
+case30,base,infinite_horizon_VI,353,1.0106060699399677e-07
+case30,base,infinite_horizon_VI,354,9.600759653949353e-08
+case30,base,infinite_horizon_VI,355,9.120719823840773e-08
+case30,base,infinite_horizon_VI,356,8.664684969517111e-08
+case30,base,infinite_horizon_VI,357,8.23145001049852e-08
+case30,base,infinite_horizon_VI,358,7.819878078407783e-08
+case30,base,infinite_horizon_VI,359,7.428883463944658e-08
+case30,base,infinite_horizon_VI,360,7.057440143398708e-08
+case30,base,infinite_horizon_VI,361,6.704567567794584e-08
+case30,base,infinite_horizon_VI,362,6.369339189404855e-08
+case30,base,infinite_horizon_VI,363,6.050871093066235e-08
+case30,base,infinite_horizon_VI,364,5.74832768052147e-08
+case30,base,infinite_horizon_VI,365,5.4609131439065095e-08
+case30,base,infinite_horizon_VI,366,5.187865781408618e-08
+case30,base,infinite_horizon_VI,367,4.928472208121093e-08
+case30,base,infinite_horizon_VI,368,4.682050303017604e-08
+case30,base,infinite_horizon_VI,369,4.4479463667812524e-08
+case30,base,infinite_horizon_VI,370,4.225549332659284e-08
+case30,base,infinite_horizon_VI,371,4.014273713437433e-08
+case30,base,infinite_horizon_VI,372,3.81355960143992e-08
+case30,base,infinite_horizon_VI,373,3.6228811950422823e-08
+case30,base,infinite_horizon_VI,374,3.4417382721585454e-08
+case30,base,infinite_horizon_VI,375,3.269650505899335e-08
+case30,base,infinite_horizon_VI,376,3.1061688332556514e-08
+case30,base,infinite_horizon_VI,377,2.9508584020732087e-08
+case30,base,infinite_horizon_VI,378,2.8033156240780954e-08
+case30,base,infinite_horizon_VI,379,2.663151121851115e-08
+case30,base,infinite_horizon_VI,380,2.5299925709987292e-08
+case30,base,infinite_horizon_VI,381,2.403493226665887e-08
+case30,base,infinite_horizon_VI,382,2.2833177126813098e-08
+case30,base,infinite_horizon_VI,383,2.169153390241263e-08
+case30,base,infinite_horizon_VI,384,2.0606961470548413e-08
+case30,base,infinite_horizon_VI,385,1.9576589238567976e-08
+case30,base,infinite_horizon_VI,386,1.8597773987494293e-08
+case30,base,infinite_horizon_VI,387,1.7667872498350334e-08
+case30,base,infinite_horizon_VI,388,1.6784497347543947e-08
+case30,base,infinite_horizon_VI,389,1.5945261111482978e-08
+case30,base,infinite_horizon_VI,390,1.5148003740250715e-08
+case30,base,infinite_horizon_VI,391,1.4390593605639879e-08
+case30,base,infinite_horizon_VI,392,1.367106960969977e-08
+case30,base,infinite_horizon_VI,393,1.2987527497898554e-08
+case30,base,infinite_horizon_VI,394,1.2338148280832684e-08
+case30,base,infinite_horizon_VI,395,1.1721226655936334e-08
+case30,base,infinite_horizon_VI,396,1.1135171007481404e-08
+case30,base,infinite_horizon_VI,397,1.057841814144922e-08
+case30,base,infinite_horizon_VI,398,1.0049490128949401e-08
+case30,base,infinite_horizon_VI,399,9.547022727929289e-09
+case30,base,infinite_horizon_VI,400,9.069680118045653e-09
+case30,base,infinite_horizon_VI,401,8.616183322374127e-09
+case30,base,infinite_horizon_VI,402,8.185367050828063e-09
+case30,base,infinite_horizon_VI,403,7.776094435030245e-09
+case30,base,infinite_horizon_VI,404,7.387313871731749e-09
+case30,base,infinite_horizon_VI,405,7.017945335974218e-09
+case30,base,infinite_horizon_VI,406,6.6670509113464504e-09
+case30,base,infinite_horizon_VI,407,6.333692681437242e-09
+case30,base,infinite_horizon_VI,408,6.01698957325425e-09
+case30,base,infinite_horizon_VI,409,5.7161457789334236e-09
+case30,base,infinite_horizon_VI,410,5.430337068901281e-09
+case30,base,infinite_horizon_VI,411,5.158824478712631e-09
+case30,base,infinite_horizon_VI,412,4.900897465631715e-09
+case30,base,infinite_horizon_VI,413,4.655845486922772e-09
+case30,base,infinite_horizon_VI,414,4.4230432649783324e-09
+case30,base,infinite_horizon_VI,415,4.201893943900359e-09
+case30,base,infinite_horizon_VI,416,3.9918006677908124e-09
+case30,base,infinite_horizon_VI,417,3.7922234241705155e-09
+case30,base,infinite_horizon_VI,418,3.60259377885086e-09
+case30,base,infinite_horizon_VI,419,3.4224854061903898e-09
+case30,base,infinite_horizon_VI,420,3.2513582937099272e-09
+case30,base,infinite_horizon_VI,421,3.0887861157680163e-09
+case30,base,infinite_horizon_VI,422,2.934342546723201e-09
+case30,base,infinite_horizon_VI,423,2.7876296826434555e-09
+case30,base,infinite_horizon_VI,424,2.648249619596754e-09
+case30,base,infinite_horizon_VI,425,2.515832875360502e-09
+case30,base,infinite_horizon_VI,426,2.390038389421534e-09
+case30,base,infinite_horizon_VI,427,2.270525101266685e-09
+case30,base,infinite_horizon_VI,428,2.1570087938016513e-09
+case30,base,infinite_horizon_VI,429,2.049148406513268e-09
+case30,base,infinite_horizon_VI,430,1.9466881440166617e-09
+case30,base,infinite_horizon_VI,431,1.8493722109269584e-09
+case30,base,infinite_horizon_VI,432,1.7568879684404237e-09
+case30,base,infinite_horizon_VI,433,1.6690648863004753e-09
+case30,base,infinite_horizon_VI,434,1.5855903257033788e-09
+case30,base,infinite_horizon_VI,435,1.506322178101982e-09
+case30,base,infinite_horizon_VI,436,1.4310046481114114e-09
+case30,base,infinite_horizon_VI,437,1.3594672054750845e-09
+case30,base,infinite_horizon_VI,438,1.291482476517558e-09
+case30,base,infinite_horizon_VI,439,1.2269083526916802e-09
+case30,base,infinite_horizon_VI,440,1.1655743037408683e-09
+case30,base,infinite_horizon_VI,441,1.1072813776991097e-09
+case30,base,infinite_horizon_VI,442,1.0519158877286827e-09
+case30,base,infinite_horizon_VI,443,9.993357252824353e-10
+case30,base,infinite_horizon_VI,444,9.49370360103785e-10
+case30,base,infinite_horizon_VI,445,9.0187768364558e-10
+case30,base,infinite_horizon_VI,446,8.568008524889592e-10
+case30,base,infinite_horizon_VI,447,8.1394091466791e-10
+case30,base,infinite_horizon_VI,448,7.732694484730018e-10
+case30,base,infinite_horizon_VI,449,7.34587501938222e-10
+case30,base,infinite_horizon_VI,450,6.9786665335414e-10
+case30,base,infinite_horizon_VI,451,6.629647941736039e-10
+case30,base,infinite_horizon_VI,452,6.298250809777528e-10
+case30,base,infinite_horizon_VI,453,5.983338269288652e-10
+case30,base,infinite_horizon_VI,454,5.684057668986497e-10
+case30,base,infinite_horizon_VI,455,5.399840574682457e-10
+case30,base,infinite_horizon_VI,456,5.129834335093619e-10
+case30,base,infinite_horizon_VI,457,4.873470516031375e-10
+case30,base,infinite_horizon_VI,458,4.629896466212813e-10
+case30,base,infinite_horizon_VI,459,4.39825953435502e-10
+case30,base,infinite_horizon_VI,460,4.178275503363693e-10
+case30,base,infinite_horizon_VI,461,3.9693759390502237e-10
+case30,base,infinite_horizon_VI,462,3.7709924072260037e-10
+case30,base,infinite_horizon_VI,463,3.582556473702425e-10
+case30,base,infinite_horizon_VI,464,3.403215487196576e-10
+case30,base,infinite_horizon_VI,465,3.23325366480276e-10
+case30,base,infinite_horizon_VI,466,3.071534138143761e-10
+case30,base,infinite_horizon_VI,467,2.9180569072195794e-10
+case30,base,infinite_horizon_VI,468,2.771969320747303e-10
+case30,base,infinite_horizon_VI,469,2.6335555958212353e-10
+case30,base,infinite_horizon_VI,470,2.5016788640641607e-10
+case30,base,infinite_horizon_VI,471,2.376623342570383e-10
+case30,base,infinite_horizon_VI,472,2.2578205971512944e-10
+case30,base,infinite_horizon_VI,473,2.1449864107125904e-10
+case30,base,infinite_horizon_VI,474,2.0375523490656633e-10
+case30,base,infinite_horizon_VI,475,1.935802629304817e-10
+case30,base,infinite_horizon_VI,476,1.8388846001471393e-10
+case30,base,infinite_horizon_VI,477,1.7470824786869343e-10
+case30,base,infinite_horizon_VI,478,1.659827830735594e-10
+case30,base,infinite_horizon_VI,479,1.5768364391988143e-10
+case30,base,infinite_horizon_VI,480,1.4978240869822912e-10
+case30,base,infinite_horizon_VI,481,1.4230749911803287e-10
+case30,base,infinite_horizon_VI,482,1.3517365005100146e-10
+case30,base,infinite_horizon_VI,483,1.284377049159957e-10
+case30,base,infinite_horizon_VI,484,1.220143985847244e-10
+case30,base,infinite_horizon_VI,485,1.1590373105718754e-10
+case30,base,infinite_horizon_VI,486,1.1010570233338512e-10
+case30,base,infinite_horizon_VI,487,1.0459189070388675e-10
+case30,base,infinite_horizon_VI,488,9.936229616869241e-11
+case30,base,finite_horizon_error_S0_S2,5,0.07213692227823572
+case30,base,finite_horizon_error_S3,5,108.52277648248655
+case30,base,finite_horizon_error_S0_S2,10,0.05705921308694964
+case30,base,finite_horizon_error_S3,10,83.9728557262942
+case30,base,finite_horizon_error_S0_S2,20,0.03745984578209083
+case30,base,finite_horizon_error_S3,20,50.27765061590962
+case30,base,finite_horizon_error_S0_S2,40,0.01599938927605113
+case30,base,finite_horizon_error_S3,40,18.023829956367322
+case30,base,finite_horizon_error_S0_S2,80,0.002718187368302899
+case30,base,finite_horizon_error_S3,80,2.3162812556099937
+case30,base,finite_horizon_error_S0_S2,160,6.675127299118899e-05
+case30,base,finite_horizon_error_S3,160,0.038254250260422396
+case30,N-1 line 0,infinite_horizon_VI,1,7.0125
+case30,N-1 line 0,infinite_horizon_VI,2,6.661875000000001
+case30,N-1 line 0,infinite_horizon_VI,3,6.328781249999999
+case30,N-1 line 0,infinite_horizon_VI,4,6.0123421875
+case30,N-1 line 0,infinite_horizon_VI,5,5.711725078124999
+case30,N-1 line 0,infinite_horizon_VI,6,5.4261388242187465
+case30,N-1 line 0,infinite_horizon_VI,7,5.154831883007816
+case30,N-1 line 0,infinite_horizon_VI,8,4.89709028885742
+case30,N-1 line 0,infinite_horizon_VI,9,4.6522357744145495
+case30,N-1 line 0,infinite_horizon_VI,10,4.419623985693825
+case30,N-1 line 0,infinite_horizon_VI,11,4.198642786409131
+case30,N-1 line 0,infinite_horizon_VI,12,3.9887106470886664
+case30,N-1 line 0,infinite_horizon_VI,13,3.789275114734238
+case30,N-1 line 0,infinite_horizon_VI,14,3.5998113589975276
+case30,N-1 line 0,infinite_horizon_VI,15,3.4198207910476555
+case30,N-1 line 0,infinite_horizon_VI,16,3.248829751495265
+case30,N-1 line 0,infinite_horizon_VI,17,3.0863882639205116
+case30,N-1 line 0,infinite_horizon_VI,18,2.9320688507244768
+case30,N-1 line 0,infinite_horizon_VI,19,2.7854654081882586
+case30,N-1 line 0,infinite_horizon_VI,20,2.64619213777884
+case30,N-1 line 0,infinite_horizon_VI,21,2.5138825308899015
+case30,N-1 line 0,infinite_horizon_VI,22,2.3881884043454136
+case30,N-1 line 0,infinite_horizon_VI,23,2.268778984128133
+case30,N-1 line 0,infinite_horizon_VI,24,2.1553400349217355
+case30,N-1 line 0,infinite_horizon_VI,25,2.047573033175638
+case30,N-1 line 0,infinite_horizon_VI,26,1.9451943815168562
+case30,N-1 line 0,infinite_horizon_VI,27,1.8479346624410198
+case30,N-1 line 0,infinite_horizon_VI,28,1.7555379293189617
+case30,N-1 line 0,infinite_horizon_VI,29,1.6677610328530221
+case30,N-1 line 0,infinite_horizon_VI,30,1.5843729812103646
+case30,N-1 line 0,infinite_horizon_VI,31,1.5051543321498428
+case30,N-1 line 0,infinite_horizon_VI,32,1.4298966155423614
+case30,N-1 line 0,infinite_horizon_VI,33,1.3584017847652348
+case30,N-1 line 0,infinite_horizon_VI,34,1.290481695526978
+case30,N-1 line 0,infinite_horizon_VI,35,1.2259576107506263
+case30,N-1 line 0,infinite_horizon_VI,36,1.1646597302131028
+case30,N-1 line 0,infinite_horizon_VI,37,1.1064267437024426
+case30,N-1 line 0,infinite_horizon_VI,38,1.0511054065173226
+case30,N-1 line 0,infinite_horizon_VI,39,0.9985501361914544
+case30,N-1 line 0,infinite_horizon_VI,40,0.9486226293818874
+case30,N-1 line 0,infinite_horizon_VI,41,0.9011914979127909
+case30,N-1 line 0,infinite_horizon_VI,42,0.8561319230171449
+case30,N-1 line 0,infinite_horizon_VI,43,0.8133253268662912
+case30,N-1 line 0,infinite_horizon_VI,44,0.7726590605229688
+case30,N-1 line 0,infinite_horizon_VI,45,0.7340261074968311
+case30,N-1 line 0,infinite_horizon_VI,46,0.6973248021219831
+case30,N-1 line 0,infinite_horizon_VI,47,0.6624585620158854
+case30,N-1 line 0,infinite_horizon_VI,48,0.6293356339150904
+case30,N-1 line 0,infinite_horizon_VI,49,0.5978688522193352
+case30,N-1 line 0,infinite_horizon_VI,50,0.5679754096083514
+case30,N-1 line 0,infinite_horizon_VI,51,0.5395766391279437
+case30,N-1 line 0,infinite_horizon_VI,52,0.5125978071715451
+case30,N-1 line 0,infinite_horizon_VI,53,0.48696791681297213
+case30,N-1 line 0,infinite_horizon_VI,54,0.46261952097231074
+case30,N-1 line 0,infinite_horizon_VI,55,0.43948854492370515
+case30,N-1 line 0,infinite_horizon_VI,56,0.4175141176775128
+case30,N-1 line 0,infinite_horizon_VI,57,0.3966384117936457
+case30,N-1 line 0,infinite_horizon_VI,58,0.3768064912039506
+case30,N-1 line 0,infinite_horizon_VI,59,0.357966166643763
+case30,N-1 line 0,infinite_horizon_VI,60,0.3400678583115848
+case30,N-1 line 0,infinite_horizon_VI,61,0.3230644653959871
+case30,N-1 line 0,infinite_horizon_VI,62,0.3069112421262048
+case30,N-1 line 0,infinite_horizon_VI,63,0.29156568001988603
+case30,N-1 line 0,infinite_horizon_VI,64,0.2769873960188818
+case30,N-1 line 0,infinite_horizon_VI,65,0.2631380262179448
+case30,N-1 line 0,infinite_horizon_VI,66,0.2499811249070376
+case30,N-1 line 0,infinite_horizon_VI,67,0.23748206866170563
+case30,N-1 line 0,infinite_horizon_VI,68,0.22560796522861892
+case30,N-1 line 0,infinite_horizon_VI,69,0.21432756696717092
+case30,N-1 line 0,infinite_horizon_VI,70,0.20361118861882233
+case30,N-1 line 0,infinite_horizon_VI,71,0.19343062918787268
+case30,N-1 line 0,infinite_horizon_VI,72,0.1837590977284833
+case30,N-1 line 0,infinite_horizon_VI,73,0.1745711428420691
+case30,N-1 line 0,infinite_horizon_VI,74,0.16584258569994859
+case30,N-1 line 0,infinite_horizon_VI,75,0.15755045641495258
+case30,N-1 line 0,infinite_horizon_VI,76,0.14967293359421774
+case30,N-1 line 0,infinite_horizon_VI,77,0.14218928691448696
+case30,N-1 line 0,infinite_horizon_VI,78,0.13507982256876971
+case30,N-1 line 0,infinite_horizon_VI,79,0.1283258314403497
+case30,N-1 line 0,infinite_horizon_VI,80,0.12190953986831232
+case30,N-1 line 0,infinite_horizon_VI,81,0.11581406287490381
+case30,N-1 line 0,infinite_horizon_VI,82,0.11002335973117283
+case30,N-1 line 0,infinite_horizon_VI,83,0.10452219174459287
+case30,N-1 line 0,infinite_horizon_VI,84,0.09929608215736607
+case30,N-1 line 0,infinite_horizon_VI,85,0.09433127804950914
+case30,N-1 line 0,infinite_horizon_VI,86,0.08961471414701805
+case30,N-1 line 0,infinite_horizon_VI,87,0.08513397843967141
+case30,N-1 line 0,infinite_horizon_VI,88,0.08087727951769352
+case30,N-1 line 0,infinite_horizon_VI,89,0.07683341554181311
+case30,N-1 line 0,infinite_horizon_VI,90,0.07299174476472103
+case30,N-1 line 0,infinite_horizon_VI,91,0.06934215752647788
+case30,N-1 line 0,infinite_horizon_VI,92,0.06587504965014546
+case30,N-1 line 0,infinite_horizon_VI,93,0.0625812971676396
+case30,N-1 line 0,infinite_horizon_VI,94,0.05945223230926899
+case30,N-1 line 0,infinite_horizon_VI,95,0.056479620693806964
+case30,N-1 line 0,infinite_horizon_VI,96,0.053655639659126564
+case30,N-1 line 0,infinite_horizon_VI,97,0.050972857676157446
+case30,N-1 line 0,infinite_horizon_VI,98,0.04842421479236236
+case30,N-1 line 0,infinite_horizon_VI,99,0.04600300405272151
+case30,N-1 line 0,infinite_horizon_VI,100,0.04370285385010675
+case30,N-1 line 0,infinite_horizon_VI,101,0.041517711157581516
+case30,N-1 line 0,infinite_horizon_VI,102,0.039441825599709546
+case30,N-1 line 0,infinite_horizon_VI,103,0.03746973431972833
+case30,N-1 line 0,infinite_horizon_VI,104,0.03559624760373481
+case30,N-1 line 0,infinite_horizon_VI,105,0.033816435223542385
+case30,N-1 line 0,infinite_horizon_VI,106,0.03212561346236953
+case30,N-1 line 0,infinite_horizon_VI,107,0.030519332789253895
+case30,N-1 line 0,infinite_horizon_VI,108,0.0289933661497912
+case30,N-1 line 0,infinite_horizon_VI,109,0.027543697842304482
+case30,N-1 line 0,infinite_horizon_VI,110,0.026166512950197784
+case30,N-1 line 0,infinite_horizon_VI,111,0.02485818730266942
+case30,N-1 line 0,infinite_horizon_VI,112,0.023615277937551582
+case30,N-1 line 0,infinite_horizon_VI,113,0.02243451404066832
+case30,N-1 line 0,infinite_horizon_VI,114,0.02131278833863348
+case30,N-1 line 0,infinite_horizon_VI,115,0.020247148921697544
+case30,N-1 line 0,infinite_horizon_VI,116,0.019234791475611246
+case30,N-1 line 0,infinite_horizon_VI,117,0.018273051901843473
+case30,N-1 line 0,infinite_horizon_VI,118,0.017359399306741352
+case30,N-1 line 0,infinite_horizon_VI,119,0.016491429341414232
+case30,N-1 line 0,infinite_horizon_VI,120,0.015666857874350626
+case30,N-1 line 0,infinite_horizon_VI,121,0.014883514980624568
+case30,N-1 line 0,infinite_horizon_VI,122,0.014139339231576287
+case30,N-1 line 0,infinite_horizon_VI,123,0.013432372270017368
+case30,N-1 line 0,infinite_horizon_VI,124,0.012760753656522184
+case30,N-1 line 0,infinite_horizon_VI,125,0.012122715973674758
+case30,N-1 line 0,infinite_horizon_VI,126,0.011516580174998126
+case30,N-1 line 0,infinite_horizon_VI,127,0.010940751166259588
+case30,N-1 line 0,infinite_horizon_VI,128,0.010393713607925292
+case30,N-1 line 0,infinite_horizon_VI,129,0.009874027927537554
+case30,N-1 line 0,infinite_horizon_VI,130,0.009380326531157834
+case30,N-1 line 0,infinite_horizon_VI,131,0.00891131020460989
+case30,N-1 line 0,infinite_horizon_VI,132,0.008465744694376554
+case30,N-1 line 0,infinite_horizon_VI,133,0.008042457459652042
+case30,N-1 line 0,infinite_horizon_VI,134,0.007640334586682229
+case30,N-1 line 0,infinite_horizon_VI,135,0.007258317857349539
+case30,N-1 line 0,infinite_horizon_VI,136,0.006895401964470693
+case30,N-1 line 0,infinite_horizon_VI,137,0.0065506318662471585
+case30,N-1 line 0,infinite_horizon_VI,138,0.0062231002729333795
+case30,N-1 line 0,infinite_horizon_VI,139,0.0059119452592995
+case30,N-1 line 0,infinite_horizon_VI,140,0.005616347996323157
+case30,N-1 line 0,infinite_horizon_VI,141,0.005335530596511262
+case30,N-1 line 0,infinite_horizon_VI,142,0.005068754066684278
+case30,N-1 line 0,infinite_horizon_VI,143,0.004815316363362854
+case30,N-1 line 0,infinite_horizon_VI,144,0.0045745505451861845
+case30,N-1 line 0,infinite_horizon_VI,145,0.004345823017928296
+case30,N-1 line 0,infinite_horizon_VI,146,0.004128531867024776
+case30,N-1 line 0,infinite_horizon_VI,147,0.003922105273687748
+case30,N-1 line 0,infinite_horizon_VI,148,0.00372600000997636
+case30,N-1 line 0,infinite_horizon_VI,149,0.0035397000094974373
+case30,N-1 line 0,infinite_horizon_VI,150,0.0033627150090183022
+case30,N-1 line 0,infinite_horizon_VI,151,0.0031945792585759136
+case30,N-1 line 0,infinite_horizon_VI,152,0.003034850295648539
+case30,N-1 line 0,infinite_horizon_VI,153,0.0028831077808604277
+case30,N-1 line 0,infinite_horizon_VI,154,0.00273895239180888
+case30,N-1 line 0,infinite_horizon_VI,155,0.0026020047722283834
+case30,N-1 line 0,infinite_horizon_VI,156,0.0024719045336212275
+case30,N-1 line 0,infinite_horizon_VI,157,0.002348309306938745
+case30,N-1 line 0,infinite_horizon_VI,158,0.0022308938415847024
+case30,N-1 line 0,infinite_horizon_VI,159,0.0021193491494955197
+case30,N-1 line 0,infinite_horizon_VI,160,0.002013381692023586
+case30,N-1 line 0,infinite_horizon_VI,161,0.0019127126074351963
+case30,N-1 line 0,infinite_horizon_VI,162,0.0018170769770620154
+case30,N-1 line 0,infinite_horizon_VI,163,0.0017262231282018092
+case30,N-1 line 0,infinite_horizon_VI,164,0.001639911971778929
+case30,N-1 line 0,infinite_horizon_VI,165,0.0015579163732013512
+case30,N-1 line 0,infinite_horizon_VI,166,0.0014800205545384415
+case30,N-1 line 0,infinite_horizon_VI,167,0.0014060195268257303
+case30,N-1 line 0,infinite_horizon_VI,168,0.0013357185504787594
+case30,N-1 line 0,infinite_horizon_VI,169,0.001268932622963348
+case30,N-1 line 0,infinite_horizon_VI,170,0.001205485991789601
+case30,N-1 line 0,infinite_horizon_VI,171,0.0011452116922043842
+case30,N-1 line 0,infinite_horizon_VI,172,0.001087951107592744
+case30,N-1 line 0,infinite_horizon_VI,173,0.001033553552218791
+case30,N-1 line 0,infinite_horizon_VI,174,0.000981875874600746
+case30,N-1 line 0,infinite_horizon_VI,175,0.0009327820808948672
+case30,N-1 line 0,infinite_horizon_VI,176,0.0008861429768387552
+case30,N-1 line 0,infinite_horizon_VI,177,0.0008418358279982385
+case30,N-1 line 0,infinite_horizon_VI,178,0.0007997440365841157
+case30,N-1 line 0,infinite_horizon_VI,179,0.0007597568347534889
+case30,N-1 line 0,infinite_horizon_VI,180,0.0007217689930314464
+case30,N-1 line 0,infinite_horizon_VI,181,0.0006856805433699265
+case30,N-1 line 0,infinite_horizon_VI,182,0.0006513965162184832
+case30,N-1 line 0,infinite_horizon_VI,183,0.0006188266903848216
+case30,N-1 line 0,infinite_horizon_VI,184,0.0005878853558840547
+case30,N-1 line 0,infinite_horizon_VI,185,0.0005584910880713778
+case30,N-1 line 0,infinite_horizon_VI,186,0.0005305665336834409
+case30,N-1 line 0,infinite_horizon_VI,187,0.0005040382069978477
+case30,N-1 line 0,infinite_horizon_VI,188,0.0004788362966507975
+case30,N-1 line 0,infinite_horizon_VI,189,0.0004548944818054679
+case30,N-1 line 0,infinite_horizon_VI,190,0.00043214975772798425
+case30,N-1 line 0,infinite_horizon_VI,191,0.0004105422698330585
+case30,N-1 line 0,infinite_horizon_VI,192,0.0003900151563414056
+case30,N-1 line 0,infinite_horizon_VI,193,0.0003705143985257564
+case30,N-1 line 0,infinite_horizon_VI,194,0.00035198867860231076
+case30,N-1 line 0,infinite_horizon_VI,195,0.00033438924467077413
+case30,N-1 line 0,infinite_horizon_VI,196,0.000317669782447183
+case30,N-1 line 0,infinite_horizon_VI,197,0.00030178629330634976
+case30,N-1 line 0,infinite_horizon_VI,198,0.00028669697866234856
+case30,N-1 line 0,infinite_horizon_VI,199,0.0002723621297207046
+case30,N-1 line 0,infinite_horizon_VI,200,0.00025874402322756396
+case30,N-1 line 0,infinite_horizon_VI,201,0.00024580682207897553
+case30,N-1 line 0,infinite_horizon_VI,202,0.0002335164809608159
+case30,N-1 line 0,infinite_horizon_VI,203,0.00022184065690566968
+case30,N-1 line 0,infinite_horizon_VI,204,0.00021074862408454464
+case30,N-1 line 0,infinite_horizon_VI,205,0.0002002111928618433
+case30,N-1 line 0,infinite_horizon_VI,206,0.00019020063322727765
+case30,N-1 line 0,infinite_horizon_VI,207,0.000180690601553124
+case30,N-1 line 0,infinite_horizon_VI,208,0.00017165607147262563
+case30,N-1 line 0,infinite_horizon_VI,209,0.0001630732679132052
+case30,N-1 line 0,infinite_horizon_VI,210,0.0001549196045118606
+case30,N-1 line 0,infinite_horizon_VI,211,0.00014717362429905734
+case30,N-1 line 0,infinite_horizon_VI,212,0.00013981494308268339
+case30,N-1 line 0,infinite_horizon_VI,213,0.0001328241959299703
+case30,N-1 line 0,infinite_horizon_VI,214,0.0001261829861221031
+case30,N-1 line 0,infinite_horizon_VI,215,0.00011987383680889252
+case30,N-1 line 0,infinite_horizon_VI,216,0.00011388014496560572
+case30,N-1 line 0,infinite_horizon_VI,217,0.00010818613773722063
+case30,N-1 line 0,infinite_horizon_VI,218,0.00010277683085746503
+case30,N-1 line 0,infinite_horizon_VI,219,9.763798931317069e-05
+case30,N-1 line 0,infinite_horizon_VI,220,9.275608982761696e-05
+case30,N-1 line 0,infinite_horizon_VI,221,8.811828533339394e-05
+case30,N-1 line 0,infinite_horizon_VI,222,8.371237106530316e-05
+case30,N-1 line 0,infinite_horizon_VI,223,7.952675252909103e-05
+case30,N-1 line 0,infinite_horizon_VI,224,7.555041489126779e-05
+case30,N-1 line 0,infinite_horizon_VI,225,7.177289415949417e-05
+case30,N-1 line 0,infinite_horizon_VI,226,6.818424944299295e-05
+case30,N-1 line 0,infinite_horizon_VI,227,6.477503697510656e-05
+case30,N-1 line 0,infinite_horizon_VI,228,6.153628513061449e-05
+case30,N-1 line 0,infinite_horizon_VI,229,5.8459470864136165e-05
+case30,N-1 line 0,infinite_horizon_VI,230,5.553649731382393e-05
+case30,N-1 line 0,infinite_horizon_VI,231,5.2759672456659246e-05
+case30,N-1 line 0,infinite_horizon_VI,232,5.012168884377388e-05
+case30,N-1 line 0,infinite_horizon_VI,233,4.761560438737433e-05
+case30,N-1 line 0,infinite_horizon_VI,234,4.523482417084779e-05
+case30,N-1 line 0,infinite_horizon_VI,235,4.2973082969410825e-05
+case30,N-1 line 0,infinite_horizon_VI,236,4.082442882236137e-05
+case30,N-1 line 0,infinite_horizon_VI,237,3.878320737271679e-05
+case30,N-1 line 0,infinite_horizon_VI,238,3.684404700265986e-05
+case30,N-1 line 0,infinite_horizon_VI,239,3.5001844651105785e-05
+case30,N-1 line 0,infinite_horizon_VI,240,3.325175242707701e-05
+case30,N-1 line 0,infinite_horizon_VI,241,3.15891647915123e-05
+case30,N-1 line 0,infinite_horizon_VI,242,3.000970656330537e-05
+case30,N-1 line 0,infinite_horizon_VI,243,2.8509221237982274e-05
+case30,N-1 line 0,infinite_horizon_VI,244,2.7083760187451844e-05
+case30,N-1 line 0,infinite_horizon_VI,245,2.572957217239491e-05
+case30,N-1 line 0,infinite_horizon_VI,246,2.444309356519625e-05
+case30,N-1 line 0,infinite_horizon_VI,247,2.3220938885515352e-05
+case30,N-1 line 0,infinite_horizon_VI,248,2.205989193271307e-05
+case30,N-1 line 0,infinite_horizon_VI,249,2.095689734460393e-05
+case30,N-1 line 0,infinite_horizon_VI,250,1.990905246884722e-05
+case30,N-1 line 0,infinite_horizon_VI,251,1.8913599859615715e-05
+case30,N-1 line 0,infinite_horizon_VI,252,1.7967919859529502e-05
+case30,N-1 line 0,infinite_horizon_VI,253,1.7069523863710856e-05
+case30,N-1 line 0,infinite_horizon_VI,254,1.6216047669104228e-05
+case30,N-1 line 0,infinite_horizon_VI,255,1.540524527854359e-05
+case30,N-1 line 0,infinite_horizon_VI,256,1.463498301745858e-05
+case30,N-1 line 0,infinite_horizon_VI,257,1.3903233877954335e-05
+case30,N-1 line 0,infinite_horizon_VI,258,1.3208072175530106e-05
+case30,N-1 line 0,infinite_horizon_VI,259,1.2547668575280113e-05
+case30,N-1 line 0,infinite_horizon_VI,260,1.1920285146516107e-05
+case30,N-1 line 0,infinite_horizon_VI,261,1.1324270872137276e-05
+case30,N-1 line 0,infinite_horizon_VI,262,1.0758057328530413e-05
+case30,N-1 line 0,infinite_horizon_VI,263,1.0220154479156918e-05
+case30,N-1 line 0,infinite_horizon_VI,264,9.7091467523569e-06
+case30,N-1 line 0,infinite_horizon_VI,265,9.223689403370372e-06
+case30,N-1 line 0,infinite_horizon_VI,266,8.762504933201853e-06
+case30,N-1 line 0,infinite_horizon_VI,267,8.324379678015248e-06
+case30,N-1 line 0,infinite_horizon_VI,268,7.908160711167511e-06
+case30,N-1 line 0,infinite_horizon_VI,269,7.5127526599771954e-06
+case30,N-1 line 0,infinite_horizon_VI,270,7.137115034083763e-06
+case30,N-1 line 0,infinite_horizon_VI,271,6.780259298011515e-06
+case30,N-1 line 0,infinite_horizon_VI,272,6.441246313215743e-06
+case30,N-1 line 0,infinite_horizon_VI,273,6.119184007502554e-06
+case30,N-1 line 0,infinite_horizon_VI,274,5.8132248170750245e-06
+case30,N-1 line 0,infinite_horizon_VI,275,5.522563554904991e-06
+case30,N-1 line 0,infinite_horizon_VI,276,5.246435392791682e-06
+case30,N-1 line 0,infinite_horizon_VI,277,4.98411361604667e-06
+case30,N-1 line 0,infinite_horizon_VI,278,4.734907946613021e-06
+case30,N-1 line 0,infinite_horizon_VI,279,4.498162553545626e-06
+case30,N-1 line 0,infinite_horizon_VI,280,4.273254404552063e-06
+case30,N-1 line 0,infinite_horizon_VI,281,4.059591702798571e-06
+case30,N-1 line 0,infinite_horizon_VI,282,3.85661209634236e-06
+case30,N-1 line 0,infinite_horizon_VI,283,3.663781512841524e-06
+case30,N-1 line 0,infinite_horizon_VI,284,3.480592425830764e-06
+case30,N-1 line 0,infinite_horizon_VI,285,3.3065628031181404e-06
+case30,N-1 line 0,infinite_horizon_VI,286,3.1412346572778915e-06
+case30,N-1 line 0,infinite_horizon_VI,287,2.984172937203766e-06
+case30,N-1 line 0,infinite_horizon_VI,288,2.8349642775538086e-06
+case30,N-1 line 0,infinite_horizon_VI,289,2.6932160608339473e-06
+case30,N-1 line 0,infinite_horizon_VI,290,2.5585552805296174e-06
+case30,N-1 line 0,infinite_horizon_VI,291,2.430627517924222e-06
+case30,N-1 line 0,infinite_horizon_VI,292,2.309096117869558e-06
+case30,N-1 line 0,infinite_horizon_VI,293,2.193641336134533e-06
+case30,N-1 line 0,infinite_horizon_VI,294,2.083959259380208e-06
+case30,N-1 line 0,infinite_horizon_VI,295,1.9797612935690267e-06
+case30,N-1 line 0,infinite_horizon_VI,296,1.8807732260484045e-06
+case30,N-1 line 0,infinite_horizon_VI,297,1.7867345718514116e-06
+case30,N-1 line 0,infinite_horizon_VI,298,1.6973978347323282e-06
+case30,N-1 line 0,infinite_horizon_VI,299,1.6125279387324554e-06
+case30,N-1 line 0,infinite_horizon_VI,300,1.531901546059089e-06
+case30,N-1 line 0,infinite_horizon_VI,301,1.4553064602296217e-06
+case30,N-1 line 0,infinite_horizon_VI,302,1.3825411429024825e-06
+case30,N-1 line 0,infinite_horizon_VI,303,1.3134140885995294e-06
+case30,N-1 line 0,infinite_horizon_VI,304,1.2477433983804076e-06
+case30,N-1 line 0,infinite_horizon_VI,305,1.1853562114083616e-06
+case30,N-1 line 0,infinite_horizon_VI,306,1.12608842073314e-06
+case30,N-1 line 0,infinite_horizon_VI,307,1.0697839911699702e-06
+case30,N-1 line 0,infinite_horizon_VI,308,1.0162947887693008e-06
+case30,N-1 line 0,infinite_horizon_VI,309,9.65480040804323e-07
+case30,N-1 line 0,infinite_horizon_VI,310,9.17206051553876e-07
+case30,N-1 line 0,infinite_horizon_VI,311,8.713457475550968e-07
+case30,N-1 line 0,infinite_horizon_VI,312,8.277784502297436e-07
+case30,N-1 line 0,infinite_horizon_VI,313,7.863895348236838e-07
+case30,N-1 line 0,infinite_horizon_VI,314,7.470700609246705e-07
+case30,N-1 line 0,infinite_horizon_VI,315,7.097165450886678e-07
+case30,N-1 line 0,infinite_horizon_VI,316,6.742307334661746e-07
+case30,N-1 line 0,infinite_horizon_VI,317,6.405191754765838e-07
+case30,N-1 line 0,infinite_horizon_VI,318,6.084932238081819e-07
+case30,N-1 line 0,infinite_horizon_VI,319,5.780685796707985e-07
+case30,N-1 line 0,infinite_horizon_VI,320,5.491651506872586e-07
+case30,N-1 line 0,infinite_horizon_VI,321,5.217068803631264e-07
+case30,N-1 line 0,infinite_horizon_VI,322,4.956215491347393e-07
+case30,N-1 line 0,infinite_horizon_VI,323,4.7084046173040406e-07
+case30,N-1 line 0,infinite_horizon_VI,324,4.472984471703967e-07
+case30,N-1 line 0,infinite_horizon_VI,325,4.249335177064495e-07
+case30,N-1 line 0,infinite_horizon_VI,326,4.0368684040004155e-07
+case30,N-1 line 0,infinite_horizon_VI,327,3.8350250974872324e-07
+case30,N-1 line 0,infinite_horizon_VI,328,3.643273771558597e-07
+case30,N-1 line 0,infinite_horizon_VI,329,3.46110994087212e-07
+case30,N-1 line 0,infinite_horizon_VI,330,3.288054415406805e-07
+case30,N-1 line 0,infinite_horizon_VI,331,3.123651879377576e-07
+case30,N-1 line 0,infinite_horizon_VI,332,2.967469185932714e-07
+case30,N-1 line 0,infinite_horizon_VI,333,2.81909564137095e-07
+case30,N-1 line 0,infinite_horizon_VI,334,2.6781410156218044e-07
+case30,N-1 line 0,infinite_horizon_VI,335,2.544233836943022e-07
+case30,N-1 line 0,infinite_horizon_VI,336,2.4170222445718537e-07
+case30,N-1 line 0,infinite_horizon_VI,337,2.2961711465541157e-07
+case30,N-1 line 0,infinite_horizon_VI,338,2.1813625039612816e-07
+case30,N-1 line 0,infinite_horizon_VI,339,2.0722944782392005e-07
+case30,N-1 line 0,infinite_horizon_VI,340,1.968679725905531e-07
+case30,N-1 line 0,infinite_horizon_VI,341,1.8702456827668357e-07
+case30,N-1 line 0,infinite_horizon_VI,342,1.7767334270502033e-07
+case30,N-1 line 0,infinite_horizon_VI,343,1.6878968267519667e-07
+case30,N-1 line 0,infinite_horizon_VI,344,1.6035019712035137e-07
+case30,N-1 line 0,infinite_horizon_VI,345,1.5233268868541927e-07
+case30,N-1 line 0,infinite_horizon_VI,346,1.447160400402936e-07
+case30,N-1 line 0,infinite_horizon_VI,347,1.3748024230153533e-07
+case30,N-1 line 0,infinite_horizon_VI,348,1.3060622450211667e-07
+case30,N-1 line 0,infinite_horizon_VI,349,1.240759104348399e-07
+case30,N-1 line 0,infinite_horizon_VI,350,1.1787213338720903e-07
+case30,N-1 line 0,infinite_horizon_VI,351,1.1197852245459217e-07
+case30,N-1 line 0,infinite_horizon_VI,352,1.0637958780534973e-07
+case30,N-1 line 0,infinite_horizon_VI,353,1.0106060699399677e-07
+case30,N-1 line 0,infinite_horizon_VI,354,9.600759653949353e-08
+case30,N-1 line 0,infinite_horizon_VI,355,9.120719823840773e-08
+case30,N-1 line 0,infinite_horizon_VI,356,8.664684969517111e-08
+case30,N-1 line 0,infinite_horizon_VI,357,8.23145001049852e-08
+case30,N-1 line 0,infinite_horizon_VI,358,7.819878078407783e-08
+case30,N-1 line 0,infinite_horizon_VI,359,7.428883463944658e-08
+case30,N-1 line 0,infinite_horizon_VI,360,7.057440143398708e-08
+case30,N-1 line 0,infinite_horizon_VI,361,6.704567567794584e-08
+case30,N-1 line 0,infinite_horizon_VI,362,6.369339189404855e-08
+case30,N-1 line 0,infinite_horizon_VI,363,6.050871093066235e-08
+case30,N-1 line 0,infinite_horizon_VI,364,5.74832768052147e-08
+case30,N-1 line 0,infinite_horizon_VI,365,5.4609131439065095e-08
+case30,N-1 line 0,infinite_horizon_VI,366,5.187865781408618e-08
+case30,N-1 line 0,infinite_horizon_VI,367,4.928472208121093e-08
+case30,N-1 line 0,infinite_horizon_VI,368,4.682050303017604e-08
+case30,N-1 line 0,infinite_horizon_VI,369,4.4479463667812524e-08
+case30,N-1 line 0,infinite_horizon_VI,370,4.225549332659284e-08
+case30,N-1 line 0,infinite_horizon_VI,371,4.014273713437433e-08
+case30,N-1 line 0,infinite_horizon_VI,372,3.81355960143992e-08
+case30,N-1 line 0,infinite_horizon_VI,373,3.6228811950422823e-08
+case30,N-1 line 0,infinite_horizon_VI,374,3.4417382721585454e-08
+case30,N-1 line 0,infinite_horizon_VI,375,3.269650505899335e-08
+case30,N-1 line 0,infinite_horizon_VI,376,3.1061688332556514e-08
+case30,N-1 line 0,infinite_horizon_VI,377,2.9508584020732087e-08
+case30,N-1 line 0,infinite_horizon_VI,378,2.8033156240780954e-08
+case30,N-1 line 0,infinite_horizon_VI,379,2.663151121851115e-08
+case30,N-1 line 0,infinite_horizon_VI,380,2.5299925709987292e-08
+case30,N-1 line 0,infinite_horizon_VI,381,2.403493226665887e-08
+case30,N-1 line 0,infinite_horizon_VI,382,2.2833177126813098e-08
+case30,N-1 line 0,infinite_horizon_VI,383,2.169153390241263e-08
+case30,N-1 line 0,infinite_horizon_VI,384,2.0606961470548413e-08
+case30,N-1 line 0,infinite_horizon_VI,385,1.9576589238567976e-08
+case30,N-1 line 0,infinite_horizon_VI,386,1.8597773987494293e-08
+case30,N-1 line 0,infinite_horizon_VI,387,1.7667872498350334e-08
+case30,N-1 line 0,infinite_horizon_VI,388,1.6784497347543947e-08
+case30,N-1 line 0,infinite_horizon_VI,389,1.5945261111482978e-08
+case30,N-1 line 0,infinite_horizon_VI,390,1.5148003740250715e-08
+case30,N-1 line 0,infinite_horizon_VI,391,1.4390593605639879e-08
+case30,N-1 line 0,infinite_horizon_VI,392,1.367106960969977e-08
+case30,N-1 line 0,infinite_horizon_VI,393,1.2987527497898554e-08
+case30,N-1 line 0,infinite_horizon_VI,394,1.2338148280832684e-08
+case30,N-1 line 0,infinite_horizon_VI,395,1.1721226655936334e-08
+case30,N-1 line 0,infinite_horizon_VI,396,1.1135171007481404e-08
+case30,N-1 line 0,infinite_horizon_VI,397,1.057841814144922e-08
+case30,N-1 line 0,infinite_horizon_VI,398,1.0049490128949401e-08
+case30,N-1 line 0,infinite_horizon_VI,399,9.547022727929289e-09
+case30,N-1 line 0,infinite_horizon_VI,400,9.069680118045653e-09
+case30,N-1 line 0,infinite_horizon_VI,401,8.616183322374127e-09
+case30,N-1 line 0,infinite_horizon_VI,402,8.185367050828063e-09
+case30,N-1 line 0,infinite_horizon_VI,403,7.776094435030245e-09
+case30,N-1 line 0,infinite_horizon_VI,404,7.387313871731749e-09
+case30,N-1 line 0,infinite_horizon_VI,405,7.017945335974218e-09
+case30,N-1 line 0,infinite_horizon_VI,406,6.6670509113464504e-09
+case30,N-1 line 0,infinite_horizon_VI,407,6.333692681437242e-09
+case30,N-1 line 0,infinite_horizon_VI,408,6.01698957325425e-09
+case30,N-1 line 0,infinite_horizon_VI,409,5.7161457789334236e-09
+case30,N-1 line 0,infinite_horizon_VI,410,5.430337068901281e-09
+case30,N-1 line 0,infinite_horizon_VI,411,5.158824478712631e-09
+case30,N-1 line 0,infinite_horizon_VI,412,4.900897465631715e-09
+case30,N-1 line 0,infinite_horizon_VI,413,4.655845486922772e-09
+case30,N-1 line 0,infinite_horizon_VI,414,4.4230432649783324e-09
+case30,N-1 line 0,infinite_horizon_VI,415,4.201893943900359e-09
+case30,N-1 line 0,infinite_horizon_VI,416,3.9918006677908124e-09
+case30,N-1 line 0,infinite_horizon_VI,417,3.7922234241705155e-09
+case30,N-1 line 0,infinite_horizon_VI,418,3.60259377885086e-09
+case30,N-1 line 0,infinite_horizon_VI,419,3.4224854061903898e-09
+case30,N-1 line 0,infinite_horizon_VI,420,3.2513582937099272e-09
+case30,N-1 line 0,infinite_horizon_VI,421,3.0887861157680163e-09
+case30,N-1 line 0,infinite_horizon_VI,422,2.934342546723201e-09
+case30,N-1 line 0,infinite_horizon_VI,423,2.7876296826434555e-09
+case30,N-1 line 0,infinite_horizon_VI,424,2.648249619596754e-09
+case30,N-1 line 0,infinite_horizon_VI,425,2.515832875360502e-09
+case30,N-1 line 0,infinite_horizon_VI,426,2.390038389421534e-09
+case30,N-1 line 0,infinite_horizon_VI,427,2.270525101266685e-09
+case30,N-1 line 0,infinite_horizon_VI,428,2.1570087938016513e-09
+case30,N-1 line 0,infinite_horizon_VI,429,2.049148406513268e-09
+case30,N-1 line 0,infinite_horizon_VI,430,1.9466881440166617e-09
+case30,N-1 line 0,infinite_horizon_VI,431,1.8493722109269584e-09
+case30,N-1 line 0,infinite_horizon_VI,432,1.7568879684404237e-09
+case30,N-1 line 0,infinite_horizon_VI,433,1.6690648863004753e-09
+case30,N-1 line 0,infinite_horizon_VI,434,1.5855903257033788e-09
+case30,N-1 line 0,infinite_horizon_VI,435,1.506322178101982e-09
+case30,N-1 line 0,infinite_horizon_VI,436,1.4310046481114114e-09
+case30,N-1 line 0,infinite_horizon_VI,437,1.3594672054750845e-09
+case30,N-1 line 0,infinite_horizon_VI,438,1.291482476517558e-09
+case30,N-1 line 0,infinite_horizon_VI,439,1.2269083526916802e-09
+case30,N-1 line 0,infinite_horizon_VI,440,1.1655743037408683e-09
+case30,N-1 line 0,infinite_horizon_VI,441,1.1072813776991097e-09
+case30,N-1 line 0,infinite_horizon_VI,442,1.0519158877286827e-09
+case30,N-1 line 0,infinite_horizon_VI,443,9.993357252824353e-10
+case30,N-1 line 0,infinite_horizon_VI,444,9.49370360103785e-10
+case30,N-1 line 0,infinite_horizon_VI,445,9.0187768364558e-10
+case30,N-1 line 0,infinite_horizon_VI,446,8.568008524889592e-10
+case30,N-1 line 0,infinite_horizon_VI,447,8.1394091466791e-10
+case30,N-1 line 0,infinite_horizon_VI,448,7.732694484730018e-10
+case30,N-1 line 0,infinite_horizon_VI,449,7.34587501938222e-10
+case30,N-1 line 0,infinite_horizon_VI,450,6.9786665335414e-10
+case30,N-1 line 0,infinite_horizon_VI,451,6.629647941736039e-10
+case30,N-1 line 0,infinite_horizon_VI,452,6.298250809777528e-10
+case30,N-1 line 0,infinite_horizon_VI,453,5.983338269288652e-10
+case30,N-1 line 0,infinite_horizon_VI,454,5.684057668986497e-10
+case30,N-1 line 0,infinite_horizon_VI,455,5.399840574682457e-10
+case30,N-1 line 0,infinite_horizon_VI,456,5.129834335093619e-10
+case30,N-1 line 0,infinite_horizon_VI,457,4.873470516031375e-10
+case30,N-1 line 0,infinite_horizon_VI,458,4.629896466212813e-10
+case30,N-1 line 0,infinite_horizon_VI,459,4.39825953435502e-10
+case30,N-1 line 0,infinite_horizon_VI,460,4.178275503363693e-10
+case30,N-1 line 0,infinite_horizon_VI,461,3.9693759390502237e-10
+case30,N-1 line 0,infinite_horizon_VI,462,3.7709924072260037e-10
+case30,N-1 line 0,infinite_horizon_VI,463,3.582556473702425e-10
+case30,N-1 line 0,infinite_horizon_VI,464,3.403215487196576e-10
+case30,N-1 line 0,infinite_horizon_VI,465,3.23325366480276e-10
+case30,N-1 line 0,infinite_horizon_VI,466,3.071534138143761e-10
+case30,N-1 line 0,infinite_horizon_VI,467,2.9180569072195794e-10
+case30,N-1 line 0,infinite_horizon_VI,468,2.771969320747303e-10
+case30,N-1 line 0,infinite_horizon_VI,469,2.6335555958212353e-10
+case30,N-1 line 0,infinite_horizon_VI,470,2.5016788640641607e-10
+case30,N-1 line 0,infinite_horizon_VI,471,2.376623342570383e-10
+case30,N-1 line 0,infinite_horizon_VI,472,2.2578205971512944e-10
+case30,N-1 line 0,infinite_horizon_VI,473,2.1449864107125904e-10
+case30,N-1 line 0,infinite_horizon_VI,474,2.0375523490656633e-10
+case30,N-1 line 0,infinite_horizon_VI,475,1.935802629304817e-10
+case30,N-1 line 0,infinite_horizon_VI,476,1.8388846001471393e-10
+case30,N-1 line 0,infinite_horizon_VI,477,1.7470824786869343e-10
+case30,N-1 line 0,infinite_horizon_VI,478,1.659827830735594e-10
+case30,N-1 line 0,infinite_horizon_VI,479,1.5768364391988143e-10
+case30,N-1 line 0,infinite_horizon_VI,480,1.4978240869822912e-10
+case30,N-1 line 0,infinite_horizon_VI,481,1.4230749911803287e-10
+case30,N-1 line 0,infinite_horizon_VI,482,1.3517365005100146e-10
+case30,N-1 line 0,infinite_horizon_VI,483,1.284377049159957e-10
+case30,N-1 line 0,infinite_horizon_VI,484,1.220143985847244e-10
+case30,N-1 line 0,infinite_horizon_VI,485,1.1590373105718754e-10
+case30,N-1 line 0,infinite_horizon_VI,486,1.1010570233338512e-10
+case30,N-1 line 0,infinite_horizon_VI,487,1.0459189070388675e-10
+case30,N-1 line 0,infinite_horizon_VI,488,9.936229616869241e-11
+case30,N-1 line 0,finite_horizon_error_S0_S2,5,0.04340087769473888
+case30,N-1 line 0,finite_horizon_error_S3,5,108.52277648248655
+case30,N-1 line 0,finite_horizon_error_S0_S2,10,0.032048992797980985
+case30,N-1 line 0,finite_horizon_error_S3,10,83.9728557262942
+case30,N-1 line 0,finite_horizon_error_S0_S2,20,0.019211404296621173
+case30,N-1 line 0,finite_horizon_error_S3,20,50.27765061590962
+case30,N-1 line 0,finite_horizon_error_S0_S2,40,0.0071158697910457674
+case30,N-1 line 0,finite_horizon_error_S3,40,18.023829956367322
+case30,N-1 line 0,finite_horizon_error_S0_S2,80,0.0009748470258355291
+case30,N-1 line 0,finite_horizon_error_S3,80,2.3162812556099937
+case30,N-1 line 0,finite_horizon_error_S0_S2,160,1.809406304735528e-05
+case30,N-1 line 0,finite_horizon_error_S3,160,0.038254250260422396
+case30,N-1 line 3,infinite_horizon_VI,1,7.0125
+case30,N-1 line 3,infinite_horizon_VI,2,6.661875000000001
+case30,N-1 line 3,infinite_horizon_VI,3,6.328781249999999
+case30,N-1 line 3,infinite_horizon_VI,4,6.0123421875
+case30,N-1 line 3,infinite_horizon_VI,5,5.711725078124999
+case30,N-1 line 3,infinite_horizon_VI,6,5.4261388242187465
+case30,N-1 line 3,infinite_horizon_VI,7,5.154831883007816
+case30,N-1 line 3,infinite_horizon_VI,8,4.89709028885742
+case30,N-1 line 3,infinite_horizon_VI,9,4.6522357744145495
+case30,N-1 line 3,infinite_horizon_VI,10,4.419623985693825
+case30,N-1 line 3,infinite_horizon_VI,11,4.198642786409131
+case30,N-1 line 3,infinite_horizon_VI,12,3.9887106470886664
+case30,N-1 line 3,infinite_horizon_VI,13,3.789275114734238
+case30,N-1 line 3,infinite_horizon_VI,14,3.5998113589975276
+case30,N-1 line 3,infinite_horizon_VI,15,3.4198207910476555
+case30,N-1 line 3,infinite_horizon_VI,16,3.248829751495265
+case30,N-1 line 3,infinite_horizon_VI,17,3.0863882639205116
+case30,N-1 line 3,infinite_horizon_VI,18,2.9320688507244768
+case30,N-1 line 3,infinite_horizon_VI,19,2.7854654081882586
+case30,N-1 line 3,infinite_horizon_VI,20,2.64619213777884
+case30,N-1 line 3,infinite_horizon_VI,21,2.5138825308899015
+case30,N-1 line 3,infinite_horizon_VI,22,2.3881884043454136
+case30,N-1 line 3,infinite_horizon_VI,23,2.268778984128133
+case30,N-1 line 3,infinite_horizon_VI,24,2.1553400349217355
+case30,N-1 line 3,infinite_horizon_VI,25,2.047573033175638
+case30,N-1 line 3,infinite_horizon_VI,26,1.9451943815168562
+case30,N-1 line 3,infinite_horizon_VI,27,1.8479346624410198
+case30,N-1 line 3,infinite_horizon_VI,28,1.7555379293189617
+case30,N-1 line 3,infinite_horizon_VI,29,1.6677610328530221
+case30,N-1 line 3,infinite_horizon_VI,30,1.5843729812103646
+case30,N-1 line 3,infinite_horizon_VI,31,1.5051543321498428
+case30,N-1 line 3,infinite_horizon_VI,32,1.4298966155423614
+case30,N-1 line 3,infinite_horizon_VI,33,1.3584017847652348
+case30,N-1 line 3,infinite_horizon_VI,34,1.290481695526978
+case30,N-1 line 3,infinite_horizon_VI,35,1.2259576107506263
+case30,N-1 line 3,infinite_horizon_VI,36,1.1646597302131028
+case30,N-1 line 3,infinite_horizon_VI,37,1.1064267437024426
+case30,N-1 line 3,infinite_horizon_VI,38,1.0511054065173226
+case30,N-1 line 3,infinite_horizon_VI,39,0.9985501361914544
+case30,N-1 line 3,infinite_horizon_VI,40,0.9486226293818874
+case30,N-1 line 3,infinite_horizon_VI,41,0.9011914979127909
+case30,N-1 line 3,infinite_horizon_VI,42,0.8561319230171449
+case30,N-1 line 3,infinite_horizon_VI,43,0.8133253268662912
+case30,N-1 line 3,infinite_horizon_VI,44,0.7726590605229688
+case30,N-1 line 3,infinite_horizon_VI,45,0.7340261074968311
+case30,N-1 line 3,infinite_horizon_VI,46,0.6973248021219831
+case30,N-1 line 3,infinite_horizon_VI,47,0.6624585620158854
+case30,N-1 line 3,infinite_horizon_VI,48,0.6293356339150904
+case30,N-1 line 3,infinite_horizon_VI,49,0.5978688522193352
+case30,N-1 line 3,infinite_horizon_VI,50,0.5679754096083514
+case30,N-1 line 3,infinite_horizon_VI,51,0.5395766391279437
+case30,N-1 line 3,infinite_horizon_VI,52,0.5125978071715451
+case30,N-1 line 3,infinite_horizon_VI,53,0.48696791681297213
+case30,N-1 line 3,infinite_horizon_VI,54,0.46261952097231074
+case30,N-1 line 3,infinite_horizon_VI,55,0.43948854492370515
+case30,N-1 line 3,infinite_horizon_VI,56,0.4175141176775128
+case30,N-1 line 3,infinite_horizon_VI,57,0.3966384117936457
+case30,N-1 line 3,infinite_horizon_VI,58,0.3768064912039506
+case30,N-1 line 3,infinite_horizon_VI,59,0.357966166643763
+case30,N-1 line 3,infinite_horizon_VI,60,0.3400678583115848
+case30,N-1 line 3,infinite_horizon_VI,61,0.3230644653959871
+case30,N-1 line 3,infinite_horizon_VI,62,0.3069112421262048
+case30,N-1 line 3,infinite_horizon_VI,63,0.29156568001988603
+case30,N-1 line 3,infinite_horizon_VI,64,0.2769873960188818
+case30,N-1 line 3,infinite_horizon_VI,65,0.2631380262179448
+case30,N-1 line 3,infinite_horizon_VI,66,0.2499811249070376
+case30,N-1 line 3,infinite_horizon_VI,67,0.23748206866170563
+case30,N-1 line 3,infinite_horizon_VI,68,0.22560796522861892
+case30,N-1 line 3,infinite_horizon_VI,69,0.21432756696717092
+case30,N-1 line 3,infinite_horizon_VI,70,0.20361118861882233
+case30,N-1 line 3,infinite_horizon_VI,71,0.19343062918787268
+case30,N-1 line 3,infinite_horizon_VI,72,0.1837590977284833
+case30,N-1 line 3,infinite_horizon_VI,73,0.1745711428420691
+case30,N-1 line 3,infinite_horizon_VI,74,0.16584258569994859
+case30,N-1 line 3,infinite_horizon_VI,75,0.15755045641495258
+case30,N-1 line 3,infinite_horizon_VI,76,0.14967293359421774
+case30,N-1 line 3,infinite_horizon_VI,77,0.14218928691448696
+case30,N-1 line 3,infinite_horizon_VI,78,0.13507982256876971
+case30,N-1 line 3,infinite_horizon_VI,79,0.1283258314403497
+case30,N-1 line 3,infinite_horizon_VI,80,0.12190953986831232
+case30,N-1 line 3,infinite_horizon_VI,81,0.11581406287490381
+case30,N-1 line 3,infinite_horizon_VI,82,0.11002335973117283
+case30,N-1 line 3,infinite_horizon_VI,83,0.10452219174459287
+case30,N-1 line 3,infinite_horizon_VI,84,0.09929608215736607
+case30,N-1 line 3,infinite_horizon_VI,85,0.09433127804950914
+case30,N-1 line 3,infinite_horizon_VI,86,0.08961471414701805
+case30,N-1 line 3,infinite_horizon_VI,87,0.08513397843967141
+case30,N-1 line 3,infinite_horizon_VI,88,0.08087727951769352
+case30,N-1 line 3,infinite_horizon_VI,89,0.07683341554181311
+case30,N-1 line 3,infinite_horizon_VI,90,0.07299174476472103
+case30,N-1 line 3,infinite_horizon_VI,91,0.06934215752647788
+case30,N-1 line 3,infinite_horizon_VI,92,0.06587504965014546
+case30,N-1 line 3,infinite_horizon_VI,93,0.0625812971676396
+case30,N-1 line 3,infinite_horizon_VI,94,0.05945223230926899
+case30,N-1 line 3,infinite_horizon_VI,95,0.056479620693806964
+case30,N-1 line 3,infinite_horizon_VI,96,0.053655639659126564
+case30,N-1 line 3,infinite_horizon_VI,97,0.050972857676157446
+case30,N-1 line 3,infinite_horizon_VI,98,0.04842421479236236
+case30,N-1 line 3,infinite_horizon_VI,99,0.04600300405272151
+case30,N-1 line 3,infinite_horizon_VI,100,0.04370285385010675
+case30,N-1 line 3,infinite_horizon_VI,101,0.041517711157581516
+case30,N-1 line 3,infinite_horizon_VI,102,0.039441825599709546
+case30,N-1 line 3,infinite_horizon_VI,103,0.03746973431972833
+case30,N-1 line 3,infinite_horizon_VI,104,0.03559624760373481
+case30,N-1 line 3,infinite_horizon_VI,105,0.033816435223542385
+case30,N-1 line 3,infinite_horizon_VI,106,0.03212561346236953
+case30,N-1 line 3,infinite_horizon_VI,107,0.030519332789253895
+case30,N-1 line 3,infinite_horizon_VI,108,0.0289933661497912
+case30,N-1 line 3,infinite_horizon_VI,109,0.027543697842304482
+case30,N-1 line 3,infinite_horizon_VI,110,0.026166512950197784
+case30,N-1 line 3,infinite_horizon_VI,111,0.02485818730266942
+case30,N-1 line 3,infinite_horizon_VI,112,0.023615277937551582
+case30,N-1 line 3,infinite_horizon_VI,113,0.02243451404066832
+case30,N-1 line 3,infinite_horizon_VI,114,0.02131278833863348
+case30,N-1 line 3,infinite_horizon_VI,115,0.020247148921697544
+case30,N-1 line 3,infinite_horizon_VI,116,0.019234791475611246
+case30,N-1 line 3,infinite_horizon_VI,117,0.018273051901843473
+case30,N-1 line 3,infinite_horizon_VI,118,0.017359399306741352
+case30,N-1 line 3,infinite_horizon_VI,119,0.016491429341414232
+case30,N-1 line 3,infinite_horizon_VI,120,0.015666857874350626
+case30,N-1 line 3,infinite_horizon_VI,121,0.014883514980624568
+case30,N-1 line 3,infinite_horizon_VI,122,0.014139339231576287
+case30,N-1 line 3,infinite_horizon_VI,123,0.013432372270017368
+case30,N-1 line 3,infinite_horizon_VI,124,0.012760753656522184
+case30,N-1 line 3,infinite_horizon_VI,125,0.012122715973674758
+case30,N-1 line 3,infinite_horizon_VI,126,0.011516580174998126
+case30,N-1 line 3,infinite_horizon_VI,127,0.010940751166259588
+case30,N-1 line 3,infinite_horizon_VI,128,0.010393713607925292
+case30,N-1 line 3,infinite_horizon_VI,129,0.009874027927537554
+case30,N-1 line 3,infinite_horizon_VI,130,0.009380326531157834
+case30,N-1 line 3,infinite_horizon_VI,131,0.00891131020460989
+case30,N-1 line 3,infinite_horizon_VI,132,0.008465744694376554
+case30,N-1 line 3,infinite_horizon_VI,133,0.008042457459652042
+case30,N-1 line 3,infinite_horizon_VI,134,0.007640334586682229
+case30,N-1 line 3,infinite_horizon_VI,135,0.007258317857349539
+case30,N-1 line 3,infinite_horizon_VI,136,0.006895401964470693
+case30,N-1 line 3,infinite_horizon_VI,137,0.0065506318662471585
+case30,N-1 line 3,infinite_horizon_VI,138,0.0062231002729333795
+case30,N-1 line 3,infinite_horizon_VI,139,0.0059119452592995
+case30,N-1 line 3,infinite_horizon_VI,140,0.005616347996323157
+case30,N-1 line 3,infinite_horizon_VI,141,0.005335530596511262
+case30,N-1 line 3,infinite_horizon_VI,142,0.005068754066684278
+case30,N-1 line 3,infinite_horizon_VI,143,0.004815316363362854
+case30,N-1 line 3,infinite_horizon_VI,144,0.0045745505451861845
+case30,N-1 line 3,infinite_horizon_VI,145,0.004345823017928296
+case30,N-1 line 3,infinite_horizon_VI,146,0.004128531867024776
+case30,N-1 line 3,infinite_horizon_VI,147,0.003922105273687748
+case30,N-1 line 3,infinite_horizon_VI,148,0.00372600000997636
+case30,N-1 line 3,infinite_horizon_VI,149,0.0035397000094974373
+case30,N-1 line 3,infinite_horizon_VI,150,0.0033627150090183022
+case30,N-1 line 3,infinite_horizon_VI,151,0.0031945792585759136
+case30,N-1 line 3,infinite_horizon_VI,152,0.003034850295648539
+case30,N-1 line 3,infinite_horizon_VI,153,0.0028831077808604277
+case30,N-1 line 3,infinite_horizon_VI,154,0.00273895239180888
+case30,N-1 line 3,infinite_horizon_VI,155,0.0026020047722283834
+case30,N-1 line 3,infinite_horizon_VI,156,0.0024719045336212275
+case30,N-1 line 3,infinite_horizon_VI,157,0.002348309306938745
+case30,N-1 line 3,infinite_horizon_VI,158,0.0022308938415847024
+case30,N-1 line 3,infinite_horizon_VI,159,0.0021193491494955197
+case30,N-1 line 3,infinite_horizon_VI,160,0.002013381692023586
+case30,N-1 line 3,infinite_horizon_VI,161,0.0019127126074351963
+case30,N-1 line 3,infinite_horizon_VI,162,0.0018170769770620154
+case30,N-1 line 3,infinite_horizon_VI,163,0.0017262231282018092
+case30,N-1 line 3,infinite_horizon_VI,164,0.001639911971778929
+case30,N-1 line 3,infinite_horizon_VI,165,0.0015579163732013512
+case30,N-1 line 3,infinite_horizon_VI,166,0.0014800205545384415
+case30,N-1 line 3,infinite_horizon_VI,167,0.0014060195268257303
+case30,N-1 line 3,infinite_horizon_VI,168,0.0013357185504787594
+case30,N-1 line 3,infinite_horizon_VI,169,0.001268932622963348
+case30,N-1 line 3,infinite_horizon_VI,170,0.001205485991789601
+case30,N-1 line 3,infinite_horizon_VI,171,0.0011452116922043842
+case30,N-1 line 3,infinite_horizon_VI,172,0.001087951107592744
+case30,N-1 line 3,infinite_horizon_VI,173,0.001033553552218791
+case30,N-1 line 3,infinite_horizon_VI,174,0.000981875874600746
+case30,N-1 line 3,infinite_horizon_VI,175,0.0009327820808948672
+case30,N-1 line 3,infinite_horizon_VI,176,0.0008861429768387552
+case30,N-1 line 3,infinite_horizon_VI,177,0.0008418358279982385
+case30,N-1 line 3,infinite_horizon_VI,178,0.0007997440365841157
+case30,N-1 line 3,infinite_horizon_VI,179,0.0007597568347534889
+case30,N-1 line 3,infinite_horizon_VI,180,0.0007217689930314464
+case30,N-1 line 3,infinite_horizon_VI,181,0.0006856805433699265
+case30,N-1 line 3,infinite_horizon_VI,182,0.0006513965162184832
+case30,N-1 line 3,infinite_horizon_VI,183,0.0006188266903848216
+case30,N-1 line 3,infinite_horizon_VI,184,0.0005878853558840547
+case30,N-1 line 3,infinite_horizon_VI,185,0.0005584910880713778
+case30,N-1 line 3,infinite_horizon_VI,186,0.0005305665336834409
+case30,N-1 line 3,infinite_horizon_VI,187,0.0005040382069978477
+case30,N-1 line 3,infinite_horizon_VI,188,0.0004788362966507975
+case30,N-1 line 3,infinite_horizon_VI,189,0.0004548944818054679
+case30,N-1 line 3,infinite_horizon_VI,190,0.00043214975772798425
+case30,N-1 line 3,infinite_horizon_VI,191,0.0004105422698330585
+case30,N-1 line 3,infinite_horizon_VI,192,0.0003900151563414056
+case30,N-1 line 3,infinite_horizon_VI,193,0.0003705143985257564
+case30,N-1 line 3,infinite_horizon_VI,194,0.00035198867860231076
+case30,N-1 line 3,infinite_horizon_VI,195,0.00033438924467077413
+case30,N-1 line 3,infinite_horizon_VI,196,0.000317669782447183
+case30,N-1 line 3,infinite_horizon_VI,197,0.00030178629330634976
+case30,N-1 line 3,infinite_horizon_VI,198,0.00028669697866234856
+case30,N-1 line 3,infinite_horizon_VI,199,0.0002723621297207046
+case30,N-1 line 3,infinite_horizon_VI,200,0.00025874402322756396
+case30,N-1 line 3,infinite_horizon_VI,201,0.00024580682207897553
+case30,N-1 line 3,infinite_horizon_VI,202,0.0002335164809608159
+case30,N-1 line 3,infinite_horizon_VI,203,0.00022184065690566968
+case30,N-1 line 3,infinite_horizon_VI,204,0.00021074862408454464
+case30,N-1 line 3,infinite_horizon_VI,205,0.0002002111928618433
+case30,N-1 line 3,infinite_horizon_VI,206,0.00019020063322727765
+case30,N-1 line 3,infinite_horizon_VI,207,0.000180690601553124
+case30,N-1 line 3,infinite_horizon_VI,208,0.00017165607147262563
+case30,N-1 line 3,infinite_horizon_VI,209,0.0001630732679132052
+case30,N-1 line 3,infinite_horizon_VI,210,0.0001549196045118606
+case30,N-1 line 3,infinite_horizon_VI,211,0.00014717362429905734
+case30,N-1 line 3,infinite_horizon_VI,212,0.00013981494308268339
+case30,N-1 line 3,infinite_horizon_VI,213,0.0001328241959299703
+case30,N-1 line 3,infinite_horizon_VI,214,0.0001261829861221031
+case30,N-1 line 3,infinite_horizon_VI,215,0.00011987383680889252
+case30,N-1 line 3,infinite_horizon_VI,216,0.00011388014496560572
+case30,N-1 line 3,infinite_horizon_VI,217,0.00010818613773722063
+case30,N-1 line 3,infinite_horizon_VI,218,0.00010277683085746503
+case30,N-1 line 3,infinite_horizon_VI,219,9.763798931317069e-05
+case30,N-1 line 3,infinite_horizon_VI,220,9.275608982761696e-05
+case30,N-1 line 3,infinite_horizon_VI,221,8.811828533339394e-05
+case30,N-1 line 3,infinite_horizon_VI,222,8.371237106530316e-05
+case30,N-1 line 3,infinite_horizon_VI,223,7.952675252909103e-05
+case30,N-1 line 3,infinite_horizon_VI,224,7.555041489126779e-05
+case30,N-1 line 3,infinite_horizon_VI,225,7.177289415949417e-05
+case30,N-1 line 3,infinite_horizon_VI,226,6.818424944299295e-05
+case30,N-1 line 3,infinite_horizon_VI,227,6.477503697510656e-05
+case30,N-1 line 3,infinite_horizon_VI,228,6.153628513061449e-05
+case30,N-1 line 3,infinite_horizon_VI,229,5.8459470864136165e-05
+case30,N-1 line 3,infinite_horizon_VI,230,5.553649731382393e-05
+case30,N-1 line 3,infinite_horizon_VI,231,5.2759672456659246e-05
+case30,N-1 line 3,infinite_horizon_VI,232,5.012168884377388e-05
+case30,N-1 line 3,infinite_horizon_VI,233,4.761560438737433e-05
+case30,N-1 line 3,infinite_horizon_VI,234,4.523482417084779e-05
+case30,N-1 line 3,infinite_horizon_VI,235,4.2973082969410825e-05
+case30,N-1 line 3,infinite_horizon_VI,236,4.082442882236137e-05
+case30,N-1 line 3,infinite_horizon_VI,237,3.878320737271679e-05
+case30,N-1 line 3,infinite_horizon_VI,238,3.684404700265986e-05
+case30,N-1 line 3,infinite_horizon_VI,239,3.5001844651105785e-05
+case30,N-1 line 3,infinite_horizon_VI,240,3.325175242707701e-05
+case30,N-1 line 3,infinite_horizon_VI,241,3.15891647915123e-05
+case30,N-1 line 3,infinite_horizon_VI,242,3.000970656330537e-05
+case30,N-1 line 3,infinite_horizon_VI,243,2.8509221237982274e-05
+case30,N-1 line 3,infinite_horizon_VI,244,2.7083760187451844e-05
+case30,N-1 line 3,infinite_horizon_VI,245,2.572957217239491e-05
+case30,N-1 line 3,infinite_horizon_VI,246,2.444309356519625e-05
+case30,N-1 line 3,infinite_horizon_VI,247,2.3220938885515352e-05
+case30,N-1 line 3,infinite_horizon_VI,248,2.205989193271307e-05
+case30,N-1 line 3,infinite_horizon_VI,249,2.095689734460393e-05
+case30,N-1 line 3,infinite_horizon_VI,250,1.990905246884722e-05
+case30,N-1 line 3,infinite_horizon_VI,251,1.8913599859615715e-05
+case30,N-1 line 3,infinite_horizon_VI,252,1.7967919859529502e-05
+case30,N-1 line 3,infinite_horizon_VI,253,1.7069523863710856e-05
+case30,N-1 line 3,infinite_horizon_VI,254,1.6216047669104228e-05
+case30,N-1 line 3,infinite_horizon_VI,255,1.540524527854359e-05
+case30,N-1 line 3,infinite_horizon_VI,256,1.463498301745858e-05
+case30,N-1 line 3,infinite_horizon_VI,257,1.3903233877954335e-05
+case30,N-1 line 3,infinite_horizon_VI,258,1.3208072175530106e-05
+case30,N-1 line 3,infinite_horizon_VI,259,1.2547668575280113e-05
+case30,N-1 line 3,infinite_horizon_VI,260,1.1920285146516107e-05
+case30,N-1 line 3,infinite_horizon_VI,261,1.1324270872137276e-05
+case30,N-1 line 3,infinite_horizon_VI,262,1.0758057328530413e-05
+case30,N-1 line 3,infinite_horizon_VI,263,1.0220154479156918e-05
+case30,N-1 line 3,infinite_horizon_VI,264,9.7091467523569e-06
+case30,N-1 line 3,infinite_horizon_VI,265,9.223689403370372e-06
+case30,N-1 line 3,infinite_horizon_VI,266,8.762504933201853e-06
+case30,N-1 line 3,infinite_horizon_VI,267,8.324379678015248e-06
+case30,N-1 line 3,infinite_horizon_VI,268,7.908160711167511e-06
+case30,N-1 line 3,infinite_horizon_VI,269,7.5127526599771954e-06
+case30,N-1 line 3,infinite_horizon_VI,270,7.137115034083763e-06
+case30,N-1 line 3,infinite_horizon_VI,271,6.780259298011515e-06
+case30,N-1 line 3,infinite_horizon_VI,272,6.441246313215743e-06
+case30,N-1 line 3,infinite_horizon_VI,273,6.119184007502554e-06
+case30,N-1 line 3,infinite_horizon_VI,274,5.8132248170750245e-06
+case30,N-1 line 3,infinite_horizon_VI,275,5.522563554904991e-06
+case30,N-1 line 3,infinite_horizon_VI,276,5.246435392791682e-06
+case30,N-1 line 3,infinite_horizon_VI,277,4.98411361604667e-06
+case30,N-1 line 3,infinite_horizon_VI,278,4.734907946613021e-06
+case30,N-1 line 3,infinite_horizon_VI,279,4.498162553545626e-06
+case30,N-1 line 3,infinite_horizon_VI,280,4.273254404552063e-06
+case30,N-1 line 3,infinite_horizon_VI,281,4.059591702798571e-06
+case30,N-1 line 3,infinite_horizon_VI,282,3.85661209634236e-06
+case30,N-1 line 3,infinite_horizon_VI,283,3.663781512841524e-06
+case30,N-1 line 3,infinite_horizon_VI,284,3.480592425830764e-06
+case30,N-1 line 3,infinite_horizon_VI,285,3.3065628031181404e-06
+case30,N-1 line 3,infinite_horizon_VI,286,3.1412346572778915e-06
+case30,N-1 line 3,infinite_horizon_VI,287,2.984172937203766e-06
+case30,N-1 line 3,infinite_horizon_VI,288,2.8349642775538086e-06
+case30,N-1 line 3,infinite_horizon_VI,289,2.6932160608339473e-06
+case30,N-1 line 3,infinite_horizon_VI,290,2.5585552805296174e-06
+case30,N-1 line 3,infinite_horizon_VI,291,2.430627517924222e-06
+case30,N-1 line 3,infinite_horizon_VI,292,2.309096117869558e-06
+case30,N-1 line 3,infinite_horizon_VI,293,2.193641336134533e-06
+case30,N-1 line 3,infinite_horizon_VI,294,2.083959259380208e-06
+case30,N-1 line 3,infinite_horizon_VI,295,1.9797612935690267e-06
+case30,N-1 line 3,infinite_horizon_VI,296,1.8807732260484045e-06
+case30,N-1 line 3,infinite_horizon_VI,297,1.7867345718514116e-06
+case30,N-1 line 3,infinite_horizon_VI,298,1.6973978347323282e-06
+case30,N-1 line 3,infinite_horizon_VI,299,1.6125279387324554e-06
+case30,N-1 line 3,infinite_horizon_VI,300,1.531901546059089e-06
+case30,N-1 line 3,infinite_horizon_VI,301,1.4553064602296217e-06
+case30,N-1 line 3,infinite_horizon_VI,302,1.3825411429024825e-06
+case30,N-1 line 3,infinite_horizon_VI,303,1.3134140885995294e-06
+case30,N-1 line 3,infinite_horizon_VI,304,1.2477433983804076e-06
+case30,N-1 line 3,infinite_horizon_VI,305,1.1853562114083616e-06
+case30,N-1 line 3,infinite_horizon_VI,306,1.12608842073314e-06
+case30,N-1 line 3,infinite_horizon_VI,307,1.0697839911699702e-06
+case30,N-1 line 3,infinite_horizon_VI,308,1.0162947887693008e-06
+case30,N-1 line 3,infinite_horizon_VI,309,9.65480040804323e-07
+case30,N-1 line 3,infinite_horizon_VI,310,9.17206051553876e-07
+case30,N-1 line 3,infinite_horizon_VI,311,8.713457475550968e-07
+case30,N-1 line 3,infinite_horizon_VI,312,8.277784502297436e-07
+case30,N-1 line 3,infinite_horizon_VI,313,7.863895348236838e-07
+case30,N-1 line 3,infinite_horizon_VI,314,7.470700609246705e-07
+case30,N-1 line 3,infinite_horizon_VI,315,7.097165450886678e-07
+case30,N-1 line 3,infinite_horizon_VI,316,6.742307334661746e-07
+case30,N-1 line 3,infinite_horizon_VI,317,6.405191754765838e-07
+case30,N-1 line 3,infinite_horizon_VI,318,6.084932238081819e-07
+case30,N-1 line 3,infinite_horizon_VI,319,5.780685796707985e-07
+case30,N-1 line 3,infinite_horizon_VI,320,5.491651506872586e-07
+case30,N-1 line 3,infinite_horizon_VI,321,5.217068803631264e-07
+case30,N-1 line 3,infinite_horizon_VI,322,4.956215491347393e-07
+case30,N-1 line 3,infinite_horizon_VI,323,4.7084046173040406e-07
+case30,N-1 line 3,infinite_horizon_VI,324,4.472984471703967e-07
+case30,N-1 line 3,infinite_horizon_VI,325,4.249335177064495e-07
+case30,N-1 line 3,infinite_horizon_VI,326,4.0368684040004155e-07
+case30,N-1 line 3,infinite_horizon_VI,327,3.8350250974872324e-07
+case30,N-1 line 3,infinite_horizon_VI,328,3.643273771558597e-07
+case30,N-1 line 3,infinite_horizon_VI,329,3.46110994087212e-07
+case30,N-1 line 3,infinite_horizon_VI,330,3.288054415406805e-07
+case30,N-1 line 3,infinite_horizon_VI,331,3.123651879377576e-07
+case30,N-1 line 3,infinite_horizon_VI,332,2.967469185932714e-07
+case30,N-1 line 3,infinite_horizon_VI,333,2.81909564137095e-07
+case30,N-1 line 3,infinite_horizon_VI,334,2.6781410156218044e-07
+case30,N-1 line 3,infinite_horizon_VI,335,2.544233836943022e-07
+case30,N-1 line 3,infinite_horizon_VI,336,2.4170222445718537e-07
+case30,N-1 line 3,infinite_horizon_VI,337,2.2961711465541157e-07
+case30,N-1 line 3,infinite_horizon_VI,338,2.1813625039612816e-07
+case30,N-1 line 3,infinite_horizon_VI,339,2.0722944782392005e-07
+case30,N-1 line 3,infinite_horizon_VI,340,1.968679725905531e-07
+case30,N-1 line 3,infinite_horizon_VI,341,1.8702456827668357e-07
+case30,N-1 line 3,infinite_horizon_VI,342,1.7767334270502033e-07
+case30,N-1 line 3,infinite_horizon_VI,343,1.6878968267519667e-07
+case30,N-1 line 3,infinite_horizon_VI,344,1.6035019712035137e-07
+case30,N-1 line 3,infinite_horizon_VI,345,1.5233268868541927e-07
+case30,N-1 line 3,infinite_horizon_VI,346,1.447160400402936e-07
+case30,N-1 line 3,infinite_horizon_VI,347,1.3748024230153533e-07
+case30,N-1 line 3,infinite_horizon_VI,348,1.3060622450211667e-07
+case30,N-1 line 3,infinite_horizon_VI,349,1.240759104348399e-07
+case30,N-1 line 3,infinite_horizon_VI,350,1.1787213338720903e-07
+case30,N-1 line 3,infinite_horizon_VI,351,1.1197852245459217e-07
+case30,N-1 line 3,infinite_horizon_VI,352,1.0637958780534973e-07
+case30,N-1 line 3,infinite_horizon_VI,353,1.0106060699399677e-07
+case30,N-1 line 3,infinite_horizon_VI,354,9.600759653949353e-08
+case30,N-1 line 3,infinite_horizon_VI,355,9.120719823840773e-08
+case30,N-1 line 3,infinite_horizon_VI,356,8.664684969517111e-08
+case30,N-1 line 3,infinite_horizon_VI,357,8.23145001049852e-08
+case30,N-1 line 3,infinite_horizon_VI,358,7.819878078407783e-08
+case30,N-1 line 3,infinite_horizon_VI,359,7.428883463944658e-08
+case30,N-1 line 3,infinite_horizon_VI,360,7.057440143398708e-08
+case30,N-1 line 3,infinite_horizon_VI,361,6.704567567794584e-08
+case30,N-1 line 3,infinite_horizon_VI,362,6.369339189404855e-08
+case30,N-1 line 3,infinite_horizon_VI,363,6.050871093066235e-08
+case30,N-1 line 3,infinite_horizon_VI,364,5.74832768052147e-08
+case30,N-1 line 3,infinite_horizon_VI,365,5.4609131439065095e-08
+case30,N-1 line 3,infinite_horizon_VI,366,5.187865781408618e-08
+case30,N-1 line 3,infinite_horizon_VI,367,4.928472208121093e-08
+case30,N-1 line 3,infinite_horizon_VI,368,4.682050303017604e-08
+case30,N-1 line 3,infinite_horizon_VI,369,4.4479463667812524e-08
+case30,N-1 line 3,infinite_horizon_VI,370,4.225549332659284e-08
+case30,N-1 line 3,infinite_horizon_VI,371,4.014273713437433e-08
+case30,N-1 line 3,infinite_horizon_VI,372,3.81355960143992e-08
+case30,N-1 line 3,infinite_horizon_VI,373,3.6228811950422823e-08
+case30,N-1 line 3,infinite_horizon_VI,374,3.4417382721585454e-08
+case30,N-1 line 3,infinite_horizon_VI,375,3.269650505899335e-08
+case30,N-1 line 3,infinite_horizon_VI,376,3.1061688332556514e-08
+case30,N-1 line 3,infinite_horizon_VI,377,2.9508584020732087e-08
+case30,N-1 line 3,infinite_horizon_VI,378,2.8033156240780954e-08
+case30,N-1 line 3,infinite_horizon_VI,379,2.663151121851115e-08
+case30,N-1 line 3,infinite_horizon_VI,380,2.5299925709987292e-08
+case30,N-1 line 3,infinite_horizon_VI,381,2.403493226665887e-08
+case30,N-1 line 3,infinite_horizon_VI,382,2.2833177126813098e-08
+case30,N-1 line 3,infinite_horizon_VI,383,2.169153390241263e-08
+case30,N-1 line 3,infinite_horizon_VI,384,2.0606961470548413e-08
+case30,N-1 line 3,infinite_horizon_VI,385,1.9576589238567976e-08
+case30,N-1 line 3,infinite_horizon_VI,386,1.8597773987494293e-08
+case30,N-1 line 3,infinite_horizon_VI,387,1.7667872498350334e-08
+case30,N-1 line 3,infinite_horizon_VI,388,1.6784497347543947e-08
+case30,N-1 line 3,infinite_horizon_VI,389,1.5945261111482978e-08
+case30,N-1 line 3,infinite_horizon_VI,390,1.5148003740250715e-08
+case30,N-1 line 3,infinite_horizon_VI,391,1.4390593605639879e-08
+case30,N-1 line 3,infinite_horizon_VI,392,1.367106960969977e-08
+case30,N-1 line 3,infinite_horizon_VI,393,1.2987527497898554e-08
+case30,N-1 line 3,infinite_horizon_VI,394,1.2338148280832684e-08
+case30,N-1 line 3,infinite_horizon_VI,395,1.1721226655936334e-08
+case30,N-1 line 3,infinite_horizon_VI,396,1.1135171007481404e-08
+case30,N-1 line 3,infinite_horizon_VI,397,1.057841814144922e-08
+case30,N-1 line 3,infinite_horizon_VI,398,1.0049490128949401e-08
+case30,N-1 line 3,infinite_horizon_VI,399,9.547022727929289e-09
+case30,N-1 line 3,infinite_horizon_VI,400,9.069680118045653e-09
+case30,N-1 line 3,infinite_horizon_VI,401,8.616183322374127e-09
+case30,N-1 line 3,infinite_horizon_VI,402,8.185367050828063e-09
+case30,N-1 line 3,infinite_horizon_VI,403,7.776094435030245e-09
+case30,N-1 line 3,infinite_horizon_VI,404,7.387313871731749e-09
+case30,N-1 line 3,infinite_horizon_VI,405,7.017945335974218e-09
+case30,N-1 line 3,infinite_horizon_VI,406,6.6670509113464504e-09
+case30,N-1 line 3,infinite_horizon_VI,407,6.333692681437242e-09
+case30,N-1 line 3,infinite_horizon_VI,408,6.01698957325425e-09
+case30,N-1 line 3,infinite_horizon_VI,409,5.7161457789334236e-09
+case30,N-1 line 3,infinite_horizon_VI,410,5.430337068901281e-09
+case30,N-1 line 3,infinite_horizon_VI,411,5.158824478712631e-09
+case30,N-1 line 3,infinite_horizon_VI,412,4.900897465631715e-09
+case30,N-1 line 3,infinite_horizon_VI,413,4.655845486922772e-09
+case30,N-1 line 3,infinite_horizon_VI,414,4.4230432649783324e-09
+case30,N-1 line 3,infinite_horizon_VI,415,4.201893943900359e-09
+case30,N-1 line 3,infinite_horizon_VI,416,3.9918006677908124e-09
+case30,N-1 line 3,infinite_horizon_VI,417,3.7922234241705155e-09
+case30,N-1 line 3,infinite_horizon_VI,418,3.60259377885086e-09
+case30,N-1 line 3,infinite_horizon_VI,419,3.4224854061903898e-09
+case30,N-1 line 3,infinite_horizon_VI,420,3.2513582937099272e-09
+case30,N-1 line 3,infinite_horizon_VI,421,3.0887861157680163e-09
+case30,N-1 line 3,infinite_horizon_VI,422,2.934342546723201e-09
+case30,N-1 line 3,infinite_horizon_VI,423,2.7876296826434555e-09
+case30,N-1 line 3,infinite_horizon_VI,424,2.648249619596754e-09
+case30,N-1 line 3,infinite_horizon_VI,425,2.515832875360502e-09
+case30,N-1 line 3,infinite_horizon_VI,426,2.390038389421534e-09
+case30,N-1 line 3,infinite_horizon_VI,427,2.270525101266685e-09
+case30,N-1 line 3,infinite_horizon_VI,428,2.1570087938016513e-09
+case30,N-1 line 3,infinite_horizon_VI,429,2.049148406513268e-09
+case30,N-1 line 3,infinite_horizon_VI,430,1.9466881440166617e-09
+case30,N-1 line 3,infinite_horizon_VI,431,1.8493722109269584e-09
+case30,N-1 line 3,infinite_horizon_VI,432,1.7568879684404237e-09
+case30,N-1 line 3,infinite_horizon_VI,433,1.6690648863004753e-09
+case30,N-1 line 3,infinite_horizon_VI,434,1.5855903257033788e-09
+case30,N-1 line 3,infinite_horizon_VI,435,1.506322178101982e-09
+case30,N-1 line 3,infinite_horizon_VI,436,1.4310046481114114e-09
+case30,N-1 line 3,infinite_horizon_VI,437,1.3594672054750845e-09
+case30,N-1 line 3,infinite_horizon_VI,438,1.291482476517558e-09
+case30,N-1 line 3,infinite_horizon_VI,439,1.2269083526916802e-09
+case30,N-1 line 3,infinite_horizon_VI,440,1.1655743037408683e-09
+case30,N-1 line 3,infinite_horizon_VI,441,1.1072813776991097e-09
+case30,N-1 line 3,infinite_horizon_VI,442,1.0519158877286827e-09
+case30,N-1 line 3,infinite_horizon_VI,443,9.993357252824353e-10
+case30,N-1 line 3,infinite_horizon_VI,444,9.49370360103785e-10
+case30,N-1 line 3,infinite_horizon_VI,445,9.0187768364558e-10
+case30,N-1 line 3,infinite_horizon_VI,446,8.568008524889592e-10
+case30,N-1 line 3,infinite_horizon_VI,447,8.1394091466791e-10
+case30,N-1 line 3,infinite_horizon_VI,448,7.732694484730018e-10
+case30,N-1 line 3,infinite_horizon_VI,449,7.34587501938222e-10
+case30,N-1 line 3,infinite_horizon_VI,450,6.9786665335414e-10
+case30,N-1 line 3,infinite_horizon_VI,451,6.629647941736039e-10
+case30,N-1 line 3,infinite_horizon_VI,452,6.298250809777528e-10
+case30,N-1 line 3,infinite_horizon_VI,453,5.983338269288652e-10
+case30,N-1 line 3,infinite_horizon_VI,454,5.684057668986497e-10
+case30,N-1 line 3,infinite_horizon_VI,455,5.399840574682457e-10
+case30,N-1 line 3,infinite_horizon_VI,456,5.129834335093619e-10
+case30,N-1 line 3,infinite_horizon_VI,457,4.873470516031375e-10
+case30,N-1 line 3,infinite_horizon_VI,458,4.629896466212813e-10
+case30,N-1 line 3,infinite_horizon_VI,459,4.39825953435502e-10
+case30,N-1 line 3,infinite_horizon_VI,460,4.178275503363693e-10
+case30,N-1 line 3,infinite_horizon_VI,461,3.9693759390502237e-10
+case30,N-1 line 3,infinite_horizon_VI,462,3.7709924072260037e-10
+case30,N-1 line 3,infinite_horizon_VI,463,3.582556473702425e-10
+case30,N-1 line 3,infinite_horizon_VI,464,3.403215487196576e-10
+case30,N-1 line 3,infinite_horizon_VI,465,3.23325366480276e-10
+case30,N-1 line 3,infinite_horizon_VI,466,3.071534138143761e-10
+case30,N-1 line 3,infinite_horizon_VI,467,2.9180569072195794e-10
+case30,N-1 line 3,infinite_horizon_VI,468,2.771969320747303e-10
+case30,N-1 line 3,infinite_horizon_VI,469,2.6335555958212353e-10
+case30,N-1 line 3,infinite_horizon_VI,470,2.5016788640641607e-10
+case30,N-1 line 3,infinite_horizon_VI,471,2.376623342570383e-10
+case30,N-1 line 3,infinite_horizon_VI,472,2.2578205971512944e-10
+case30,N-1 line 3,infinite_horizon_VI,473,2.1449864107125904e-10
+case30,N-1 line 3,infinite_horizon_VI,474,2.0375523490656633e-10
+case30,N-1 line 3,infinite_horizon_VI,475,1.935802629304817e-10
+case30,N-1 line 3,infinite_horizon_VI,476,1.8388846001471393e-10
+case30,N-1 line 3,infinite_horizon_VI,477,1.7470824786869343e-10
+case30,N-1 line 3,infinite_horizon_VI,478,1.659827830735594e-10
+case30,N-1 line 3,infinite_horizon_VI,479,1.5768364391988143e-10
+case30,N-1 line 3,infinite_horizon_VI,480,1.4978240869822912e-10
+case30,N-1 line 3,infinite_horizon_VI,481,1.4230749911803287e-10
+case30,N-1 line 3,infinite_horizon_VI,482,1.3517365005100146e-10
+case30,N-1 line 3,infinite_horizon_VI,483,1.284377049159957e-10
+case30,N-1 line 3,infinite_horizon_VI,484,1.220143985847244e-10
+case30,N-1 line 3,infinite_horizon_VI,485,1.1590373105718754e-10
+case30,N-1 line 3,infinite_horizon_VI,486,1.1010570233338512e-10
+case30,N-1 line 3,infinite_horizon_VI,487,1.0459189070388675e-10
+case30,N-1 line 3,infinite_horizon_VI,488,9.936229616869241e-11
+case30,N-1 line 3,finite_horizon_error_S0_S2,5,0.04322943379633511
+case30,N-1 line 3,finite_horizon_error_S3,5,108.52277648248655
+case30,N-1 line 3,finite_horizon_error_S0_S2,10,0.03180125658095029
+case30,N-1 line 3,finite_horizon_error_S3,10,83.9728557262942
+case30,N-1 line 3,finite_horizon_error_S0_S2,20,0.01896475832910488
+case30,N-1 line 3,finite_horizon_error_S3,20,50.27765061590962
+case30,N-1 line 3,finite_horizon_error_S0_S2,40,0.006962936134387171
+case30,N-1 line 3,finite_horizon_error_S3,40,18.023829956367322
+case30,N-1 line 3,finite_horizon_error_S0_S2,80,0.0009386739001266825
+case30,N-1 line 3,finite_horizon_error_S3,80,2.3162812556099937
+case30,N-1 line 3,finite_horizon_error_S0_S2,160,1.6951047188892843e-05
+case30,N-1 line 3,finite_horizon_error_S3,160,0.038254250260422396
