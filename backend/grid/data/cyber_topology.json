@@ -1,0 +1,21 @@
+{
+  "description": "Stylised four-tier cyber topology. An edge with exploitable=true lets an attacker with access to its source reach its target. Not a vulnerability assessment.",
+  "entry_point": "IT-Email",
+  "exposed_fraction": 0.5,
+  "rtu_attach_node": "SCADA-FrontEnd",
+  "rtu_prefix": "RTU-",
+  "static_edges": [
+    {"source": "IT-Email", "target": "IT-Historian", "exploitable": true, "label": "credential reuse"},
+    {"source": "IT-Email", "target": "IT-Web", "exploitable": false, "label": "no direct foothold"},
+    {"source": "IT-Historian", "target": "FW-IT-DMZ", "exploitable": true, "label": "allowed historian sync"},
+    {"source": "FW-IT-DMZ", "target": "DMZ-Historian", "exploitable": true, "label": "allowed port 443"},
+    {"source": "DMZ-Historian", "target": "DMZ-Jump", "exploitable": true, "label": "shared service account"},
+    {"source": "DMZ-Jump", "target": "FW-DMZ-OT", "exploitable": true, "label": "allowed polling proxy"},
+    {"source": "FW-DMZ-OT", "target": "SCADA-Master", "exploitable": true, "label": "proxy to master"},
+    {"source": "SCADA-Master", "target": "SCADA-FrontEnd", "exploitable": true, "label": "internal"}
+  ],
+  "rtu_links": {
+    "polling": {"exploitable": true, "label": "polling network"},
+    "radio": {"exploitable": false, "label": "secure radio (no exploitable path)"}
+  }
+}

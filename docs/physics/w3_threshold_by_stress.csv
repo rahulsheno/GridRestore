@@ -1,0 +1,7 @@
+case,stress_vector,threshold,note
+case14,base,0.4482,
+case14,N-1 line 0,0.4105,
+case14,N-1 line 1,0.2305,
+case30,base,0.7309,
+case30,N-1 line 0,0.2478,
+case30,N-1 line 3,0.2396,

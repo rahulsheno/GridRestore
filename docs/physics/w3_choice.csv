@@ -1,0 +1,2 @@
+robust_threshold,chosen_w3,rule
+0.2305,0.1153,"half of the minimum threshold over all stress vectors and cases, rounded half up"

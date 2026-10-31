@@ -1,0 +1,5 @@
+case,kind,metrics_trials,metrics_lnr_threshold,metrics_lnr_false_alarm_rate_clean,metrics_lnr_detection_rate_stealthy,metrics_lnr_detection_rate_random,metrics_median_lnr_stealthy,metrics_median_lnr_random,metrics_feasible,metrics_median_linear_prediction_pu,metrics_median_achieved_shift_pu,metrics_median_max_energy_shift_pu,metrics_targeted_bypass_rate,metrics_targeted_lnr_detection_rate
+case14,lnr,200,3.0,0.155,0.155,1.0,2.566829873167726,49.68070921469652,,,,,,
+case14,targeted,100,,,,,,,100.0,0.12824508554417002,0.12826171111846507,2.0693648096425932e-05,1.0,0.15
+case30,lnr,200,3.0,0.365,0.365,1.0,2.815714543703235,47.155305963377835,,,,,,
+case30,targeted,100,,,,,,,100.0,0.02248259970414608,0.022435978957369707,1.4009835552990235e-05,0.97,0.34

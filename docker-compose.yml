@@ -1,0 +1,61 @@
+# One command to start PostgreSQL 18 with pgvector and the API:
+#   SESSION_SECRET=$(openssl rand -hex 32) docker compose up --build
+# The database is initialised from database/ on first start (schema, then migrations 002-005).
+# A one-shot `seed` service loads the demo scenario and the vector narratives, then exits.
+services:
+  db:
+    image: pgvector/pgvector:pg18
+    environment:
+      POSTGRES_DB: gridrestore
+      POSTGRES_USER: gridrestore_user
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-gridrestore_pw}
+    ports:
+      - "5433:5432"  # host 5433: a native Windows PostgreSQL already owns 5432
+    volumes:
+      - pgdata:/var/lib/postgresql
+      - ./docker/init/01-schema.sql:/docker-entrypoint-initdb.d/01-schema.sql:ro
+      - ./docker/init/02-vectors.sql:/docker-entrypoint-initdb.d/02-vectors.sql:ro
+      - ./docker/init/03-auth.sql:/docker-entrypoint-initdb.d/03-auth.sql:ro
+      - ./docker/init/04-causes.sql:/docker-entrypoint-initdb.d/04-causes.sql:ro
+      - ./docker/init/05-integrity-audit-versions.sql:/docker-entrypoint-initdb.d/05-integrity-audit-versions.sql:ro
+      - ./docker/init/06-physics.sql:/docker-entrypoint-initdb.d/06-physics.sql:ro
+      - ./docker/init/07-physics-extensions.sql:/docker-entrypoint-initdb.d/07-physics-extensions.sql:ro
+      - ./docker/init/08-auth-hardening.sql:/docker-entrypoint-initdb.d/08-auth-hardening.sql:ro
+      - ./docker/init/09-embeddings-st.sql:/docker-entrypoint-initdb.d/09-embeddings-st.sql:ro
+      - ./docker/init/10-element-physics-map.sql:/docker-entrypoint-initdb.d/10-element-physics-map.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U gridrestore_user -d gridrestore"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+
+  seed:
+    build:
+      context: .
+      dockerfile: Dockerfile.api
+    environment:
+      DATABASE_URL: postgresql://gridrestore_user:${POSTGRES_PASSWORD:-gridrestore_pw}@db:5432/gridrestore
+      SESSION_SECRET: ${SESSION_SECRET:?set SESSION_SECRET, e.g. openssl rand -hex 32}
+      ADMIN_PASSWORD: ${ADMIN_PASSWORD:-admin123}
+      OPERATOR_PASSWORD: ${OPERATOR_PASSWORD:-operator123}
+    command: ["sh", "-c", "python -m backend.seed_demo && python -m backend.vectors && python -m backend.seed_users"]
+    depends_on:
+      db:
+        condition: service_healthy
+    restart: "no"
+
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile.api
+    environment:
+      DATABASE_URL: postgresql://gridrestore_user:${POSTGRES_PASSWORD:-gridrestore_pw}@db:5432/gridrestore
+      SESSION_SECRET: ${SESSION_SECRET:?set SESSION_SECRET, e.g. openssl rand -hex 32}
+    ports:
+      - "8000:8000"
+    depends_on:
+      seed:
+        condition: service_completed_successfully
+
+volumes:
+  pgdata:

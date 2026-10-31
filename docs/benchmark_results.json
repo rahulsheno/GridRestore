@@ -1,0 +1,32 @@
+{
+  "dataset": {
+    "grid_nodes": 509,
+    "repair_tasks": 25008,
+    "outage_scenarios": 51,
+    "restoration_runs": 152,
+    "scheduled_actions": 26689,
+    "audit_log": 27503
+  },
+  "index_scenario_status": {
+    "with_index_ms": 0.462,
+    "plan_with_index": "Bitmap Heap Scan on repair_tasks  (cost=9.41..495.38 rows=500 width=8)",
+    "without_index_ms": 2.523,
+    "plan_without_index": "Seq Scan on repair_tasks  (cost=0.00..833.12 rows=500 width=8)"
+  },
+  "index_run_time": {
+    "with_index_ms": 0.346,
+    "plan_with_index": "Index Scan using idx_actions_run_time on scheduled_actions  (cost=0.29..237.49 rows=165 width=17)",
+    "without_index_ms": 0.41,
+    "plan_without_index": "Sort  (cost=247.56..247.98 rows=165 width=17)"
+  },
+  "dashboard": {
+    "live_ms": 17.07,
+    "materialized_ms": 0.326,
+    "refresh_once_ms": 29.428
+  },
+  "overlap_constraint": {
+    "rows": 2000,
+    "with_constraint_ms": 180.318,
+    "without_constraint_ms": 98.696
+  }
+}

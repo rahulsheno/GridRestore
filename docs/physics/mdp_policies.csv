@@ -1,0 +1,49 @@
+case,stress_vector,weight_set,state,loading_target,min_vm,V_star,optimal_action,isolated_bus,lambda_v
+case14,base,headline,S0,0.6,1.01,-0.037653,DO_NOTHING,8,1.2432
+case14,base,headline,S1,0.9,0.9905,-0.054278,DO_NOTHING,8,1.2432
+case14,base,headline,S2,1.05,0.9376,-0.077055,LOAD_SHED,8,1.2432
+case14,base,headline,S3,1.2432,0.85,-140.25,DO_NOTHING,8,1.2432
+case14,base,plan,S0,0.6,1.01,-0.146365,DO_NOTHING,8,1.2432
+case14,base,plan,S1,0.9,0.9905,-0.210991,DO_NOTHING,8,1.2432
+case14,base,plan,S2,1.05,0.9376,-0.299528,DO_NOTHING,8,1.2432
+case14,base,plan,S3,1.2432,0.85,-140.25,DO_NOTHING,8,1.2432
+case14,N-1 line 0,headline,S0,0.6,1.0321,-0.022,DO_NOTHING,8,2.2571
+case14,N-1 line 0,headline,S1,0.9,1.0191,-0.031714,DO_NOTHING,8,2.2571
+case14,N-1 line 0,headline,S2,1.05,1.0124,-0.045022,ISOLATE_NODE,8,2.2571
+case14,N-1 line 0,headline,S3,2.2571,0.8501,-140.25,DO_NOTHING,8,2.2571
+case14,N-1 line 0,plan,S0,0.6,1.0321,-0.078316,DO_NOTHING,8,2.2571
+case14,N-1 line 0,plan,S1,0.9,1.0191,-0.112896,DO_NOTHING,8,2.2571
+case14,N-1 line 0,plan,S2,1.05,1.0124,-0.16027,DO_NOTHING,8,2.2571
+case14,N-1 line 0,plan,S3,2.2571,0.8501,-140.25,DO_NOTHING,8,2.2571
+case14,N-1 line 1,headline,S0,0.6,1.0136,-0.0392,DO_NOTHING,8,1.689
+case14,N-1 line 1,headline,S1,0.9,1.01,-0.056509,DO_NOTHING,8,1.689
+case14,N-1 line 1,headline,S2,1.05,1.0057,-0.080222,LOAD_SHED,8,1.689
+case14,N-1 line 1,headline,S3,1.689,0.85,-140.25,DO_NOTHING,8,1.689
+case14,N-1 line 1,plan,S0,0.6,1.0136,-0.078365,DO_NOTHING,8,1.689
+case14,N-1 line 1,plan,S1,0.9,1.01,-0.112966,DO_NOTHING,8,1.689
+case14,N-1 line 1,plan,S2,1.05,1.0057,-0.160371,DO_NOTHING,8,1.689
+case14,N-1 line 1,plan,S3,1.689,0.85,-140.25,DO_NOTHING,8,1.689
+case30,base,headline,S0,0.6,0.9606,-0.056398,DO_NOTHING,29,2.6924
+case30,base,headline,S1,0.9,0.9409,-0.0813,DO_NOTHING,29,2.6924
+case30,base,headline,S2,1.05,0.9277,-0.113797,LOAD_SHED,29,2.6924
+case30,base,headline,S3,2.6924,0.85,-140.25,DO_NOTHING,29,2.6924
+case30,base,plan,S0,0.6,0.9606,-0.263482,DO_NOTHING,29,2.6924
+case30,base,plan,S1,0.9,0.9409,-0.379819,DO_NOTHING,29,2.6924
+case30,base,plan,S2,1.05,0.9277,-0.537582,DO_NOTHING,29,2.6924
+case30,base,plan,S3,2.6924,0.85,-140.25,DO_NOTHING,29,2.6924
+case30,N-1 line 0,headline,S0,0.6,0.9787,-0.040077,DO_NOTHING,29,3.3922
+case30,N-1 line 0,headline,S1,0.9,0.9668,-0.057774,DO_NOTHING,29,3.3922
+case30,N-1 line 0,headline,S2,1.05,0.961,-0.082019,LOAD_SHED,29,3.3922
+case30,N-1 line 0,headline,S3,3.3922,0.85,-140.25,DO_NOTHING,29,3.3922
+case30,N-1 line 0,plan,S0,0.6,0.9787,-0.084569,DO_NOTHING,29,3.3922
+case30,N-1 line 0,plan,S1,0.9,0.9668,-0.121912,DO_NOTHING,29,3.3922
+case30,N-1 line 0,plan,S2,1.05,0.961,-0.173072,DO_NOTHING,29,3.3922
+case30,N-1 line 0,plan,S3,3.3922,0.85,-140.25,DO_NOTHING,29,3.3922
+case30,N-1 line 3,headline,S0,0.6,0.9818,-0.040158,DO_NOTHING,29,3.7215
+case30,N-1 line 3,headline,S1,0.9,0.9707,-0.057889,DO_NOTHING,29,3.7215
+case30,N-1 line 3,headline,S2,1.05,0.9653,-0.082182,LOAD_SHED,29,3.7215
+case30,N-1 line 3,headline,S3,3.7215,0.85,-140.25,DO_NOTHING,29,3.7215
+case30,N-1 line 3,plan,S0,0.6,0.9818,-0.082385,DO_NOTHING,29,3.7215
+case30,N-1 line 3,plan,S1,0.9,0.9707,-0.118761,DO_NOTHING,29,3.7215
+case30,N-1 line 3,plan,S2,1.05,0.9653,-0.1686,DO_NOTHING,29,3.7215
+case30,N-1 line 3,plan,S3,3.7215,0.85,-140.25,DO_NOTHING,29,3.7215
