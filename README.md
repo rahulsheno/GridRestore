@@ -482,4 +482,13 @@ For focused tests and troubleshooting, see [docs/RUNNING.md](docs/RUNNING.md) an
 
 ---
 
+## Contributors
+
+| Contributor | Role | Key Areas |
+|---|---|---|
+| [**Rahul Shenoy**](https://github.com/rahulsheno) | Backend & Data Engineering | Backend API, database schema & migrations, grid physics engine, scheduling algorithms, test suite, documentation |
+| [**Samvit Nandakishore Atur**](https://github.com/samvitOK) | Frontend Development | Next.js frontend, UI components, grid visualization, physics panel, audit trail dashboard, README & screenshots |
+
+---
+
 For implementation details and project notes, start with [docs/PROJECT_OVERVIEW.md](docs/PROJECT_OVERVIEW.md).
