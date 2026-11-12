@@ -1,0 +1,336 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 2000" width="100%" height="100%" style="background-color: #0d1117; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="3" markerWidth="6" markerHeight="6" orient="auto">
+    <path d="M 0 6 L 5 0 L 10 6 z" fill="#58a6ff" />
+  </marker>
+</defs>
+<text x="60" y="45" fill="#f0f6fc" font-size="20" font-weight="bold">GridRestore Relational Database Schema</text>
+<text x="60" y="68" fill="#8b949e" font-size="11">Elmasri–Navathe Relational Schema Notation • Contiguous Attribute Boxes • Directed Referential Integrity Constraints (FK → PK)</text>
+<line x1="60" y1="88" x2="1140" y2="88" stroke="#30363d" stroke-width="1"/>
+<text x="60" y="115" fill="#58a6ff" font-size="14" font-weight="bold">1. Core Restoration, Grid Topology &amp; Application Relations</text>
+<text x="95" y="139" fill="#f0f6fc" font-size="12" font-weight="bold">GRID_NODES</text>
+<rect x="95" y="147" width="70" height="26" fill="#21262d" stroke="#58a6ff" stroke-width="1"/>
+<text x="130.0" y="164.0" fill="#ffffff" font-size="10" font-weight="bold" text-anchor="middle" text-decoration="underline" text-decoration-color="#58a6ff">node_id</text>
+<rect x="165" y="147" width="83.5" height="26" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+<text x="206.75" y="164.0" fill="#c9d1d9" font-size="10" font-weight="normal" text-anchor="middle">node_name</text>
+<rect x="248.5" y="147" width="83.5" height="26" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+<text x="290.25" y="164.0" fill="#c9d1d9" font-size="10" font-weight="normal" text-anchor="middle">node_type</text>
+<rect x="332.0" y="147" width="98.5" height="26" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+<text x="381.25" y="164.0" fill="#c9d1d9" font-size="10" font-weight="normal" text-anchor="middle">criticality</text>
+<rect x="430.5" y="147" width="98.5" height="26" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+<text x="479.75" y="164.0" fill="#c9d1d9" font-size="10" font-weight="normal" text-anchor="middle">region_code</text>
+<text x="95" y="207" fill="#f0f6fc" font-size="12" font-weight="bold">GRID_EDGES</text>
+<rect x="95" y="215" width="70" height="26" fill="#21262d" stroke="#58a6ff" stroke-width="1"/>
+<text x="130.0" y="232.0" fill="#ffffff" font-size="10" font-weight="bold" text-anchor="middle" text-decoration="underline" text-decoration-color="#58a6ff">edge_id</text>
+<rect x="165" y="215" width="106.0" height="26" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+<text x="218.0" y="232.0" fill="#c9d1d9" font-size="10" font-weight="normal" text-anchor="middle">from_node_id</text>
+<rect x="271.0" y="215" width="91.0" height="26" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+<text x="316.5" y="232.0" fill="#c9d1d9" font-size="10" font-weight="normal" text-anchor="middle">to_node_id</text>
+<rect x="362.0" y="215" width="121.0" height="26" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+<text x="422.5" y="232.0" fill="#c9d1d9" font-size="10" font-weight="normal" text-anchor="middle">component_type</text>
+<rect x="483.0" y="215" width="158.5" height="26" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+<text x="562.25" y="232.0" fill="#c9d1d9" font-size="10" font-weight="normal" text-anchor="middle">nominal_capacity_kw</text>
+<text x="95" y="275" fill="#f0f6fc" font-size="12" font-weight="bold">OUTAGE_SCENARIOS</text>
+<rect x="95" y="283" width="98.5" height="26" fill="#21262d" stroke="#58a6ff" stroke-width="1"/>
+<text x="144.25" y="300.0" fill="#ffffff" font-size="10" font-weight="bold" text-anchor="middle" text-decoration="underline" text-decoration-color="#58a6ff">scenario_id</text>
+<rect x="193.5" y="283" width="113.5" height="26" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+<text x="250.25" y="300.0" fill="#c9d1d9" font-size="10" font-weight="normal" text-anchor="middle">scenario_name</text>
+<rect x="307.0" y="283" width="70" height="26" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+<text x="342.0" y="300.0" fill="#c9d1d9" font-size="10" font-weight="normal" text-anchor="middle">budget</text>
+<rect x="377.0" y="283" width="91.0" height="26" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+<text x="422.5" y="300.0" fill="#c9d1d9" font-size="10" font-weight="normal" text-anchor="middle">crew_count</text>
+<rect x="468.0" y="283" width="91.0" height="26" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+<text x="513.5" y="300.0" fill="#c9d1d9" font-size="10" font-weight="normal" text-anchor="middle">created_at</text>
+<text x="95" y="343" fill="#f0f6fc" font-size="12" font-weight="bold">REPAIR_TASKS</text>
+<rect x="95" y="351" width="70" height="26" fill="#21262d" stroke="#58a6ff" stroke-width="1"/>
+<text x="130.0" y="368.0" fill="#ffffff" font-size="10" font-weight="bold" text-anchor="middle" text-decoration="underline" text-decoration-color="#58a6ff">task_id</text>
+<rect x="165" y="351" width="98.5" height="26" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+<text x="214.25" y="368.0" fill="#c9d1d9" font-size="10" font-weight="normal" text-anchor="middle">scenario_id</text>
+<rect x="263.5" y="351" width="70" height="26" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+<text x="298.5" y="368.0" fill="#c9d1d9" font-size="10" font-weight="normal" text-anchor="middle">edge_id</text>
+<rect x="333.5" y="351" width="121.0" height="26" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+<text x="394.0" y="368.0" fill="#c9d1d9" font-size="10" font-weight="normal" text-anchor="middle">component_name</text>
+<rect x="454.5" y="351" width="128.5" height="26" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+<text x="518.75" y="368.0" fill="#c9d1d9" font-size="10" font-weight="normal" text-anchor="middle">estimated_hours</text>
+<rect x="583.0" y="351" width="121.0" height="26" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+<text x="643.5" y="368.0" fill="#c9d1d9" font-size="10" font-weight="normal" text-anchor="middle">estimated_cost</text>
+<rect x="704.0" y="351" width="76.0" height="26" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+<text x="742.0" y="368.0" fill="#c9d1d9" font-size="10" font-weight="normal" text-anchor="middle">priority</text>
+<rect x="780.0" y="351" width="70" height="26" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+<text x="815.0" y="368.0" fill="#c9d1d9" font-size="10" font-weight="normal" text-anchor="middle">status</text>
+<text x="95" y="411" fill="#f0f6fc" font-size="12" font-weight="bold">TASK_DEPENDENCIES</text>
+<rect x="95" y="419" width="70" height="26" fill="#21262d" stroke="#58a6ff" stroke-width="1"/>
+<text x="130.0" y="436.0" fill="#ffffff" font-size="10" font-weight="bold" text-anchor="middle" text-decoration="underline" text-decoration-color="#58a6ff">task_id</text>
+<rect x="165" y="419" width="166.0" height="26" fill="#21262d" stroke="#58a6ff" stroke-width="1"/>
+<text x="248.0" y="436.0" fill="#ffffff" font-size="10" font-weight="bold" text-anchor="middle" text-decoration="underline" text-decoration-color="#58a6ff">prerequisite_task_id</text>
+<text x="95" y="479" fill="#f0f6fc" font-size="12" font-weight="bold">CREWS</text>
+<rect x="95" y="487" width="70" height="26" fill="#21262d" stroke="#58a6ff" stroke-width="1"/>
+<text x="130.0" y="504.0" fill="#ffffff" font-size="10" font-weight="bold" text-anchor="middle" text-decoration="underline" text-decoration-color="#58a6ff">crew_id</text>
+<rect x="165" y="487" width="83.5" height="26" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+<text x="206.75" y="504.0" fill="#c9d1d9" font-size="10" font-weight="normal" text-anchor="middle">crew_name</text>
+<rect x="248.5" y="487" width="70" height="26" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+<text x="283.5" y="504.0" fill="#c9d1d9" font-size="10" font-weight="normal" text-anchor="middle">skill</text>
+<rect x="318.5" y="487" width="121.0" height="26" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+<text x="379.0" y="504.0" fill="#c9d1d9" font-size="10" font-weight="normal" text-anchor="middle">available_from</text>
+<text x="95" y="547" fill="#f0f6fc" font-size="12" font-weight="bold">RESTORATION_RUNS</text>
+<rect x="95" y="555" width="70" height="26" fill="#21262d" stroke="#58a6ff" stroke-width="1"/>
+<text x="130.0" y="572.0" fill="#ffffff" font-size="10" font-weight="bold" text-anchor="middle" text-decoration="underline" text-decoration-color="#58a6ff">run_id</text>
+<rect x="165" y="555" width="98.5" height="26" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+<text x="214.25" y="572.0" fill="#c9d1d9" font-size="10" font-weight="normal" text-anchor="middle">scenario_id</text>
+<rect x="263.5" y="555" width="113.5" height="26" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+<text x="320.25" y="572.0" fill="#c9d1d9" font-size="10" font-weight="normal" text-anchor="middle">strategy_name</text>
+<rect x="377.0" y="555" width="91.0" height="26" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+<text x="422.5" y="572.0" fill="#c9d1d9" font-size="10" font-weight="normal" text-anchor="middle">total_cost</text>
+<rect x="468.0" y="555" width="121.0" height="26" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+<text x="528.5" y="572.0" fill="#c9d1d9" font-size="10" font-weight="normal" text-anchor="middle">makespan_hours</text>
+<rect x="589.0" y="555" width="188.5" height="26" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+<text x="683.25" y="572.0" fill="#c9d1d9" font-size="10" font-weight="normal" text-anchor="middle">weighted_recovery_score</text>
+<text x="95" y="615" fill="#f0f6fc" font-size="12" font-weight="bold">SCHEDULED_ACTIONS</text>
+<rect x="95" y="623" width="83.5" height="26" fill="#21262d" stroke="#58a6ff" stroke-width="1"/>
+<text x="136.75" y="640.0" fill="#ffffff" font-size="10" font-weight="bold" text-anchor="middle" text-decoration="underline" text-decoration-color="#58a6ff">action_id</text>
+<rect x="178.5" y="623" width="70" height="26" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+<text x="213.5" y="640.0" fill="#c9d1d9" font-size="10" font-weight="normal" text-anchor="middle">run_id</text>
+<rect x="248.5" y="623" width="70" height="26" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+<text x="283.5" y="640.0" fill="#c9d1d9" font-size="10" font-weight="normal" text-anchor="middle">task_id</text>
+<rect x="318.5" y="623" width="91.0" height="26" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+<text x="364.0" y="640.0" fill="#c9d1d9" font-size="10" font-weight="normal" text-anchor="middle">crew_label</text>
+<rect x="409.5" y="623" width="91.0" height="26" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+<text x="455.0" y="640.0" fill="#c9d1d9" font-size="10" font-weight="normal" text-anchor="middle">start_hour</text>
+<rect x="500.5" y="623" width="98.5" height="26" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+<text x="549.75" y="640.0" fill="#c9d1d9" font-size="10" font-weight="normal" text-anchor="middle">finish_hour</text>
+<text x="95" y="683" fill="#f0f6fc" font-size="12" font-weight="bold">APP_USERS</text>
+<rect x="95" y="691" width="70" height="26" fill="#21262d" stroke="#58a6ff" stroke-width="1"/>
+<text x="130.0" y="708.0" fill="#ffffff" font-size="10" font-weight="bold" text-anchor="middle" text-decoration="underline" text-decoration-color="#58a6ff">user_id</text>
+<rect x="165" y="691" width="76.0" height="26" fill="#21262d" stroke="#58a6ff" stroke-width="1"/>
+<text x="203.0" y="708.0" fill="#ffffff" font-size="10" font-weight="bold" text-anchor="middle" text-decoration="underline" text-decoration-color="#58a6ff">username</text>
+<rect x="241.0" y="691" width="113.5" height="26" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+<text x="297.75" y="708.0" fill="#c9d1d9" font-size="10" font-weight="normal" text-anchor="middle">password_hash</text>
+<rect x="354.5" y="691" width="70" height="26" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+<text x="389.5" y="708.0" fill="#c9d1d9" font-size="10" font-weight="normal" text-anchor="middle">role</text>
+<rect x="424.5" y="691" width="91.0" height="26" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+<text x="470.0" y="708.0" fill="#c9d1d9" font-size="10" font-weight="normal" text-anchor="middle">created_at</text>
+<text x="95" y="751" fill="#f0f6fc" font-size="12" font-weight="bold">REFRESH_TOKENS</text>
+<rect x="95" y="759" width="91.0" height="26" fill="#21262d" stroke="#58a6ff" stroke-width="1"/>
+<text x="140.5" y="776.0" fill="#ffffff" font-size="10" font-weight="bold" text-anchor="middle" text-decoration="underline" text-decoration-color="#58a6ff">token_hash</text>
+<rect x="186.0" y="759" width="76.0" height="26" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+<text x="224.0" y="776.0" fill="#c9d1d9" font-size="10" font-weight="normal" text-anchor="middle">username</text>
+<rect x="262.0" y="759" width="91.0" height="26" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+<text x="307.5" y="776.0" fill="#c9d1d9" font-size="10" font-weight="normal" text-anchor="middle">expires_at</text>
+<rect x="353.0" y="759" width="70" height="26" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+<text x="388.0" y="776.0" fill="#c9d1d9" font-size="10" font-weight="normal" text-anchor="middle">revoked</text>
+<text x="95" y="819" fill="#f0f6fc" font-size="12" font-weight="bold">SCENARIO_VERSIONS</text>
+<rect x="95" y="827" width="98.5" height="26" fill="#21262d" stroke="#58a6ff" stroke-width="1"/>
+<text x="144.25" y="844.0" fill="#ffffff" font-size="10" font-weight="bold" text-anchor="middle" text-decoration="underline" text-decoration-color="#58a6ff">scenario_id</text>
+<rect x="193.5" y="827" width="91.0" height="26" fill="#21262d" stroke="#58a6ff" stroke-width="1"/>
+<text x="239.0" y="844.0" fill="#ffffff" font-size="10" font-weight="bold" text-anchor="middle" text-decoration="underline" text-decoration-color="#58a6ff">version_no</text>
+<rect x="284.5" y="827" width="113.5" height="26" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+<text x="341.25" y="844.0" fill="#c9d1d9" font-size="10" font-weight="normal" text-anchor="middle">snapshot_data</text>
+<rect x="398.0" y="827" width="91.0" height="26" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+<text x="443.5" y="844.0" fill="#c9d1d9" font-size="10" font-weight="normal" text-anchor="middle">created_at</text>
+<text x="95" y="887" fill="#f0f6fc" font-size="12" font-weight="bold">AUDIT_LOG</text>
+<rect x="95" y="895" width="76.0" height="26" fill="#21262d" stroke="#58a6ff" stroke-width="1"/>
+<text x="133.0" y="912.0" fill="#ffffff" font-size="10" font-weight="bold" text-anchor="middle" text-decoration="underline" text-decoration-color="#58a6ff">audit_id</text>
+<rect x="171.0" y="895" width="91.0" height="26" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+<text x="216.5" y="912.0" fill="#c9d1d9" font-size="10" font-weight="normal" text-anchor="middle">table_name</text>
+<rect x="262.0" y="895" width="83.5" height="26" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+<text x="303.75" y="912.0" fill="#c9d1d9" font-size="10" font-weight="normal" text-anchor="middle">operation</text>
+<rect x="345.5" y="895" width="70" height="26" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+<text x="380.5" y="912.0" fill="#c9d1d9" font-size="10" font-weight="normal" text-anchor="middle">row_key</text>
+<rect x="415.5" y="895" width="91.0" height="26" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+<text x="461.0" y="912.0" fill="#c9d1d9" font-size="10" font-weight="normal" text-anchor="middle">changed_at</text>
+<text x="95" y="955" fill="#f0f6fc" font-size="12" font-weight="bold">REPAIR_EMBEDDINGS</text>
+<rect x="95" y="963" width="70" height="26" fill="#21262d" stroke="#58a6ff" stroke-width="1"/>
+<text x="130.0" y="980.0" fill="#ffffff" font-size="10" font-weight="bold" text-anchor="middle" text-decoration="underline" text-decoration-color="#58a6ff">task_id</text>
+<rect x="165" y="963" width="83.5" height="26" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+<text x="206.75" y="980.0" fill="#c9d1d9" font-size="10" font-weight="normal" text-anchor="middle">narrative</text>
+<rect x="248.5" y="963" width="83.5" height="26" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+<text x="290.25" y="980.0" fill="#c9d1d9" font-size="10" font-weight="normal" text-anchor="middle">embedding</text>
+<rect x="332.0" y="963" width="106.0" height="26" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+<text x="385.0" y="980.0" fill="#c9d1d9" font-size="10" font-weight="normal" text-anchor="middle">embedding_st</text>
+<rect x="438.0" y="963" width="113.5" height="26" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+<text x="494.75" y="980.0" fill="#c9d1d9" font-size="10" font-weight="normal" text-anchor="middle">narrative_tsv</text>
+<text x="95" y="1023" fill="#f0f6fc" font-size="12" font-weight="bold">ELEMENT_PHYSICS_MAP</text>
+<rect x="95" y="1031" width="70" height="26" fill="#21262d" stroke="#58a6ff" stroke-width="1"/>
+<text x="130.0" y="1048.0" fill="#ffffff" font-size="10" font-weight="bold" text-anchor="middle" text-decoration="underline" text-decoration-color="#58a6ff">edge_id</text>
+<rect x="165" y="1031" width="83.5" height="26" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+<text x="206.75" y="1048.0" fill="#c9d1d9" font-size="10" font-weight="normal" text-anchor="middle">case_name</text>
+<rect x="248.5" y="1031" width="106.0" height="26" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+<text x="301.5" y="1048.0" fill="#c9d1d9" font-size="10" font-weight="normal" text-anchor="middle">element_type</text>
+<rect x="354.5" y="1031" width="113.5" height="26" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+<text x="411.25" y="1048.0" fill="#c9d1d9" font-size="10" font-weight="normal" text-anchor="middle">element_index</text>
+<path d="M 218.0 241 L 218.0 255 L 42 255 L 42 188.5 L 125.5 188.5 L 125.5 173" fill="none" stroke="#58a6ff" stroke-width="1.2" marker-end="url(#arrow)"/>
+<circle cx="218.0" cy="241" r="2.5" fill="#58a6ff"/>
+<path d="M 316.5 241 L 316.5 259 L 54 259 L 54 192.0 L 134.5 192.0 L 134.5 173" fill="none" stroke="#58a6ff" stroke-width="1.2" marker-end="url(#arrow)"/>
+<circle cx="316.5" cy="241" r="2.5" fill="#58a6ff"/>
+<path d="M 130.0 1057 L 130.0 1079 L 66 1079 L 66 263.5 L 125.5 263.5 L 125.5 241" fill="none" stroke="#58a6ff" stroke-width="1.2" marker-end="url(#arrow)"/>
+<circle cx="130.0" cy="1057" r="2.5" fill="#58a6ff"/>
+<path d="M 214.25 377 L 214.25 391 L 42 391 L 42 324.5 L 135.25 324.5 L 135.25 309" fill="none" stroke="#58a6ff" stroke-width="1.2" marker-end="url(#arrow)"/>
+<circle cx="214.25" cy="377" r="2.5" fill="#58a6ff"/>
+<path d="M 298.5 377 L 298.5 391 L 974 391 L 974 256.5 L 134.5 256.5 L 134.5 241" fill="none" stroke="#58a6ff" stroke-width="1.2" marker-end="url(#arrow)"/>
+<circle cx="298.5" cy="377" r="2.5" fill="#58a6ff"/>
+<path d="M 130.0 445 L 130.0 459 L 42 459 L 42 392.5 L 116.5 392.5 L 116.5 377" fill="none" stroke="#58a6ff" stroke-width="1.2" marker-end="url(#arrow)"/>
+<circle cx="130.0" cy="445" r="2.5" fill="#58a6ff"/>
+<path d="M 248.0 445 L 248.0 463 L 54 463 L 54 396.0 L 125.5 396.0 L 125.5 377" fill="none" stroke="#58a6ff" stroke-width="1.2" marker-end="url(#arrow)"/>
+<circle cx="248.0" cy="445" r="2.5" fill="#58a6ff"/>
+<path d="M 130.0 989 L 130.0 1011 L 66 1011 L 66 399.5 L 134.5 399.5 L 134.5 377" fill="none" stroke="#58a6ff" stroke-width="1.2" marker-end="url(#arrow)"/>
+<circle cx="130.0" cy="989" r="2.5" fill="#58a6ff"/>
+<path d="M 214.25 581 L 214.25 599 L 988 599 L 988 328.0 L 144.25 328.0 L 144.25 309" fill="none" stroke="#58a6ff" stroke-width="1.2" marker-end="url(#arrow)"/>
+<circle cx="214.25" cy="581" r="2.5" fill="#58a6ff"/>
+<path d="M 213.5 649 L 213.5 663 L 42 663 L 42 596.5 L 130.0 596.5 L 130.0 581" fill="none" stroke="#58a6ff" stroke-width="1.2" marker-end="url(#arrow)"/>
+<circle cx="213.5" cy="649" r="2.5" fill="#58a6ff"/>
+<path d="M 283.5 649 L 283.5 671 L 1002 671 L 1002 399.5 L 143.5 399.5 L 143.5 377" fill="none" stroke="#58a6ff" stroke-width="1.2" marker-end="url(#arrow)"/>
+<circle cx="283.5" cy="649" r="2.5" fill="#58a6ff"/>
+<path d="M 144.25 853 L 144.25 879 L 1016 879 L 1016 335.0 L 153.25 335.0 L 153.25 309" fill="none" stroke="#58a6ff" stroke-width="1.2" marker-end="url(#arrow)"/>
+<circle cx="144.25" cy="853" r="2.5" fill="#58a6ff"/>
+<path d="M 224.0 785 L 224.0 799 L 42 799 L 42 732.5 L 203.0 732.5 L 203.0 717" fill="none" stroke="#58a6ff" stroke-width="1.2" marker-end="url(#arrow)"/>
+<circle cx="224.0" cy="785" r="2.5" fill="#58a6ff"/>
+<line x1="60" y1="1107" x2="1140" y2="1107" stroke="#30363d" stroke-width="1"/>
+<text x="60" y="1119" fill="#58a6ff" font-size="14" font-weight="bold">2. Analytical Physics-Study Result Relations</text>
+<text x="95" y="1143" fill="#f0f6fc" font-size="12" font-weight="bold">PHYSICS_RUNS</text>
+<rect x="95" y="1151" width="70" height="26" fill="#21262d" stroke="#58a6ff" stroke-width="1"/>
+<text x="130.0" y="1168.0" fill="#ffffff" font-size="10" font-weight="bold" text-anchor="middle" text-decoration="underline" text-decoration-color="#58a6ff">run_id</text>
+<rect x="165" y="1151" width="70" height="26" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+<text x="200.0" y="1168.0" fill="#c9d1d9" font-size="10" font-weight="normal" text-anchor="middle">mode</text>
+<rect x="235" y="1151" width="76.0" height="26" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+<text x="273.0" y="1168.0" fill="#c9d1d9" font-size="10" font-weight="normal" text-anchor="middle">settings</text>
+<rect x="311.0" y="1151" width="91.0" height="26" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+<text x="356.5" y="1168.0" fill="#c9d1d9" font-size="10" font-weight="normal" text-anchor="middle">created_at</text>
+<text x="95" y="1211" fill="#f0f6fc" font-size="12" font-weight="bold">PHYSICS_VALIDATION</text>
+<rect x="95" y="1219" width="70" height="26" fill="#21262d" stroke="#58a6ff" stroke-width="1"/>
+<text x="130.0" y="1236.0" fill="#ffffff" font-size="10" font-weight="bold" text-anchor="middle" text-decoration="underline" text-decoration-color="#58a6ff">run_id</text>
+<rect x="165" y="1219" width="121.0" height="26" fill="#21262d" stroke="#58a6ff" stroke-width="1"/>
+<text x="225.5" y="1236.0" fill="#ffffff" font-size="10" font-weight="bold" text-anchor="middle" text-decoration="underline" text-decoration-color="#58a6ff">benchmark_name</text>
+<rect x="286.0" y="1219" width="83.5" height="26" fill="#21262d" stroke="#58a6ff" stroke-width="1"/>
+<text x="327.75" y="1236.0" fill="#ffffff" font-size="10" font-weight="bold" text-anchor="middle" text-decoration="underline" text-decoration-color="#58a6ff">case_name</text>
+<rect x="369.5" y="1219" width="70" height="26" fill="#21262d" stroke="#58a6ff" stroke-width="1"/>
+<text x="404.5" y="1236.0" fill="#ffffff" font-size="10" font-weight="bold" text-anchor="middle" text-decoration="underline" text-decoration-color="#58a6ff">metric</text>
+<rect x="439.5" y="1219" width="70" height="26" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+<text x="474.5" y="1236.0" fill="#c9d1d9" font-size="10" font-weight="normal" text-anchor="middle">value</text>
+<text x="95" y="1279" fill="#f0f6fc" font-size="12" font-weight="bold">PHYSICS_CONTINUATION</text>
+<rect x="95" y="1287" width="70" height="26" fill="#21262d" stroke="#58a6ff" stroke-width="1"/>
+<text x="130.0" y="1304.0" fill="#ffffff" font-size="10" font-weight="bold" text-anchor="middle" text-decoration="underline" text-decoration-color="#58a6ff">run_id</text>
+<rect x="165" y="1287" width="83.5" height="26" fill="#21262d" stroke="#58a6ff" stroke-width="1"/>
+<text x="206.75" y="1304.0" fill="#ffffff" font-size="10" font-weight="bold" text-anchor="middle" text-decoration="underline" text-decoration-color="#58a6ff">case_name</text>
+<rect x="248.5" y="1287" width="70" height="26" fill="#21262d" stroke="#58a6ff" stroke-width="1"/>
+<text x="283.5" y="1304.0" fill="#ffffff" font-size="10" font-weight="bold" text-anchor="middle" text-decoration="underline" text-decoration-color="#58a6ff">alpha</text>
+<rect x="318.5" y="1287" width="70" height="26" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+<text x="353.5" y="1304.0" fill="#c9d1d9" font-size="10" font-weight="normal" text-anchor="middle">status</text>
+<rect x="388.5" y="1287" width="98.5" height="26" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+<text x="437.75" y="1304.0" fill="#c9d1d9" font-size="10" font-weight="normal" text-anchor="middle">max_loading</text>
+<text x="95" y="1347" fill="#f0f6fc" font-size="12" font-weight="bold">PHYSICS_CONTINUATION_SUMMARY</text>
+<rect x="95" y="1355" width="70" height="26" fill="#21262d" stroke="#58a6ff" stroke-width="1"/>
+<text x="130.0" y="1372.0" fill="#ffffff" font-size="10" font-weight="bold" text-anchor="middle" text-decoration="underline" text-decoration-color="#58a6ff">run_id</text>
+<rect x="165" y="1355" width="83.5" height="26" fill="#21262d" stroke="#58a6ff" stroke-width="1"/>
+<text x="206.75" y="1372.0" fill="#ffffff" font-size="10" font-weight="bold" text-anchor="middle" text-decoration="underline" text-decoration-color="#58a6ff">case_name</text>
+<rect x="248.5" y="1355" width="158.5" height="26" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+<text x="327.75" y="1372.0" fill="#c9d1d9" font-size="10" font-weight="normal" text-anchor="middle">voltage_limit_alpha</text>
+<rect x="407.0" y="1355" width="91.0" height="26" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+<text x="452.5" y="1372.0" fill="#c9d1d9" font-size="10" font-weight="normal" text-anchor="middle">knee_alpha</text>
+<text x="95" y="1415" fill="#f0f6fc" font-size="12" font-weight="bold">PHYSICS_FDIA_SUMMARY</text>
+<rect x="95" y="1423" width="70" height="26" fill="#21262d" stroke="#58a6ff" stroke-width="1"/>
+<text x="130.0" y="1440.0" fill="#ffffff" font-size="10" font-weight="bold" text-anchor="middle" text-decoration="underline" text-decoration-color="#58a6ff">run_id</text>
+<rect x="165" y="1423" width="83.5" height="26" fill="#21262d" stroke="#58a6ff" stroke-width="1"/>
+<text x="206.75" y="1440.0" fill="#ffffff" font-size="10" font-weight="bold" text-anchor="middle" text-decoration="underline" text-decoration-color="#58a6ff">case_name</text>
+<rect x="248.5" y="1423" width="70" height="26" fill="#21262d" stroke="#58a6ff" stroke-width="1"/>
+<text x="283.5" y="1440.0" fill="#ffffff" font-size="10" font-weight="bold" text-anchor="middle" text-decoration="underline" text-decoration-color="#58a6ff">kind</text>
+<rect x="318.5" y="1423" width="76.0" height="26" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+<text x="356.5" y="1440.0" fill="#c9d1d9" font-size="10" font-weight="normal" text-anchor="middle">accuracy</text>
+<rect x="394.5" y="1423" width="76.0" height="26" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+<text x="432.5" y="1440.0" fill="#c9d1d9" font-size="10" font-weight="normal" text-anchor="middle">f1_score</text>
+<text x="95" y="1483" fill="#f0f6fc" font-size="12" font-weight="bold">PHYSICS_FDIA_TRIALS</text>
+<rect x="95" y="1491" width="70" height="26" fill="#21262d" stroke="#58a6ff" stroke-width="1"/>
+<text x="130.0" y="1508.0" fill="#ffffff" font-size="10" font-weight="bold" text-anchor="middle" text-decoration="underline" text-decoration-color="#58a6ff">run_id</text>
+<rect x="165" y="1491" width="83.5" height="26" fill="#21262d" stroke="#58a6ff" stroke-width="1"/>
+<text x="206.75" y="1508.0" fill="#ffffff" font-size="10" font-weight="bold" text-anchor="middle" text-decoration="underline" text-decoration-color="#58a6ff">case_name</text>
+<rect x="248.5" y="1491" width="70" height="26" fill="#21262d" stroke="#58a6ff" stroke-width="1"/>
+<text x="283.5" y="1508.0" fill="#ffffff" font-size="10" font-weight="bold" text-anchor="middle" text-decoration="underline" text-decoration-color="#58a6ff">trial</text>
+<rect x="318.5" y="1491" width="143.5" height="26" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+<text x="390.25" y="1508.0" fill="#c9d1d9" font-size="10" font-weight="normal" text-anchor="middle">stealthy_feasible</text>
+<text x="95" y="1551" fill="#f0f6fc" font-size="12" font-weight="bold">PHYSICS_MDP_POLICY</text>
+<rect x="95" y="1559" width="70" height="26" fill="#21262d" stroke="#58a6ff" stroke-width="1"/>
+<text x="130.0" y="1576.0" fill="#ffffff" font-size="10" font-weight="bold" text-anchor="middle" text-decoration="underline" text-decoration-color="#58a6ff">run_id</text>
+<rect x="165" y="1559" width="83.5" height="26" fill="#21262d" stroke="#58a6ff" stroke-width="1"/>
+<text x="206.75" y="1576.0" fill="#ffffff" font-size="10" font-weight="bold" text-anchor="middle" text-decoration="underline" text-decoration-color="#58a6ff">case_name</text>
+<rect x="248.5" y="1559" width="113.5" height="26" fill="#21262d" stroke="#58a6ff" stroke-width="1"/>
+<text x="305.25" y="1576.0" fill="#ffffff" font-size="10" font-weight="bold" text-anchor="middle" text-decoration="underline" text-decoration-color="#58a6ff">stress_vector</text>
+<rect x="362.0" y="1559" width="91.0" height="26" fill="#21262d" stroke="#58a6ff" stroke-width="1"/>
+<text x="407.5" y="1576.0" fill="#ffffff" font-size="10" font-weight="bold" text-anchor="middle" text-decoration="underline" text-decoration-color="#58a6ff">weight_set</text>
+<rect x="453.0" y="1559" width="70" height="26" fill="#21262d" stroke="#58a6ff" stroke-width="1"/>
+<text x="488.0" y="1576.0" fill="#ffffff" font-size="10" font-weight="bold" text-anchor="middle" text-decoration="underline" text-decoration-color="#58a6ff">state</text>
+<rect x="523.0" y="1559" width="121.0" height="26" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+<text x="583.5" y="1576.0" fill="#c9d1d9" font-size="10" font-weight="normal" text-anchor="middle">optimal_action</text>
+<text x="95" y="1619" fill="#f0f6fc" font-size="12" font-weight="bold">PHYSICS_MDP_TRANSITIONS</text>
+<rect x="95" y="1627" width="70" height="26" fill="#21262d" stroke="#58a6ff" stroke-width="1"/>
+<text x="130.0" y="1644.0" fill="#ffffff" font-size="10" font-weight="bold" text-anchor="middle" text-decoration="underline" text-decoration-color="#58a6ff">run_id</text>
+<rect x="165" y="1627" width="83.5" height="26" fill="#21262d" stroke="#58a6ff" stroke-width="1"/>
+<text x="206.75" y="1644.0" fill="#ffffff" font-size="10" font-weight="bold" text-anchor="middle" text-decoration="underline" text-decoration-color="#58a6ff">case_name</text>
+<rect x="248.5" y="1627" width="113.5" height="26" fill="#21262d" stroke="#58a6ff" stroke-width="1"/>
+<text x="305.25" y="1644.0" fill="#ffffff" font-size="10" font-weight="bold" text-anchor="middle" text-decoration="underline" text-decoration-color="#58a6ff">stress_vector</text>
+<rect x="362.0" y="1627" width="121.0" height="26" fill="#21262d" stroke="#58a6ff" stroke-width="1"/>
+<text x="422.5" y="1644.0" fill="#ffffff" font-size="10" font-weight="bold" text-anchor="middle" text-decoration="underline" text-decoration-color="#58a6ff">collapse_model</text>
+<rect x="483.0" y="1627" width="70" height="26" fill="#21262d" stroke="#58a6ff" stroke-width="1"/>
+<text x="518.0" y="1644.0" fill="#ffffff" font-size="10" font-weight="bold" text-anchor="middle" text-decoration="underline" text-decoration-color="#58a6ff">action</text>
+<rect x="553.0" y="1627" width="113.5" height="26" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+<text x="609.75" y="1644.0" fill="#c9d1d9" font-size="10" font-weight="normal" text-anchor="middle">probabilities</text>
+<text x="95" y="1687" fill="#f0f6fc" font-size="12" font-weight="bold">PHYSICS_SENSITIVITY</text>
+<rect x="95" y="1695" width="70" height="26" fill="#21262d" stroke="#58a6ff" stroke-width="1"/>
+<text x="130.0" y="1712.0" fill="#ffffff" font-size="10" font-weight="bold" text-anchor="middle" text-decoration="underline" text-decoration-color="#58a6ff">run_id</text>
+<rect x="165" y="1695" width="70" height="26" fill="#21262d" stroke="#58a6ff" stroke-width="1"/>
+<text x="200.0" y="1712.0" fill="#ffffff" font-size="10" font-weight="bold" text-anchor="middle" text-decoration="underline" text-decoration-color="#58a6ff">sweep</text>
+<rect x="235" y="1695" width="70" height="26" fill="#21262d" stroke="#58a6ff" stroke-width="1"/>
+<text x="270.0" y="1712.0" fill="#ffffff" font-size="10" font-weight="bold" text-anchor="middle" text-decoration="underline" text-decoration-color="#58a6ff">k</text>
+<rect x="305" y="1695" width="70" height="26" fill="#21262d" stroke="#58a6ff" stroke-width="1"/>
+<text x="340.0" y="1712.0" fill="#ffffff" font-size="10" font-weight="bold" text-anchor="middle" text-decoration="underline" text-decoration-color="#58a6ff">lambda0</text>
+<rect x="375" y="1695" width="70" height="26" fill="#21262d" stroke="#58a6ff" stroke-width="1"/>
+<text x="410.0" y="1712.0" fill="#ffffff" font-size="10" font-weight="bold" text-anchor="middle" text-decoration="underline" text-decoration-color="#58a6ff">w1</text>
+<rect x="445" y="1695" width="70" height="26" fill="#21262d" stroke="#58a6ff" stroke-width="1"/>
+<text x="480.0" y="1712.0" fill="#ffffff" font-size="10" font-weight="bold" text-anchor="middle" text-decoration="underline" text-decoration-color="#58a6ff">w3</text>
+<rect x="515" y="1695" width="83.5" height="26" fill="#21262d" stroke="#58a6ff" stroke-width="1"/>
+<text x="556.75" y="1712.0" fill="#ffffff" font-size="10" font-weight="bold" text-anchor="middle" text-decoration="underline" text-decoration-color="#58a6ff">k_voltage</text>
+<rect x="598.5" y="1695" width="70" height="26" fill="#21262d" stroke="#58a6ff" stroke-width="1"/>
+<text x="633.5" y="1712.0" fill="#ffffff" font-size="10" font-weight="bold" text-anchor="middle" text-decoration="underline" text-decoration-color="#58a6ff">gamma</text>
+<text x="95" y="1755" fill="#f0f6fc" font-size="12" font-weight="bold">PHYSICS_CONVERGENCE</text>
+<rect x="95" y="1763" width="70" height="26" fill="#21262d" stroke="#58a6ff" stroke-width="1"/>
+<text x="130.0" y="1780.0" fill="#ffffff" font-size="10" font-weight="bold" text-anchor="middle" text-decoration="underline" text-decoration-color="#58a6ff">run_id</text>
+<rect x="165" y="1763" width="83.5" height="26" fill="#21262d" stroke="#58a6ff" stroke-width="1"/>
+<text x="206.75" y="1780.0" fill="#ffffff" font-size="10" font-weight="bold" text-anchor="middle" text-decoration="underline" text-decoration-color="#58a6ff">case_name</text>
+<rect x="248.5" y="1763" width="113.5" height="26" fill="#21262d" stroke="#58a6ff" stroke-width="1"/>
+<text x="305.25" y="1780.0" fill="#ffffff" font-size="10" font-weight="bold" text-anchor="middle" text-decoration="underline" text-decoration-color="#58a6ff">stress_vector</text>
+<rect x="362.0" y="1763" width="70" height="26" fill="#21262d" stroke="#58a6ff" stroke-width="1"/>
+<text x="397.0" y="1780.0" fill="#ffffff" font-size="10" font-weight="bold" text-anchor="middle" text-decoration="underline" text-decoration-color="#58a6ff">method</text>
+<rect x="432.0" y="1763" width="70" height="26" fill="#21262d" stroke="#58a6ff" stroke-width="1"/>
+<text x="467.0" y="1780.0" fill="#ffffff" font-size="10" font-weight="bold" text-anchor="middle" text-decoration="underline" text-decoration-color="#58a6ff">step</text>
+<rect x="502.0" y="1763" width="113.5" height="26" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+<text x="558.75" y="1780.0" fill="#c9d1d9" font-size="10" font-weight="normal" text-anchor="middle">max_dx_change</text>
+<text x="95" y="1823" fill="#f0f6fc" font-size="12" font-weight="bold">PHYSICS_FIGURES</text>
+<rect x="95" y="1831" width="70" height="26" fill="#21262d" stroke="#58a6ff" stroke-width="1"/>
+<text x="130.0" y="1848.0" fill="#ffffff" font-size="10" font-weight="bold" text-anchor="middle" text-decoration="underline" text-decoration-color="#58a6ff">run_id</text>
+<rect x="165" y="1831" width="70" height="26" fill="#21262d" stroke="#58a6ff" stroke-width="1"/>
+<text x="200.0" y="1848.0" fill="#ffffff" font-size="10" font-weight="bold" text-anchor="middle" text-decoration="underline" text-decoration-color="#58a6ff">name</text>
+<rect x="235" y="1831" width="76.0" height="26" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+<text x="273.0" y="1848.0" fill="#c9d1d9" font-size="10" font-weight="normal" text-anchor="middle">fig_type</text>
+<rect x="311.0" y="1831" width="83.5" height="26" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+<text x="352.75" y="1848.0" fill="#c9d1d9" font-size="10" font-weight="normal" text-anchor="middle">file_path</text>
+<path d="M 60 1191 L 130.0 1191 L 130.0 1177" fill="none" stroke="#58a6ff" stroke-width="1.2" marker-end="url(#arrow)"/>
+<path d="M 130.0 1245 L 130.0 1255 L 60 1255" fill="none" stroke="#58a6ff" stroke-width="1.2"/>
+<circle cx="130.0" cy="1245" r="2.5" fill="#58a6ff"/>
+<path d="M 130.0 1313 L 130.0 1323 L 60 1323" fill="none" stroke="#58a6ff" stroke-width="1.2"/>
+<circle cx="130.0" cy="1313" r="2.5" fill="#58a6ff"/>
+<path d="M 130.0 1381 L 130.0 1391 L 60 1391" fill="none" stroke="#58a6ff" stroke-width="1.2"/>
+<circle cx="130.0" cy="1381" r="2.5" fill="#58a6ff"/>
+<path d="M 130.0 1449 L 130.0 1459 L 60 1459" fill="none" stroke="#58a6ff" stroke-width="1.2"/>
+<circle cx="130.0" cy="1449" r="2.5" fill="#58a6ff"/>
+<path d="M 130.0 1517 L 130.0 1527 L 60 1527" fill="none" stroke="#58a6ff" stroke-width="1.2"/>
+<circle cx="130.0" cy="1517" r="2.5" fill="#58a6ff"/>
+<path d="M 130.0 1585 L 130.0 1595 L 60 1595" fill="none" stroke="#58a6ff" stroke-width="1.2"/>
+<circle cx="130.0" cy="1585" r="2.5" fill="#58a6ff"/>
+<path d="M 130.0 1653 L 130.0 1663 L 60 1663" fill="none" stroke="#58a6ff" stroke-width="1.2"/>
+<circle cx="130.0" cy="1653" r="2.5" fill="#58a6ff"/>
+<path d="M 130.0 1721 L 130.0 1731 L 60 1731" fill="none" stroke="#58a6ff" stroke-width="1.2"/>
+<circle cx="130.0" cy="1721" r="2.5" fill="#58a6ff"/>
+<path d="M 130.0 1789 L 130.0 1799 L 60 1799" fill="none" stroke="#58a6ff" stroke-width="1.2"/>
+<circle cx="130.0" cy="1789" r="2.5" fill="#58a6ff"/>
+<path d="M 130.0 1857 L 130.0 1867 L 60 1867" fill="none" stroke="#58a6ff" stroke-width="1.2"/>
+<circle cx="130.0" cy="1857" r="2.5" fill="#58a6ff"/>
+<line x1="60" y1="1191" x2="60" y2="1867" stroke="#58a6ff" stroke-width="1.2"/>
+</svg>

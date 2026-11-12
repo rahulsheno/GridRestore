@@ -15,7 +15,8 @@ The scheduling application models outage scenarios, repair tasks, dependencies, 
 - [Highlights](#highlights)
 - [Application screenshots](#application-screenshots)
 - [System architecture](#system-architecture)
-- [Entity relationship diagram](#entity-relationship-diagram)
+- [Entity relationship diagram (Chen's notation)](#entity-relationship-diagram-chens-notation)
+- [Relational schema](#relational-schema)
 - [Technology stack](#technology-stack)
 - [Repository structure](#repository-structure)
 - [Getting started](#getting-started)
@@ -127,51 +128,584 @@ flowchart TD
 
 The physics study is exposed to the frontend through read-only API routes. It remains a distinct analytical workflow; the project does not claim a fully validated mapping from each repair task to a physical network element.
 
-## Entity relationship diagrams
+## Entity relationship diagram (Chen's notation)
 
-The database diagrams are split into smaller views so that each part of GridRestore can be read independently. All images are stored in [`docs/figures/ER Diagram/`](docs/figures/ER%20Diagram/).
+The following diagram represents the GridRestore conceptual and logical data model using **Chen's ER notation**, rendered via Mermaid `flowchart`:
 
-### 1. Core restoration planning
+- **Rectangles** `[ENTITY]` represent **Entity Sets** (with double rectangles `[[WEAK]]` for **Weak Entities**).
+- **Diamonds** `{RELATIONSHIP}` represent **Relationships** linking entities.
+- **Ovals / Stadiums** `([attribute])` represent **Attributes**, with underlined labels `<u>attribute</u>` denoting **Primary Keys**.
+- **Attributes attached to Diamonds** (e.g. `start_hour`, `finish_hour`, `crew_label` on `SCHEDULES`) represent associative attributes of the M:N relationship (the `scheduled_actions` table).
+- **Line annotations** (`1`, `N`, `M`) indicate cardinality and structural constraints.
 
-Shows the grid assets and the main restoration workflow: scenarios, repair tasks, task dependencies, crews, runs and scheduled actions.
+```mermaid
+flowchart TD
+    %% ==========================================
+    %% 1. GRID TOPOLOGY & RESTORATION PLANNING
+    %% ==========================================
+    subgraph TOPOLOGY["1. Grid Topology & Core Scheduling"]
+        direction TB
 
-![Core restoration planning ER diagram](docs/figures/ER%20Diagram/01_core_restoration.png)
+        %% Entities (Rectangles)
+        E_NODE["GRID_NODES"]
+        E_EDGE["GRID_EDGES"]
+        E_SCENARIO["OUTAGE_SCENARIOS"]
+        E_TASK["REPAIR_TASKS"]
+        E_RUN["RESTORATION_RUNS"]
+        E_CREW["CREWS"]
 
-### 2. Authentication, audit and scenario versioning
+        %% Relationships (Diamonds)
+        R_CONNECTS{"CONNECTS"}
+        R_REPAIRS{"REPAIRS"}
+        R_CONTAINS{"CONTAINS"}
+        R_EVALUATES{"EVALUATES"}
+        R_DEPENDS{"PREREQUISITE_FOR"}
+        R_SCHEDULES{"SCHEDULES<br/><i>(scheduled_actions)</i>"}
 
-Shows application users, refresh tokens, audit records and scenario snapshots used for version history and rollback.
+        %% GRID_NODES Attributes
+        A_N_ID(["<u>node_id</u>"])
+        A_N_NAME(["node_name"])
+        A_N_TYPE(["node_type"])
+        A_N_CRIT(["criticality"])
+        E_NODE --- A_N_ID
+        E_NODE --- A_N_NAME
+        E_NODE --- A_N_TYPE
+        E_NODE --- A_N_CRIT
 
-![Authentication, audit and versioning ER diagram](docs/figures/ER%20Diagram/02_auth_audit_versions.png)
+        %% GRID_EDGES Attributes
+        A_E_ID(["<u>edge_id</u>"])
+        A_E_TYPE(["component_type"])
+        A_E_CAP(["nominal_capacity_kw"])
+        E_EDGE --- A_E_ID
+        E_EDGE --- A_E_TYPE
+        E_EDGE --- A_E_CAP
 
-### 3. Semantic repair search
+        %% OUTAGE_SCENARIOS Attributes
+        A_S_ID(["<u>scenario_id</u>"])
+        A_S_BUDGET(["budget"])
+        A_S_CREWS(["crew_count"])
+        E_SCENARIO --- A_S_ID
+        E_SCENARIO --- A_S_BUDGET
+        E_SCENARIO --- A_S_CREWS
 
-Shows the relationship between repair tasks and their search records, including the legacy 32-dimensional hash embedding, optional 384-dimensional transformer embedding and generated full-text search vector.
+        %% REPAIR_TASKS Attributes
+        A_T_ID(["<u>task_id</u>"])
+        A_T_HOURS(["estimated_hours"])
+        A_T_COST(["estimated_cost"])
+        A_T_PRIO(["priority"])
+        A_T_STATUS(["status"])
+        E_TASK --- A_T_ID
+        E_TASK --- A_T_HOURS
+        E_TASK --- A_T_COST
+        E_TASK --- A_T_PRIO
+        E_TASK --- A_T_STATUS
 
-![Semantic repair search ER diagram](docs/figures/ER%20Diagram/03_semantic_repair_search.png)
+        %% CREWS Attributes
+        A_C_ID(["<u>crew_id</u>"])
+        A_C_NAME(["crew_name"])
+        A_C_SKILL(["skill"])
+        E_CREW --- A_C_ID
+        E_CREW --- A_C_NAME
+        E_CREW --- A_C_SKILL
 
-### 4. Physics-study result storage
+        %% RESTORATION_RUNS Attributes
+        A_R_ID(["<u>run_id</u>"])
+        A_R_STRAT(["strategy_name"])
+        A_R_COST(["total_cost"])
+        A_R_MAKE(["makespan_hours"])
+        E_RUN --- A_R_ID
+        E_RUN --- A_R_STRAT
+        E_RUN --- A_R_COST
+        E_RUN --- A_R_MAKE
 
-The physics result schema is divided into three diagrams to avoid a single crowded image.
+        %% Relationship Attributes on SCHEDULES (Associative attributes in Chen notation)
+        A_SCHED_ACT(["<u>action_id</u>"])
+        A_SCHED_START(["start_hour"])
+        A_SCHED_FINISH(["finish_hour"])
+        A_SCHED_CREW(["crew_label"])
+        R_SCHEDULES --- A_SCHED_ACT
+        R_SCHEDULES --- A_SCHED_START
+        R_SCHEDULES --- A_SCHED_FINISH
+        R_SCHEDULES --- A_SCHED_CREW
 
-**4A. Validation and continuation results**
+        %% Relationships & Cardinalities
+        E_NODE -- "1:from" --- R_CONNECTS
+        E_NODE -- "1:to" --- R_CONNECTS
+        R_CONNECTS -- "N" --- E_EDGE
 
-![Physics validation and continuation ER diagram](docs/figures/ER%20Diagram/04a_physics_validation.png)
+        E_EDGE -- "1" --- R_REPAIRS
+        R_REPAIRS -- "N" --- E_TASK
 
-**4B. FDIA experiments and MDP results**
+        E_SCENARIO -- "1" --- R_CONTAINS
+        R_CONTAINS -- "N" --- E_TASK
 
-![Physics FDIA and MDP ER diagram](docs/figures/ER%20Diagram/04b_physics_fdia_mdp.png)
+        E_SCENARIO -- "1" --- R_EVALUATES
+        R_EVALUATES -- "N" --- E_RUN
 
-**4C. Sensitivity, convergence and figure outputs**
+        E_RUN -- "M" --- R_SCHEDULES
+        R_SCHEDULES -- "N" --- E_TASK
 
-![Physics sensitivity and output ER diagram](docs/figures/ER%20Diagram/04c_physics_sensitivity_outputs.png)
+        %% Unary / Recursive relationship
+        E_TASK -- "1:prereq" --- R_DEPENDS
+        R_DEPENDS -- "N:dependent" --- E_TASK
+    end
+
+    %% ==========================================
+    %% 2. IDENTITY, AUDIT & VERSION HISTORY
+    %% ==========================================
+    subgraph IDENTITY["2. Identity, Audit & History"]
+        direction TB
+
+        E_USER["APP_USERS"]
+        E_TOKEN["REFRESH_TOKENS"]
+        E_VER[["SCENARIO_VERSIONS"]]
+        E_AUDIT["AUDIT_LOG"]
+
+        R_AUTH{"AUTHENTICATES"}
+        R_VERSION{"HAS_VERSION"}
+        R_AUDITS{"LOGS_CHANGES"}
+
+        %% APP_USERS Attributes
+        A_U_ID(["<u>user_id</u>"])
+        A_U_NAME(["username"])
+        A_U_ROLE(["role"])
+        E_USER --- A_U_ID
+        E_USER --- A_U_NAME
+        E_USER --- A_U_ROLE
+
+        %% REFRESH_TOKENS Attributes
+        A_TOK_HASH(["<u>token_hash</u>"])
+        A_TOK_EXP(["expires_at"])
+        E_TOKEN --- A_TOK_HASH
+        E_TOKEN --- A_TOK_EXP
+
+        %% SCENARIO_VERSIONS Attributes (Weak Entity)
+        A_V_NUM(["<u>version_no</u>"])
+        A_V_DATA(["snapshot_data"])
+        E_VER --- A_V_NUM
+        E_VER --- A_V_DATA
+
+        %% AUDIT_LOG Attributes
+        A_AL_ID(["<u>audit_id</u>"])
+        A_AL_TAB(["table_name"])
+        A_AL_OP(["operation"])
+        A_AL_ROW(["row_key"])
+        E_AUDIT --- A_AL_ID
+        E_AUDIT --- A_AL_TAB
+        E_AUDIT --- A_AL_OP
+        E_AUDIT --- A_AL_ROW
+
+        %% Connections
+        E_USER -- "1" --- R_AUTH
+        R_AUTH -- "N" --- E_TOKEN
+
+        E_SCENARIO -- "1" --- R_VERSION
+        R_VERSION -- "N" --- E_VER
+
+        E_TASK -.->|"polymorphic"| R_AUDITS
+        E_SCENARIO -.->|"polymorphic"| R_AUDITS
+        R_AUDITS -->|"N"| E_AUDIT
+    end
+
+    %% ==========================================
+    %% 3. SEARCH & PHYSICS BRIDGE
+    %% ==========================================
+    subgraph SEARCH_BRIDGE["3. Search & Grid-to-Physics Bridge"]
+        direction TB
+
+        E_EMBED[["REPAIR_EMBEDDINGS"]]
+        E_EPM[["ELEMENT_PHYSICS_MAP"]]
+
+        R_EMBEDS{"HAS_EMBEDDING"}
+        R_MAPS{"MAPS_TO"}
+
+        %% REPAIR_EMBEDDINGS Attributes
+        A_EMB_V32(["embedding: vector(32)"])
+        A_EMB_V384(["embedding_st: vector(384)"])
+        A_EMB_TSV(["narrative_tsv"])
+        E_EMBED --- A_EMB_V32
+        E_EMBED --- A_EMB_V384
+        E_EMBED --- A_EMB_TSV
+
+        %% ELEMENT_PHYSICS_MAP Attributes
+        A_EPM_CASE(["case_name"])
+        A_EPM_TYPE(["element_type"])
+        A_EPM_IDX(["element_index"])
+        E_EPM --- A_EPM_CASE
+        E_EPM --- A_EPM_TYPE
+        E_EPM --- A_EPM_IDX
+
+        %% Connections
+        E_TASK -- "1" --- R_EMBEDS
+        R_EMBEDS -- "0..1" --- E_EMBED
+
+        E_EDGE -- "1" --- R_MAPS
+        R_MAPS -- "0..1" --- E_EPM
+    end
+
+    %% ==========================================
+    %% 4. PHYSICS-STUDY RESULT RELATIONS
+    %% ==========================================
+    subgraph PHYSICS_STUDY["4. Physics-Study Result Models"]
+        direction TB
+
+        E_PR["PHYSICS_RUNS"]
+        R_PRODUCES{"PRODUCES"}
+
+        %% Weak Result Entities
+        W_PVAL[["PHYSICS_VALIDATION"]]
+        W_PCONT[["PHYSICS_CONTINUATION"]]
+        W_PCONTSUM[["PHYSICS_CONTINUATION_SUMMARY"]]
+        W_PFDIASUM[["PHYSICS_FDIA_SUMMARY"]]
+        W_PFDIATRI[["PHYSICS_FDIA_TRIALS"]]
+        W_PMDPPOL[["PHYSICS_MDP_POLICY"]]
+        W_PMDPTR[["PHYSICS_MDP_TRANSITIONS"]]
+        W_PSENS[["PHYSICS_SENSITIVITY"]]
+        W_PCONV[["PHYSICS_CONVERGENCE"]]
+        W_PFIG[["PHYSICS_FIGURES"]]
+
+        %% PHYSICS_RUNS Attributes
+        A_PR_ID(["<u>run_id</u>"])
+        A_PR_MODE(["mode"])
+        A_PR_SETT(["settings"])
+        E_PR --- A_PR_ID
+        E_PR --- A_PR_MODE
+        E_PR --- A_PR_SETT
+
+        %% Results link through identifying relationship PRODUCES
+        E_PR -- "1" --- R_PRODUCES
+        R_PRODUCES -- "N" --- W_PVAL
+        R_PRODUCES -- "N" --- W_PCONT
+        R_PRODUCES -- "N" --- W_PCONTSUM
+        R_PRODUCES -- "N" --- W_PFDIASUM
+        R_PRODUCES -- "N" --- W_PFDIATRI
+        R_PRODUCES -- "N" --- W_PMDPPOL
+        R_PRODUCES -- "N" --- W_PMDPTR
+        R_PRODUCES -- "N" --- W_PSENS
+        R_PRODUCES -- "N" --- W_PCONV
+        R_PRODUCES -- "N" --- W_PFIG
+    end
+
+    %% Inter-subgraph links
+    E_SCENARIO -.->|references| E_VER
+    E_TASK -.->|references| E_EMBED
+    E_EDGE -.->|references| E_EPM
+
+    %% ==========================================
+    %% CHEN NOTATION STYLING (Charcoal & Silver Theme)
+    %% ==========================================
+    classDef entity fill:#20262e,stroke:#aab4c0,stroke-width:1.2px,color:#f5f7fa;
+    classDef weakEntity fill:#20262e,stroke:#aab4c0,stroke-width:1.5px,stroke-dasharray:4 2,color:#f5f7fa;
+    classDef relationship fill:#252a32,stroke:#aab4c0,stroke-width:1.2px,color:#f5f7fa;
+    classDef attribute fill:#181b20,stroke:#8b949e,stroke-width:1px,color:#dce3ea;
+
+    class E_NODE,E_EDGE,E_SCENARIO,E_TASK,E_RUN,E_CREW,E_USER,E_TOKEN,E_AUDIT,E_PR entity;
+    class E_VER,E_EMBED,E_EPM,W_PVAL,W_PCONT,W_PCONTSUM,W_PFDIASUM,W_PFDIATRI,W_PMDPPOL,W_PMDPTR,W_PSENS,W_PCONV,W_PFIG weakEntity;
+    class R_CONNECTS,R_REPAIRS,R_CONTAINS,R_EVALUATES,R_DEPENDS,R_SCHEDULES,R_AUTH,R_VERSION,R_AUDITS,R_EMBEDS,R_MAPS,R_PRODUCES relationship;
+    class A_N_ID,A_N_NAME,A_N_TYPE,A_N_CRIT,A_E_ID,A_E_TYPE,A_E_CAP,A_S_ID,A_S_BUDGET,A_S_CREWS,A_T_ID,A_T_HOURS,A_T_COST,A_T_PRIO,A_T_STATUS,A_C_ID,A_C_NAME,A_C_SKILL,A_R_ID,A_R_STRAT,A_R_COST,A_R_MAKE,A_SCHED_ACT,A_SCHED_START,A_SCHED_FINISH,A_SCHED_CREW,A_U_ID,A_U_NAME,A_U_ROLE,A_TOK_HASH,A_TOK_EXP,A_V_NUM,A_V_DATA,A_AL_ID,A_AL_TAB,A_AL_OP,A_AL_ROW,A_EMB_V32,A_EMB_V384,A_EMB_TSV,A_EPM_CASE,A_EPM_TYPE,A_EPM_IDX,A_PR_ID,A_PR_MODE,A_PR_SETT attribute;
+    linkStyle default stroke:#9aa6b2,stroke-width:1.2px;
+```
+
+**Relationship and constraint notes:** `task_dependencies` uses a composite primary key and two foreign keys to `repair_tasks`. `grid_edges` has two separate foreign keys to `grid_nodes`. `scheduled_actions` prevents overlapping time ranges for the same crew within a run using a PostgreSQL exclusion constraint; the crew is identified by the text `crew_label`, not `crews.crew_id`. `audit_log` stores polymorphic table/row references rather than foreign keys to every audited table. Physics result tables reference `physics_runs`; `element_physics_map` references `grid_edges` but does not reference `physics_runs`.
+
+The diagram is a schema overview. For complete column definitions, data types, and constraint details, see [docs/ERD.md](docs/ERD.md) and [docs/PROJECT_REPORT.md](docs/PROJECT_REPORT.md). The original detailed ERD images remain in [`docs/figures/ER Diagram/`](docs/figures/ER%20Diagram/).
+
+## Relational schema
+
+The following section documents the **25 relations** mapped from the conceptual Chen ER model. It includes the visual **Elmasri–Navathe Relational Schema Diagram** showing table structures and foreign-key dependencies, followed by the table-by-table relational schema notation.
+
+### Relational schema diagram (Referential Integrity Constraints)
+
+The following schema diagram represents the GridRestore relational database using the **Elmasri–Navathe relational schema format**: each relation is displayed with its relation name on top, attributes arranged horizontally in contiguous cells with **Primary Keys underlined**, and directed referential integrity arrows pointing from each **Foreign Key** directly into the referenced **Primary Key**.
+
+![GridRestore Relational Database Schema](docs/figures/relational_schema_diagram.png)
+
+### Table-by-table relation notation
+
+The following relational schema documents the **25 relations** and lists the primary keys (PK), foreign keys (FK), composite keys, and constraints represented in the diagram above.
+
+**Notation**
+- `PK` — primary key.
+- `FK` — foreign key; the target relation and attribute are shown after `→`.
+- `UQ` — unique constraint.
+- `CHECK` — check constraint.
+- A composite key is shown as `PK (attribute_1, attribute_2, ...)`.
+
+> **Scope note:** The Mermaid flowchart is a schema overview, not a full data dictionary. It does not show every non-key column or every SQL data type. Accordingly, the relation definitions below include the attributes and constraints actually named in the flowchart and its relationship notes. Unshown attributes are not inferred.
+
+---
+
+### 1. Grid topology
+
+```text
+GRID_NODES(
+    node_id          PK,
+    node_name,
+    node_type,
+    criticality,
+    region_code
+)
+
+GRID_EDGES(
+    edge_id          PK,
+    from_node_id     FK → GRID_NODES(node_id),
+    to_node_id       FK → GRID_NODES(node_id),
+    UQ (from_node_id, to_node_id)
+)
+```
+
+### 2. Restoration planning and scheduling
+
+```text
+OUTAGE_SCENARIOS(
+    scenario_id      PK,
+    budget,
+    crew_count,
+    created_at
+)
+
+REPAIR_TASKS(
+    task_id          PK,
+    scenario_id      FK → OUTAGE_SCENARIOS(scenario_id),
+    edge_id          FK → GRID_EDGES(edge_id),
+    hours,
+    cost,
+    priority,
+    status,
+    CHECK (hours > 0),
+    CHECK (status is a valid workflow status)
+)
+
+TASK_DEPENDENCIES(
+    task_id              PK, FK → REPAIR_TASKS(task_id),
+    prerequisite_task_id PK, FK → REPAIR_TASKS(task_id),
+    PK (task_id, prerequisite_task_id),
+    CHECK (task_id <> prerequisite_task_id)
+)
+
+CREWS(
+    crew_id          PK,
+    crew_name,
+    skill,
+    available_from
+)
+
+RESTORATION_RUNS(
+    run_id           PK,
+    scenario_id      FK → OUTAGE_SCENARIOS(scenario_id),
+    strategy_name,
+    total_cost,
+    makespan
+)
+
+SCHEDULED_ACTIONS(
+    action_id        PK,
+    run_id           FK → RESTORATION_RUNS(run_id),
+    task_id          FK → REPAIR_TASKS(task_id),
+    crew_label,
+    start_hour,
+    finish_hour,
+    UQ (run_id, task_id),
+    CHECK (finish_hour > start_hour)
+)
+```
+
+### 3. Identity, audit, and scenario history
+
+```text
+APP_USERS(
+    user_id          PK,
+    username         UQ,
+    role,
+    CHECK (role IN ('admin', 'operator'))
+)
+
+REFRESH_TOKENS(
+    token_hash       PK,
+    username         FK → APP_USERS(username),
+    expires_at,
+    revoked
+)
+
+SCENARIO_VERSIONS(
+    scenario_id      PK, FK → OUTAGE_SCENARIOS(scenario_id),
+    version_no       PK,
+    PK (scenario_id, version_no),
+    CHECK (version_no >= 1)
+)
+
+AUDIT_LOG(
+    audit_id         PK,
+    table_name,
+    operation,
+    row_key,
+    old_data,
+    new_data,
+    app_user
+)
+```
+
+`AUDIT_LOG` uses the polymorphic pair `table_name` + `row_key`; the ERD does not define a conventional foreign key from this relation to every audited table.
+
+### 4. Semantic repair search
+
+```text
+REPAIR_EMBEDDINGS(
+    task_id          PK, FK → REPAIR_TASKS(task_id),
+    embedding,       -- vector(32)
+    embedding_st,    -- vector(384), optional
+    narrative_tsv    -- generated tsvector
+)
+```
+
+The ERD identifies `REPAIR_EMBEDDINGS.task_id` as both its primary key and its foreign key to `REPAIR_TASKS`, giving a one-to-zero-or-one relationship.
 
 ### 5. Grid-to-physics mapping
 
-Shows how a synthetic grid edge is associated with an IEEE benchmark case and a line or bus element for the physics-derived risk mapping.
+```text
+ELEMENT_PHYSICS_MAP(
+    edge_id          PK, FK → GRID_EDGES(edge_id),
+    case_name,
+    element_type,
+    element_index,
+    CHECK (case_name is a supported IEEE case),
+    CHECK (element_type is a supported element type),
+    CHECK (element_index >= 0)
+)
+```
 
-![Grid-to-physics mapping ER diagram](docs/figures/ER%20Diagram/05_grid_to_physics_mapping.png)
+The IEEE case and element identifiers are stored as values. The ERD does not define a foreign key from `ELEMENT_PHYSICS_MAP` to `PHYSICS_RUNS`.
 
-**Relationship notes:** `scheduled_actions.crew_label` is stored as text; it is not a foreign key to `crews`. `audit_log` records changes across multiple tables and therefore uses table/row identifiers rather than a conventional foreign key to each audited table. The diagrams follow the relationships declared in the SQL schema and migrations. For the detailed column data dictionary and constraints, see [docs/ERD.md](docs/ERD.md) and [docs/PROJECT_REPORT.md](docs/PROJECT_REPORT.md).
+### 6. Physics-study runs and result relations
+
+The flowchart explicitly identifies the following key attributes and the foreign key to `PHYSICS_RUNS`. It does not list the remaining non-key result attributes for these tables.
+
+```text
+PHYSICS_RUNS(
+    run_id           PK,
+    mode,
+    headline_weights,
+    plan_weights,
+    settings,
+    created_at
+)
+
+PHYSICS_VALIDATION(
+    run_id           PK, FK → PHYSICS_RUNS(run_id),
+    check_name       PK,
+    case_name        PK,
+    metric           PK,
+    PK (run_id, check_name, case_name, metric)
+)
+
+PHYSICS_CONTINUATION(
+    run_id           PK, FK → PHYSICS_RUNS(run_id),
+    case_name        PK,
+    alpha            PK,
+    PK (run_id, case_name, alpha)
+)
+
+PHYSICS_CONTINUATION_SUMMARY(
+    run_id           PK, FK → PHYSICS_RUNS(run_id),
+    case_name        PK,
+    PK (run_id, case_name)
+)
+
+PHYSICS_FDIA_SUMMARY(
+    run_id           PK, FK → PHYSICS_RUNS(run_id),
+    case_name        PK,
+    kind             PK,
+    PK (run_id, case_name, kind),
+    CHECK (kind IN ('dc', 'ac', 'lnr', 'targeted'))
+)
+
+PHYSICS_FDIA_TRIALS(
+    run_id           PK, FK → PHYSICS_RUNS(run_id),
+    case_name        PK,
+    trial            PK,
+    PK (run_id, case_name, trial)
+)
+
+PHYSICS_MDP_POLICY(
+    run_id           PK, FK → PHYSICS_RUNS(run_id),
+    case_name        PK,
+    stress_vector    PK,
+    weight_set       PK,
+    state            PK,
+    PK (run_id, case_name, stress_vector, weight_set, state)
+)
+
+PHYSICS_MDP_TRANSITIONS(
+    run_id           PK, FK → PHYSICS_RUNS(run_id),
+    case_name        PK,
+    stress_vector    PK,
+    collapse_model   PK,
+    action           PK,
+    PK (run_id, case_name, stress_vector, collapse_model, action)
+)
+
+PHYSICS_SENSITIVITY(
+    run_id           PK, FK → PHYSICS_RUNS(run_id),
+    sweep            PK,
+    k                PK,
+    lambda0          PK,
+    w1               PK,
+    w3               PK,
+    k_voltage        PK,
+    gamma            PK,
+    PK (run_id, sweep, k, lambda0, w1, w3, k_voltage, gamma)
+)
+
+PHYSICS_CONVERGENCE(
+    run_id           PK, FK → PHYSICS_RUNS(run_id),
+    case_name        PK,
+    stress_vector    PK,
+    method           PK,
+    step             PK,
+    PK (run_id, case_name, stress_vector, method, step)
+)
+
+PHYSICS_FIGURES(
+    run_id           PK, FK → PHYSICS_RUNS(run_id),
+    name             PK,
+    PK (run_id, name)
+)
+```
+
+---
+
+### 7. Relationship summary
+
+| Parent relation | Child relation | Cardinality | Linking attribute(s) |
+|---|---|---:|---|
+| `GRID_NODES` | `GRID_EDGES` | 1 : many | `from_node_id` |
+| `GRID_NODES` | `GRID_EDGES` | 1 : many | `to_node_id` |
+| `OUTAGE_SCENARIOS` | `REPAIR_TASKS` | 1 : many | `scenario_id` |
+| `GRID_EDGES` | `REPAIR_TASKS` | 1 : many | `edge_id` |
+| `REPAIR_TASKS` | `TASK_DEPENDENCIES` | 1 : many | `task_id` (dependent task) |
+| `REPAIR_TASKS` | `TASK_DEPENDENCIES` | 1 : many | `prerequisite_task_id` (prerequisite) |
+| `OUTAGE_SCENARIOS` | `RESTORATION_RUNS` | 1 : many | `scenario_id` |
+| `RESTORATION_RUNS` | `SCHEDULED_ACTIONS` | 1 : many | `run_id` |
+| `REPAIR_TASKS` | `SCHEDULED_ACTIONS` | 1 : many | `task_id` |
+| `APP_USERS` | `REFRESH_TOKENS` | 1 : many | `username` |
+| `OUTAGE_SCENARIOS` | `SCENARIO_VERSIONS` | 1 : many | `scenario_id` |
+| `REPAIR_TASKS` | `REPAIR_EMBEDDINGS` | 1 : 0..1 | `task_id` |
+| `GRID_EDGES` | `ELEMENT_PHYSICS_MAP` | 1 : 0..1 | `edge_id` |
+| `PHYSICS_RUNS` | Each of the 10 physics result relations | 1 : many | `run_id` |
+
+### 8. Important integrity rules and non-FK references
+
+1. `GRID_EDGES` has two foreign keys to `GRID_NODES`, one for each endpoint, and a unique constraint on `(from_node_id, to_node_id)`.
+2. `TASK_DEPENDENCIES` has a composite primary key and two foreign keys to `REPAIR_TASKS`; a task cannot depend on itself.
+3. `SCHEDULED_ACTIONS` has a unique constraint on `(run_id, task_id)` and a check requiring `finish_hour > start_hour`.
+4. Crew assignment in `SCHEDULED_ACTIONS` is stored in `crew_label` as text. It is **not** a foreign key to `CREWS.crew_id`. The schema overview also notes a crew-overlap exclusion constraint within a restoration run.
+5. `AUDIT_LOG` stores polymorphic references (`table_name` and `row_key`) rather than foreign keys to all audited relations.
+6. `ELEMENT_PHYSICS_MAP.edge_id` references `GRID_EDGES.edge_id`; the IEEE case and element identifiers are values, not references to `PHYSICS_RUNS`.
+7. Each physics result relation references `PHYSICS_RUNS.run_id`; its result-specific composite primary key is shown above.
+
+---
+
+**Source:** The Mermaid flowchart and its relationship/constraint notes in the GridRestore `README.md`. For complete column definitions and SQL data types, consult the repository's `docs/ERD.md` and `database/schema.sql` plus migrations; those details are not fully represented in the Mermaid ERD itself.
 
 ## Technology stack
 
