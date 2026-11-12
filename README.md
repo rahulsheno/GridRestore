@@ -418,7 +418,15 @@ The following section documents the **25 relations** mapped from the conceptual 
 
 The following schema diagram represents the GridRestore relational database using the **Elmasri–Navathe relational schema format**: each relation is displayed with its relation name on top, attributes arranged horizontally in contiguous cells with **Primary Keys underlined**, and directed referential integrity arrows pointing from each **Foreign Key** directly into the referenced **Primary Key**.
 
-![GridRestore Relational Database Schema](docs/figures/relational_schema_diagram.png)
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="docs/figures/relational_schema_diagram.png">
+    <source media="(prefers-color-scheme: light)" srcset="docs/figures/relational_schema_diagram_light.png">
+    <img alt="GridRestore Relational Database Schema (Elmasri–Navathe Notation)" src="docs/figures/relational_schema_diagram.png" width="100%">
+  </picture>
+</p>
+
+*Available diagram formats: [High-Resolution Dark Theme PNG](docs/figures/relational_schema_diagram.png) • [Textbook Light Theme PNG](docs/figures/relational_schema_diagram_light.png) • [Vector Dark SVG](docs/figures/relational_schema_diagram.svg) • [Vector Light SVG](docs/figures/relational_schema_diagram_light.svg)*
 
 ### Table-by-table relation notation
 
