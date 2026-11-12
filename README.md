@@ -1034,3 +1034,4 @@ For focused tests and troubleshooting, see [docs/RUNNING.md](docs/RUNNING.md) an
 ---
 
 For implementation details and project notes, start with [docs/PROJECT_OVERVIEW.md](docs/PROJECT_OVERVIEW.md).
+
